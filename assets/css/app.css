@@ -24,7 +24,39 @@ h3,h4{
   font-weight: bold;
 }
 /* ---------------------------------------APP COLORS */
-
+.bg_green{
+ background-color:   #0fbeba;
+}
+border_green{
+ border: 1px solid  #0fbeba;
+}
+bg_green_tr{
+ background-color:   rgba(15,190,186,0.4);
+}
+bg_blue{
+background-color:   #0076ba;
+}
+border_blue{
+border: 1px solid    #0076ba;
+}
+bg_blue_tr{
+background-color:   rgba(0, 118, 186, 0.4);
+}
+bg_light_blue{
+background-color:   #bce3f9;
+}
+border_light_blue{
+border: 1px solid   #bce3f9;
+}
+bg_orange{
+background-color:   #fc8b09;
+}
+border_orange{
+border: 1px solid    #fc8b09;
+}
+bg_orangre_tr{
+background-color:   rgba(252, 139, 9, 0.4);
+}
 .app_green{
   background-color:   #0fbeba;
  
