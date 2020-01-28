@@ -237,9 +237,19 @@ li.no_border_tight a{
 li.no_border_tight a:hover{
  background-color: rgba(138, 177, 234,0.3);
 }
+/* --------------------------------------TESTIMONIALS */
 .quote_mark{
     color: grey;
     font-size: 30px;
+}
+.quote_text{
+    font-style: italic;
+    color: darkgray;
+    font-size: 20px;
+
+}
+h3.quote_title{
+    letter-spacing: 4;
 }
 
 .flag{
