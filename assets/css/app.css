@@ -141,33 +141,39 @@ input[type=checkbox]:checked ~ .sign_up_form {
    border-left: 0px solid white;
    border-right: 0px solid white;
    border-bottom: 1px solid #99969f; 
-   margin: -20% auto;
+   margin: -37% auto;
    padding: 30px;
+}
+.kasia_text{
+  margin-top: -37%;
+  padding: 30px;
 }
 #kasia_holder{
   margin: 0 auto;
 }
 #kasia{
   position: relative;
-   content: url('../images/kasia.jpg') ;
+   content: url('../images/kasia.png') ;
    height: 100%;
    border-radius: 50%;
    margin: 0 auto;
 }
-.kasia_text{
-  margin-top: -37%;
-  padding: 20px;
-}
+
 #kasia_name{
    margin: 40% auto;
    text-align: center;
 }
-@media screen and ( max-width: 1393px ){
- 
+@media screen and ( max-width: 1200px ){
+  #kasia_bgr{
+    margin: -43% auto;
+  }
+ #kasia_name{
+   margin: 43% auto;
+ }
 }
 @media screen and ( max-width: 990px ){
    #kasia_bgr{
-    margin: -30% auto;
+    margin: -60% auto;
   }
  #kasia_name{
    margin: 60% auto;
@@ -175,7 +181,7 @@ input[type=checkbox]:checked ~ .sign_up_form {
 }
 @media screen and ( max-width: 767px ){
    #kasia_bgr{
-  margin: -20% auto;
+  margin: -40% auto;
   }
    #kasia_name{
    margin: 40% auto;
@@ -183,16 +189,23 @@ input[type=checkbox]:checked ~ .sign_up_form {
 }
 @media screen and ( max-width: 540px ){
    #kasia_bgr{
-    margin: -33% auto;
+    margin: -60% auto;
   }
  #kasia_name{
-   margin: 40% auto;
+   margin: 60% auto;
  }
 }
 #testimonials{
     margin-top: 150px;
 }
+
 .avatar{
     width: 50%;
     height: 50%;
+}
+.flag{
+  width: 30px;
+  height: 16px;
+  padding-right :2px;
+  cursor: pointer;
 }
