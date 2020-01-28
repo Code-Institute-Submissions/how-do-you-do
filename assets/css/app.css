@@ -13,82 +13,65 @@ h2{
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing:4px;
-  color: #555555;
+    color: #635b4e;
 }
 h3,h4{
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing:4px;
-  color: #555555;
+    color: #635b4e;
   font-size: 18px;
-  font-weight: bold;
+   font-weight:300;
 }
+
 /* ---------------------------------------APP COLORS */
+.white{
+    color: #fdf1ed;
+}
 .bg_green{
  background-color:   #0fbeba;
 }
-border_green{
+.border_green{
  border: 1px solid  #0fbeba;
 }
-bg_green_tr{
+.bg_green_tr{
  background-color:   rgba(15,190,186,0.4);
 }
-bg_blue{
+.bg_blue{
 background-color:   #0076ba;
 }
-border_blue{
+.border_blue{
 border: 1px solid    #0076ba;
 }
-bg_blue_tr{
+.bg_blue_tr{
 background-color:   rgba(0, 118, 186, 0.4);
 }
-bg_light_blue{
+.bg_light_blue{
 background-color:   #bce3f9;
 }
-border_light_blue{
+.border_light_blue{
 border: 1px solid   #bce3f9;
 }
-bg_orange{
+.bg_orange{
 background-color:   #fc8b09;
 }
-border_orange{
+.border_orange{
 border: 1px solid    #fc8b09;
 }
-bg_orangre_tr{
+.bg_orangre_tr{
 background-color:   rgba(252, 139, 9, 0.4);
 }
-.app_green{
-  background-color:   #0fbeba;
- 
+.dark_grey{
+       color: #635b4e;
 }
-.app_green_border{
-  border: 1px solid  #0fbeba;
+.bg_dark_grey{
+       color: #635b4e;
 }
-
-
-.app_green_o{
-  background-color:   rgba(15,190,186,0.4);
-  
+.border_dark_grey{
+       color: #635b4e;
 }
-.app_blue{
-  background-color:   #8ab1ea;
-}
-.app_blue_border{
-  border: 1px solid  #8ab1ea;
-}
-.app_blue_o{
-  background-color:   rgba(138,177,234,0.4);
-  
-}
-
-.app_peach{
-  background-color:   #e8a39b;
-}
-.app_orange{
-  background-color:   #f2a161;
-}
-.app_light_grey{
-  background-color:   #99969f;
+.bg_dark_grey_tr{
+background-color:   rgba(99, 91, 78, 0.4);
 }
 /* ---------------------------------------HERO IMAGE ANIMATION */
 #hero_background {
@@ -139,7 +122,7 @@ background-color:   rgba(252, 139, 9, 0.4);
 
 }
 #student_form{
-    margin-bottom: 150px;
+    margin-bottom: 180px;
 }
 /* -------------------------------------------------------Checkbox Hack */
 
@@ -269,14 +252,25 @@ li.no_border_tight a{
 li.no_border_tight a:hover{
  background-color: rgba(138, 177, 234,0.3);
 }
+.border_bottom_only{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+form input:hover, form select:hover{
+  background-color: rgba(15,190,186,0.2);
+}
+ul.benefits{
+    font-size: 18px;
+}
 /* --------------------------------------TESTIMONIALS */
 .quote_mark{
-    color: grey;
+    color:     #4f4638;
     font-size: 30px;
 }
 .quote_text{
     font-style: italic;
-    color: darkgray;
+    color: #4f4638;
     font-size: 20px;
 
 }
