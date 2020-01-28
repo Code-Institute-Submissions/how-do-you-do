@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  border:0px;
+
+}
+body{
+  font-family: Lato;
+  color: #777777;
+}
+h2{
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing:4px;
+  color: #555555;
+}
+h3,h4{
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing:4px;
+  color: #555555;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ---------------------------------------APP COLORS */
+
+.app_green{
+  background-color:   #0fbeba;
+ 
+}
+.app_green_border{
+  border: 1px solid  #0fbeba;
+}
+
+
+.app_green_o{
+  background-color:   rgba(15,190,186,0.4);
+  
+}
+.app_blue{
+  background-color:   #8ab1ea;
+}
+.app_blue_border{
+  border: 1px solid  #8ab1ea;
+}
+.app_blue_o{
+  background-color:   rgba(138,177,234,0.4);
+  
+}
+
+.app_peach{
+  background-color:   #e8a39b;
+}
+.app_orange{
+  background-color:   #f2a161;
+}
+.app_light_grey{
+  background-color:   #99969f;
+}
+/* ---------------------------------------HERO IMAGE ANIMATION */
+#hero_background {
+
+
+  /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
+    height: 0;
+    padding: 0; 
+    padding-bottom: 31.5%; /* aspect ratio of the image 600/1600*/
+    background-image: url(../images/bgr-xl-color.png) ;
+    /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
+
+
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#hero_text {
+  height: 0;
+    padding: 0; 
+    padding-bottom: 31.5%; /* aspect ratio of the image 600/1600*/
+    background-image: url(../images/en.png) ;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   position: relative;
+ /* -webkit-animation-name: example; 
+  -webkit-animation-duration: 25s; */
+   animation-name: example;
+   animation-duration: 25s;
+   animation-iteration-count: infinite;
+   animation-transition: width 1s;
+  
+}
+@-webkit-keyframes example {
+  0%   { background-image: url(../images/en.png) ; }
+  50%  { background-image: url(../images/es.png) ; }
+  100% { background-image: url(../images/cn.png) ; }
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   { background-image: url(../images/en.png) ; }
+
+  50%  { background-image: url(../images/es.png) ; }
+ 
+  100% { background-image: url(../images/cn.png) ; }
+
+}
+#student_form{
+    margin-bottom: 150px;
+}
+/* -------------------------------------------------------Checkbox Hack */
+
+
+  /*http://jsfiddle.net/ucw2x9sb/4/*/
+  /*https://stackoverflow.com/questions/26901466/how-to-show-hide-div-on-click-with-stricly-html-css*/
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+/* Default State */
+.sign_up_form {
+   display: none;
+}
+/* Toggled State */
+input[type=checkbox]:checked ~ .sign_up_form {
+   display: block;
+} 
+/* -------------------------------------------------------- KASIAS IMAGE */
+#why{
+     margin: 0 auto;
+}
+#kasia_bgr{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   border-top: 0px solid white;
+   border-left: 0px solid white;
+   border-right: 0px solid white;
+   border-bottom: 1px solid #99969f; 
+   margin: -20% auto;
+   padding: 30px;
+}
+#kasia_holder{
+  margin: 0 auto;
+}
+#kasia{
+  position: relative;
+   content: url('../images/kasia.jpg') ;
+   height: 100%;
+   border-radius: 50%;
+   margin: 0 auto;
+}
+.kasia_text{
+  margin-top: -37%;
+  padding: 20px;
+}
+#kasia_name{
+   margin: 40% auto;
+   text-align: center;
+}
+@media screen and ( max-width: 1393px ){
+ 
+}
+@media screen and ( max-width: 990px ){
+   #kasia_bgr{
+    margin: -30% auto;
+  }
+ #kasia_name{
+   margin: 60% auto;
+ }
+}
+@media screen and ( max-width: 767px ){
+   #kasia_bgr{
+  margin: -20% auto;
+  }
+   #kasia_name{
+   margin: 40% auto;
+ }
+}
+@media screen and ( max-width: 540px ){
+   #kasia_bgr{
+    margin: -33% auto;
+  }
+ #kasia_name{
+   margin: 40% auto;
+ }
+}
+#testimonials{
+    margin-top: 150px;
+}
+.avatar{
+    width: 50%;
+    height: 50%;
+}
