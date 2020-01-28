@@ -66,7 +66,7 @@ h3,h4{
     height: 0;
     padding: 0; 
     padding-bottom: 31.5%; /* aspect ratio of the image 600/1600*/
-    background-image: url(../images/bgr-xl-color.png) ;
+    background-image: url(../images/bgr-color.png) ;
     /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
 
 
