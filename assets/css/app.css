@@ -144,13 +144,19 @@ input[type=checkbox]:checked ~ .sign_up_form {
    margin: -37% auto;
    padding: 30px;
 }
+#kasia{
+  position: relative;
+   content: url('../images/kasia.png') ;
+   height: 100%;
+   border-radius: 50%;
+   margin: 0 auto;
+}
 .kasia_text{
   margin-top: -37%;
   padding: 30px;
 }
-#kasia_holder{
-  margin: 0 auto;
-}
+
+
 #kasia{
   position: relative;
    content: url('../images/kasia.png') ;
@@ -198,14 +204,73 @@ input[type=checkbox]:checked ~ .sign_up_form {
 #testimonials{
     margin-top: 150px;
 }
-
-.avatar{
-    width: 50%;
-    height: 50%;
+/* ------------------------------MISCELANIOUS */
+.social-networks{
+  text-align: center;
+  
 }
+.social-networks li{
+  display: inline;
+}
+.social-networks i{
+  font-size: 160%;
+  color: #777777;
+  margin: 1%;
+  padding: 5%;
+
+}
+.no_border{
+  border: none;
+  
+}
+.no_border_tight{
+  text-align: center;
+  border: none;
+  padding: 2px;
+ 
+  background-color: rgba(255,255, 255,0.4);
+}
+li.no_border_tight a{
+  text-decoration: none;
+   color: grey;
+}
+li.no_border_tight a:hover{
+ background-color: rgba(138, 177, 234,0.3);
+}
+.quote_mark{
+    color: grey;
+    font-size: 30px;
+}
+
 .flag{
   width: 30px;
   height: 16px;
   padding-right :2px;
   cursor: pointer;
+}
+
+.avatar{
+   
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border-top: 0px solid white;
+   border-left: 0px solid white;
+   border-right: 0px solid white;
+   border-bottom: 1px solid #99969f; 
+   
+   padding: 10px;
+}
+.footer_background{
+    height: 0;
+    padding: 0; 
+    padding-bottom: 31.5%; /* aspect ratio of the image 600/1600*/
+    background-image: url(../images/bgr-xl-grey.png) ;
+    /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
+
+
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }
