@@ -162,33 +162,71 @@ background-color:   rgba(99, 91, 78, 0.4);
     background-repeat: no-repeat;
    position: relative;
  /* -webkit-animation-name: example; 
-  -webkit-animation-duration: 25s; */
+  -webkit-animation-duration: 60s; */
    animation-name: example;
-   animation-duration: 25s;
+   animation-duration: 60s;
    animation-iteration-count: infinite;
    
   
 }
 @-webkit-keyframes example {
-  0%   { background-image: url(../images/languages/en.png) ; }
-    30%   { background-image: url(../images/languages/en.png) ; }
-    37%   { background-image: url(../images/languages/es.png) ; }
+    0%      { background-image: url(../images/languages/sk.png) ; }
+    10%     { background-image: url(../images/languages/sk.png) ; }
+
+    12.5%   { background-image: url(../images/languages/sk.png) ; }
+    15%   { background-image: url(../images/languages/en.png) ; }
+
+    25%     { background-image: url(../images/languages/en.png) ; }
+    27.5%   { background-image: url(../images/languages/cn.png) ; }
+
+    37.5%   { background-image: url(../images/languages/cn.png) ; }
+    40%     { background-image: url(../images/languages/es.png) ; }
+ 
+    50%     { background-image: url(../images/languages/es.png) ; }
+    52.5%   { background-image: url(../images/languages/pl.png) ; }
     
-    65%  { background-image: url(../images/languages/pl.png) ; }
-    72% { background-image: url(../images/languages/cn.png) ; }
-    100% { background-image: url(../images/languages/cn.png) ; }
+    62.5%     { background-image: url(../images/languages/pl.png) ; }
+    65%   { background-image: url(../images/languages/ru.png) ; }
+
+
+     75%     { background-image: url(../images/languages/ru.png) ; }
+     77.5%   { background-image: url(../images/languages/th.png) ; }
+
+     87.5%  { background-image: url(../images/languages/th.png) ; }
+     90%    { background-image: url(../images/languages/vn.png) ; }
+
+     100%    { background-image: url(../images/languages/vn.png) ; }
 
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   { background-image: url(../images/languages/en.png) ; }
-    30%   { background-image: url(../images/languages/en.png) ; }
-    37%   { background-image: url(../images/languages/pl.png) ; }
+    0%      { background-image: url(../images/languages/sk.png) ; }
+    10%     { background-image: url(../images/languages/sk.png) ; }
+
+    12.5%   { background-image: url(../images/languages/sk.png) ; }
+    15%   { background-image: url(../images/languages/en.png) ; }
+
+    25%     { background-image: url(../images/languages/en.png) ; }
+    27.5%   { background-image: url(../images/languages/cn.png) ; }
+
+    37.5%   { background-image: url(../images/languages/cn.png) ; }
+    40%     { background-image: url(../images/languages/es.png) ; }
+ 
+    50%     { background-image: url(../images/languages/es.png) ; }
+    52.5%   { background-image: url(../images/languages/pl.png) ; }
     
-    65%  { background-image: url(../images/languages/pl.png) ; }
-    72% { background-image: url(../images/languages/cn.png) ; }
-    100% { background-image: url(../images/languages/cn.png) ; }
+    62.5%     { background-image: url(../images/languages/pl.png) ; }
+    65%   { background-image: url(../images/languages/ru.png) ; }
+
+
+     75%     { background-image: url(../images/languages/ru.png) ; }
+     77.5%   { background-image: url(../images/languages/th.png) ; }
+
+     87.5%  { background-image: url(../images/languages/th.png) ; }
+     90%    { background-image: url(../images/languages/vn.png) ; }
+
+     100%    { background-image: url(../images/languages/vn.png) ; }
 
 }
 #student_form{
