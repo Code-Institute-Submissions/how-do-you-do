@@ -107,10 +107,18 @@ background-color:   rgba(99, 91, 78, 0.4);
 }
 /* -------------------------INDEX */
 .enter{
-    margin-top: 800px;
+    
+}
+.chalenge_holder{
+    position: relative;
+    border: 1px solid lightgray;
 }
 .challenge{
-    background-color: red;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   border: 1px solid lightgray;
+   padding: 5px;
 }
 /* ---------------------------------------HERO IMAGE ANIMATION */
 #hero_background {
@@ -204,7 +212,21 @@ input[type=checkbox]:checked ~ #note_text {
    color: #fafafa;
    cursor: pointer;
 }
+/* ENTER IN INDEX.HTML-------------------------------------- */
+/* Default State */
+#enter_button {
+  
+   display: none;
+}
 
+/* Toggled State */
+input[type=checkbox]:checked ~ #enter_button {
+   display: block;
+}
+.correct{
+   
+   cursor: pointer;
+}
 
 /* -------------------------------------------------------- KASIAS IMAGE */
 #why{

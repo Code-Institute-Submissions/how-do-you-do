@@ -14,37 +14,92 @@
 </head>
 
 <body>
-	<section id="welcome">
-		<div class="container">
-			<div class="row" style="margin-top: 150px;">
+	<div class="container">
+		<header class="heading">
+			<!-- PUBLIC NAV -->
+			<nav class="navbar navbar-expand ">
+				<a class="navbar-brand d-none d-sm-block" href="landing.html"
+					title="Home"><img src="../assets/images/logo-md.png" alt="company logo"></a>
+			</nav>
+		</header>
+		<section id="welcome">
+			<div class="row enter no-gutters">
 				<div col-md-4>
 					<div class="card" style="width: 22rem;">
 						<img src="assets/images/avatar/marcel.jpg" class="card-img-top" alt="marcel's image">
 						<div class="card-body">
-							<h5 class="card-title">Marcel Kolarcik</h5>
-							<p class="card-text">Aspiring software developer</p>
+							<h4 class="card-title">Marcel Kolarcik</h4>
+							<p class="card-text"><em>Aspiring software developer</em> </p>
 							<!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 						</div>
 					</div>
-					
 				</div>
-				<div class="col-md-8" >
+				<div class="col-md-8 chalenge_holder">
 					<ul class="list-group">
-						<li class="list-group-item">
-							first item
+						<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+							<h3>Thank you for visiting my first Milestone project</h3>
 						</li>
-					</ul>
-                    <div class="challenge border_green">
-                         <h2>Welcome to <small>how-do-you-do</small></h2>
-					    <a class="btn btn-lg bg_green" href="en/landing.html">
-						<h4 class=" white">Enter</h4>
-					</a>
-                    </div>
-				</div>
+						<li class="list-group-item no_border mb-1 pt-1 pb-2">
+							<h3><small>It was created with hope to help people to :</small></h3>
+							<ul class="list-group">
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									find more job opportunities
+								</li>
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									become better educated
+								</li>
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									easily travel anywhere in the world
+								</li>
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									know the global language
+								</li>
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									improve confidence
+								</li>
+								<li class="list-group-item border_bottom_only mb-1 pt-1 pb-2">
+									date more people ...;-)
+								</li>
+							</ul>
+						</li>
 
+					</ul>
+					<div class="challenge ">
+						
+                        <h4><strong>CHALLENGE :</strong> <small>Which band had a famous song "How do you do" ?</small> </h4>
+						
+                        <div class="d-flex justify-content-between align-items-center">
+                            
+
+                            <label for="queen" class="btn" title="Solve the challenge">
+                                <span id="queen" class=" btn btn-lg bg_blue white"> Queen  </span> 
+                            </label>
+
+                            <input type="checkbox" id="show_notes" class="d-none">
+                            <label for="show_notes" class="correct" title="Solve the challenge" >
+                                <span class=" btn btn-lg bg_green white"> Roxette  </span> 
+                            </label>
+
+                            <label for="beatles" class="btn" title="Solve the challenge">
+                                <span  id ="beatles" class=" btn btn-lg bg_orange white"> Beatles  </span> 
+                            </label>
+
+                             <a  id="enter_button" class=" float-right" href="en/landing.html">
+							       
+                                     <span  id ="enter" class=" btn btn-lg bg_green white"> Enter  </span> 
+						    </a>
+                        </div>
+                       
+
+                       
+                         
+                       
+                      </div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 </body>
 
 </html>
