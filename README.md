@@ -1,6 +1,6 @@
 # how-do-you-do
 
-## First milestone project
+## First milestone project @CodeInstitute
 
 ### Description to follow
 

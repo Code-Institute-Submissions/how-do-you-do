@@ -60,6 +60,9 @@ li h4{
 .white{
     color: #fdf1ed;
 }
+.green{
+    color:   #0fbeba;
+}
 .bg_green{
  background-color:   #0fbeba;
 }
@@ -68,6 +71,9 @@ li h4{
 }
 .bg_green_tr{
  background-color:   rgba(15,190,186,0.4);
+}
+.blue{
+    color:   #0076ba;
 }
 .bg_blue{
 background-color:   #0076ba;
@@ -83,6 +89,9 @@ background-color:   #bce3f9;
 }
 .border_light_blue{
 border: 1px solid   #bce3f9;
+}
+.orange{
+    color:   #fc8b09;
 }
 .bg_orange{
 background-color:   #fc8b09;
@@ -108,7 +117,13 @@ background-color:   rgba(99, 91, 78, 0.4);
 /* -------------------------INDEX */
 .btn_sharp{
     border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 3px ;
+   
 }
+
 .btn_sharp:hover{
     border-radius: 15px;
    
@@ -151,23 +166,29 @@ background-color:   rgba(99, 91, 78, 0.4);
    animation-name: example;
    animation-duration: 25s;
    animation-iteration-count: infinite;
-   animation-transition: width 1s;
+   
   
 }
 @-webkit-keyframes example {
   0%   { background-image: url(../images/en.png) ; }
-  20%   { background-image: url(../images/en.png) ; }
-  50%  { background-image: url(../images/es.png) ; }
-  100% { background-image: url(../images/cn.png) ; }
+    30%   { background-image: url(../images/en.png) ; }
+    37%   { background-image: url(../images/es.png) ; }
+    
+    65%  { background-image: url(../images/pl.png) ; }
+    72% { background-image: url(../images/cn.png) ; }
+    100% { background-image: url(../images/cn.png) ; }
+
 }
 
 /* Standard syntax */
 @keyframes example {
-  0%   { background-image: url(../images/en.png) ; }
- 10%   { background-image: url(../images/en.png) ; }
-  50%  { background-image: url(../images/es.png) ; }
- 
-  100% { background-image: url(../images/cn.png) ; }
+    0%   { background-image: url(../images/en.png) ; }
+    30%   { background-image: url(../images/en.png) ; }
+    37%   { background-image: url(../images/pl.png) ; }
+    
+    65%  { background-image: url(../images/pl.png) ; }
+    72% { background-image: url(../images/cn.png) ; }
+    100% { background-image: url(../images/cn.png) ; }
 
 }
 #student_form{
