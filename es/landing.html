@@ -145,7 +145,7 @@
 												<i class="far fa-user"></i>
 											</div>
 										</div>
-										<input type="text" class="form-control form-control-lg border_bottom_only"
+										<input type="text"  name="first_name" class="form-control form-control-lg border_bottom_only"
 							        id="first_name" placeholder="Nombre de pila:" required>
 							    </div>
 									</div>
@@ -158,7 +158,7 @@
 													<i class="fas fa-user"></i></i>
 												</div>
 											</div>
-											<input type="text" class="form-control form-control-lg border_bottom_only"
+											<input type="text" name="last_name" class="form-control form-control-lg border_bottom_only"
                                         id="last_name" placeholder="Apellido" required>
 							      </div>
 										</div>
@@ -171,7 +171,7 @@
 														<i class="fas fa-at"></i>
 													</div>
 												</div>
-												<input type="email" class="form-control form-control-lg border_bottom_only"
+												<input type="email" name="email" class="form-control form-control-lg border_bottom_only"
                                                  id="email" placeholder="Email" required>
 							            </div>
 											</div>
@@ -184,7 +184,7 @@
 															<i class="fas fa-globe"></i>
 														</div>
 													</div>
-													<select  class="form-control form-control-lg border_bottom_only form_select" id="country"
+													<select name="country" class="form-control form-control-lg border_bottom_only form_select" id="country"
                                             placeholder="Country" required>
 							        	 <option  value="" disabled selected>Selecciona tu pais</option>
 							        	  <option value="Afghanistan">Afghanistan</option>
@@ -447,7 +447,7 @@
 															<i class="far fa-user"></i>
 														</div>
 													</div>
-													<input type="text" class="form-control form-control-lg 
+													<input type="text" name="card_holder_name"  class="form-control form-control-lg 
 							        			border_bottom_only" id="card_holder_name" placeholder="Nombre del titular de la tarjeta" required>
 							    </div>
 												</div>
@@ -461,7 +461,7 @@
 																<i class="far fa-credit-card"></i>
 															</div>
 														</div>
-														<input type="text" class="form-control form-control-lg border_bottom_only" 
+														<input type="text" name="card_numder" class="form-control form-control-lg border_bottom_only" 
                                                         id="card_numder" placeholder="Número de tarjeta" required>
 							    </div>
 													</div>
@@ -475,7 +475,8 @@
 																	<i class="fas fa-credit-card"></i>
 																</div>
 															</div>
-															<input type="text" class="form-control form-control-lg border_bottom_only" id="cvv" placeholder="CVV" required>
+															<input type="text" name="cvv" class="form-control form-control-lg border_bottom_only"
+                                                             id="cvv" placeholder="CVV" required>
 							    </div>
 														</div>
 
@@ -487,7 +488,7 @@
 																		<i class="fas fa-language"></i>
 																	</div>
 																</div>
-																<select  class="form-control form-control-lg border_bottom_only form_select" 
+																<select name="language_level" class="form-control form-control-lg border_bottom_only form_select" 
                                                                 id="language_level" placeholder="Habilidades lingüísticas" required>
 							        	 	<option  value="" disabled selected>Habilidades lingüísticas</option>
 							        	  	<option value="0">No experiencia</option>

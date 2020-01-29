@@ -115,14 +115,16 @@ background-color:   rgba(99, 91, 78, 0.4);
 }
 .chalenge_holder{
    
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
 }
 .challenge{
    
    width: 100%;
-   border: 1px solid lightgray;
-   padding: 5px;
+   /* border: 1px solid lightgray; */
+   padding: 10px;
+   margin-left: 10px;
 }
+
 /* ---------------------------------------HERO IMAGE ANIMATION */
 #hero_background {
 
@@ -339,11 +341,15 @@ ul.benefits{
     color:     #4f4638;
     font-size: 30px;
 }
+
 .quote_text{
     font-style: italic;
     color: #4f4638;
     font-size: 20px;
 
+}
+li.quote_text{
+    font-size: 17px;
 }
 h3.quote_title{
     letter-spacing: 4;
