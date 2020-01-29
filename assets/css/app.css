@@ -106,16 +106,19 @@ background-color:   rgba(252, 139, 9, 0.4);
 background-color:   rgba(99, 91, 78, 0.4);
 }
 /* -------------------------INDEX */
-.enter{
-    
+.btn_sharp{
+    border-radius: 0;
+}
+.btn_sharp:hover{
+    border-radius: 15px;
+   
 }
 .chalenge_holder{
-    position: relative;
+   
     border: 1px solid lightgray;
 }
 .challenge{
-   position: absolute;
-   bottom: 0;
+   
    width: 100%;
    border: 1px solid lightgray;
    padding: 5px;
@@ -177,32 +180,20 @@ background-color:   rgba(99, 91, 78, 0.4);
   /*http://jsfiddle.net/ucw2x9sb/4/*/
   /*https://stackoverflow.com/questions/26901466/how-to-show-hide-div-on-click-with-stricly-html-css*/
 
-/*  -----------------------------------STUDENT SIGN UP FORM */
-input[type=checkbox] {
+ input[type=checkbox]#toggler {
    position: absolute;
    top: -9999px;
    left: -9999px;
 }
 /* Default State */
-.sign_up_form {
+.visualy_hidden {
    display: none;
 }
 /* Toggled State */
-input[type=checkbox]:checked ~ .sign_up_form {
+ input[type=checkbox]:checked#toggler ~ .visualy_hidden {
    display: block;
 } 
 
-/* NOTE IN DASHBOARD-------------------------------------- */
-/* Default State */
-#note_text {
-  
-   display: none;
-}
-
-/* Toggled State */
-input[type=checkbox]:checked ~ #note_text {
-   display: block;
-}
 .notes{
    position: absolute;
    right: 1%;
@@ -211,17 +202,6 @@ input[type=checkbox]:checked ~ #note_text {
    background-color:   rgba(15,190,186,0.7);
    color: #fafafa;
    cursor: pointer;
-}
-/* ENTER IN INDEX.HTML-------------------------------------- */
-/* Default State */
-#enter_button {
-  
-   display: none;
-}
-
-/* Toggled State */
-input[type=checkbox]:checked ~ #enter_button {
-   display: block;
 }
 .correct{
    
