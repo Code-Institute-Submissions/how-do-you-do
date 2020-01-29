@@ -170,25 +170,25 @@ background-color:   rgba(99, 91, 78, 0.4);
   
 }
 @-webkit-keyframes example {
-  0%   { background-image: url(../images/en.png) ; }
-    30%   { background-image: url(../images/en.png) ; }
-    37%   { background-image: url(../images/es.png) ; }
+  0%   { background-image: url(../images/languages/en.png) ; }
+    30%   { background-image: url(../images/languages/en.png) ; }
+    37%   { background-image: url(../images/languages/es.png) ; }
     
-    65%  { background-image: url(../images/pl.png) ; }
-    72% { background-image: url(../images/cn.png) ; }
-    100% { background-image: url(../images/cn.png) ; }
+    65%  { background-image: url(../images/languages/pl.png) ; }
+    72% { background-image: url(../images/languages/cn.png) ; }
+    100% { background-image: url(../images/languages/cn.png) ; }
 
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   { background-image: url(../images/en.png) ; }
-    30%   { background-image: url(../images/en.png) ; }
-    37%   { background-image: url(../images/pl.png) ; }
+    0%   { background-image: url(../images/languages/en.png) ; }
+    30%   { background-image: url(../images/languages/en.png) ; }
+    37%   { background-image: url(../images/languages/pl.png) ; }
     
-    65%  { background-image: url(../images/pl.png) ; }
-    72% { background-image: url(../images/cn.png) ; }
-    100% { background-image: url(../images/cn.png) ; }
+    65%  { background-image: url(../images/languages/pl.png) ; }
+    72% { background-image: url(../images/languages/cn.png) ; }
+    100% { background-image: url(../images/languages/cn.png) ; }
 
 }
 #student_form{
