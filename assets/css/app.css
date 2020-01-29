@@ -276,6 +276,12 @@ input[type=checkbox]:checked ~ #note_text {
     margin-top: 150px;
 }
 /* ------------------------------MISCELANIOUS */
+.buy_option{
+   font-style: italic;
+   letter-spacing: 4;
+   font-family: "Oswald";
+   font-size: 40px;
+}
 .social-networks{
   text-align: center;
   
