@@ -105,6 +105,10 @@ background-color:   rgba(252, 139, 9, 0.4);
 .bg_dark_grey_tr{
 background-color:   rgba(99, 91, 78, 0.4);
 }
+/* -------------------------INDEX */
+#welcome{
+    margin-top: 300px;
+}
 /* ---------------------------------------HERO IMAGE ANIMATION */
 #hero_background {
 
