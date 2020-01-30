@@ -136,7 +136,33 @@ background-color:   rgba(99, 91, 78, 0.4);
   
 }
 
-/* ---------------------------------------HERO IMAGE ANIMATION */
+/* ---------------------------------------LOGO IMAGE */
+#logo_dimg {
+    height: 0;
+    padding: 0; 
+    padding-bottom: 35.68%; /* aspect ratio of the image 500/1600*/
+    background-image: url(../images/logo-md.png) ; 
+  
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#logo_img {
+
+
+  /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
+    height: 0;
+    padding: 0; 
+    padding-bottom: 31.5%; /* aspect ratio of the image 500/1600*/
+    background-image: url(../images/logo-md.png) ; 
+    /*https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height*/
+
+
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* ---------------------------------------HERO IMAGE */
 #hero_background {
 
 
@@ -153,10 +179,10 @@ background-color:   rgba(99, 91, 78, 0.4);
     background-repeat: no-repeat;
 }
 #hero_text {
-  height: 0;
+    height: 0;
     padding: 0; 
     padding-bottom: 31.5%; /* aspect ratio of the image 500/1600*/
-    background-image: url(../images/en.png) ;
+    /* background-image: url(../images/languages/sk.png) ; */
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -169,6 +195,7 @@ background-color:   rgba(99, 91, 78, 0.4);
    
   
 }
+/* ---------------------------------------HERO IMAGE ANIMATION */
 @-webkit-keyframes example {
     0%      { background-image: url(../images/languages/sk.png) ; }
     10%     { background-image: url(../images/languages/sk.png) ; }
@@ -272,6 +299,9 @@ background-color:   rgba(99, 91, 78, 0.4);
 #why{
      margin: 0 auto;
 }
+#blue_gradient{
+   background-image: linear-gradient( white,  #0076ba); 
+}
 #kasia_bgr{
    position: relative;
    width: 300px;
@@ -290,6 +320,7 @@ background-color:   rgba(99, 91, 78, 0.4);
    height: 100%;
    border-radius: 50%;
    margin: 0 auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
 .kasia_text{
