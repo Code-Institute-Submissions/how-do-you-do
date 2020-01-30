@@ -165,6 +165,7 @@ background-color:   rgba(99, 91, 78, 0.4);
     background-repeat: no-repeat;
 }
 #hero_text {
+   
     height: 0;
     padding: 0; 
     padding-bottom: 31.5%; /* aspect ratio of the image 500/1600*/
@@ -172,18 +173,32 @@ background-color:   rgba(99, 91, 78, 0.4);
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-   position: relative;
+    position: relative;
  /* -webkit-animation-name: example; 
   -webkit-animation-duration: 60s; */
    animation-name: example;
    animation-duration: 60s;
+  
    animation-iteration-count: infinite;
    
   
 }
 /* ---------------------------------------HERO IMAGE ANIMATION */
 @-webkit-keyframes example {
-    0%      { background-image: url(../images/languages/en.png) ; }
+
+    /* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
+     /* COMMENT OUT TO SEE */
+    0.1%      { background-image: url(../images/languages/en.png) ; visibility: hidden;  }
+    0.2%      { background-image: url(../images/languages/sk.png) ; visibility: hidden;}
+    0.3%      { background-image: url(../images/languages/cn.png) ; visibility: hidden;}
+    0.4%      { background-image: url(../images/languages/es.png) ; visibility: hidden;}
+    0.5%      { background-image: url(../images/languages/pl.png) ; visibility: hidden;}
+    0.6%      { background-image: url(../images/languages/ru.png) ; visibility: hidden;}
+    0.7%      { background-image: url(../images/languages/th.png) ; visibility: hidden;}
+    0.8%      { background-image: url(../images/languages/vn.png) ; visibility: hidden;}
+    /* COMMENT OUT TO SEE */
+    /* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
+    0.81%      { background-image: url(../images/languages/en.png) ; }
     10%     { background-image: url(../images/languages/en.png) ; }
 
     12.5%   { background-image: url(../images/languages/en.png) ; }
@@ -214,7 +229,20 @@ background-color:   rgba(99, 91, 78, 0.4);
 
 /* Standard syntax */
 @keyframes example {
-    0%      { background-image: url(../images/languages/en.png) ; }
+
+    /* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
+     /* COMMENT OUT TO SEE */
+    0.1%      { background-image: url(../images/languages/en.png) ; visibility: hidden;  }
+    0.2%      { background-image: url(../images/languages/sk.png) ; visibility: hidden;}
+    0.3%      { background-image: url(../images/languages/cn.png) ; visibility: hidden;}
+    0.4%      { background-image: url(../images/languages/es.png) ; visibility: hidden;}
+    0.5%      { background-image: url(../images/languages/pl.png) ; visibility: hidden;}
+    0.6%      { background-image: url(../images/languages/ru.png) ; visibility: hidden;}
+    0.7%      { background-image: url(../images/languages/th.png) ; visibility: hidden;}
+    0.8%      { background-image: url(../images/languages/vn.png) ; visibility: hidden;}
+    /* COMMENT OUT TO SEE */
+    /* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
+    0.81%      { background-image: url(../images/languages/en.png) ; }
     10%     { background-image: url(../images/languages/en.png) ; }
 
     12.5%   { background-image: url(../images/languages/en.png) ; }
