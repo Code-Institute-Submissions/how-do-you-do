@@ -270,8 +270,13 @@ background-color:   rgba(99, 91, 78, 0.4);
      100%    { background-image: url(../images/languages/vn.png) ; }
 
 }
-#student_form{
-    margin-bottom: 180px;
+
+#study_options{
+    margin: 0 auto;
+}
+.sign_up_btn{
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 /* -------------------------------------------------------Checkbox Hack */
 
@@ -315,6 +320,30 @@ background-color:   rgba(99, 91, 78, 0.4);
 }
 #blue_gradient{
    background-image: linear-gradient( white,  #0076ba); 
+}
+#light_blue_gradient{
+   background-image: linear-gradient( white,   #bce3f9); 
+}
+#student_sign_up{
+    margin-top: 12%;
+}
+#kasia_by_sign_up{
+    
+   
+      top:  0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      content: url('../images/kasia.png') ;
+      border-top: 0px solid white;
+      border-left: 0px solid white;
+      border-right: 0px solid white;
+      border-bottom: 1px solid #99969f; 
+      margin: -10% auto;
+      padding: 20px;
 }
 #kasia_bgr{
    position: relative;
