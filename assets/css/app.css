@@ -261,9 +261,11 @@ background-color:   rgba(99, 91, 78, 0.4);
    color: #fafafa;
    cursor: pointer;
 }
-.correct{
+
+.enter_btn{
    
-   cursor: pointer;
+   margin-bottom: 120%;
+   margin-right: 245%;
 }
 
 /* -------------------------------------------------------- KASIAS IMAGE */
