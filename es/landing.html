@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Aprende inglés</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+	<link href="../assets/css/app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header class="heading">
+
+		<!-- PUBLIC NAV -->
+
+		<nav class="navbar navbar-expand ">
+			    <a class="navbar-brand" href="landing.html" title="Home : how-do-you-do">
+                    <div id="logo_img"> <!-- CHANGING IMAGES BASED ON VIEW PORTS IN app.css  lines 330->370  --></div>
+                </a>
+
+				<ul class="navbar-nav mr-auto"></ul>
+				<div class="form-inline my-2 my-md-0" id="menu">
+					
+
+                    <a class="nav-item nav_link d-none d-md-block" href="signup.html"
+						title="Would you like to become one of our teachers?">
+						¿Profesora?
+					</a>
+                    <a class="nav-item nav_link d-block d-md-none" href="signup.html" title="Would you like to become one of our teachers?">
+						<i class="fas fa-graduation-cap"></i> ?
+                    </a>
+
+					<a class="nav-item nav_link" href="login.html" title="Sign in Student | Teacher">
+						<i class="fas fa-user"></i>
+					</a>
+					<!-- REPLACING LANGUAGE NAMES WITH COUNTRY FLAGS ON SMALL VIEW PORT -->
+					<a class="nav-item nav_link d-none d-md-block" href="../es/landing.html" title="espanol">
+						español
+					</a>
+					<a class="nav-item  d-block d-md-none" href="../es/landing.html" title="espanol">
+						<img class="flag" src="../assets/images/es_flag.png">
+                    </a>
+
+					<a class="nav-item nav_link d-none d-md-block" href="../cn/landing.html" title="chinese">
+							中文
+					</a>
+
+					<a class="nav-item  d-block d-md-none" href="../cn/landing.html"
+							title="chinese"><img class="flag" src="../assets/images/cn_flag.png">
+                    </a>
+
+					<a class="nav-item nav_link d-none d-md-block" href="../en/landing.html" title="english">
+								english
+					</a>
+
+					<a class="nav-item  d-block d-md-none" href="../en/landing.html" title="english">
+								<img  class="flag" src="../assets/images/en_flag.png">
+                    </a>
+				</div>
+		</nav>
+	</header>
+	<!-- HERO IMAGE ANIMATION -->
+	<section id="what">
+		<div id="hero_background">
+			<div id="hero_text">
+			</div>
+		</div>
+	</section>
+
+    <!-- SIGN UP BUTTON FOR STUDENTS -->
+    <div class="text-center sign_up_btn" >
+        <a href="student_signup.html" class="btn bg_green text-light pt-3 pb-3 pr-5 pl-5" > 
+            <h4 class="white" > ¡Comienza a aprender ahora!</h4> 
+        </a>
+    </div>
+    <!--END OF SIGN UP BUTTON FOR STUDENTS -->
+	
+	<!-- KASIAS SPEECH AND BENEFITS -->
+	<section id="why">
+		<div class="container">
+			<div class="row no-gutters ">
+				<div class="col-md-6  " id="blue_gradient">
+					<!-- LOADING IMAGE WITH CSS INTO #kasia -->
+					<div id="kasia_bgr">
+						<div id="kasia"></div>
+					</div>
+					<h2 id="kasia_name" class="card-title">
+						Katarzyna Sosnowska <br> <small>Inspiración y CEO.</small>
+					</h2>
+                   
+					<p class="text-light kasia_text quote_text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="col-md-6 text-left pl-3 border_blue">
+					<h2 class="pl-3 pt-3 mb-5"><i class="fas fa-key"></i> Beneficios</h2>
+					<ul class="list-group benefits">
+						<li class="list-group-item no_border ">
+							<i class="fas fa-graduation-cap"></i>
+							<span>Descubrirás que el inglés es fácil de aprender.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-network-wired"></i>
+							<span>Puedes encontrar más oportunidades de trabajo.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-university"></i></i>
+							<span>Puedes ser mejor educada.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-suitcase"></i>
+							<span>Puedes viajar fácilmente a cualquier parte del mundo.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-globe"></i>
+							<span>Conocerás el lenguaje global.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-graduation-cap"></i>
+							<span>Aprenderás sobre cultura.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-atom"></i>
+							<span>Puedes mejorar tu comprensión de la ciencia.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-user-friends"></i>
+							<span>Puedes salir con más personas.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-dumbbell"></i>
+							<span>Puedes mejorar tu confianza.</span>
+						</li>
+						<li class="list-group-item no_border">
+							<i class="fas fa-brain"></i>
+							<span>Ejercitaras tu cerebro.</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- SIGN UP BUTTON FOR STUDENTS -->
+    <div class="text-center sign_up_btn_low" >
+        <a href="student_signup.html" class="btn bg_green text-light pt-3 pb-3 pr-5 pl-5" > 
+            <h4 class="white" > ¡Comienza a aprender ahora!</h4> 
+        </a>
+    </div>
+    <!--END OF SIGN UP BUTTON FOR STUDENTS -->
+
+	<!-- TESTIMONIALS        -->
+	<section id="testimonials">
+		<div class="container">
+			<h2><i class="fas fa-comments"></i> testimonios</h2>
+			<div class="card-columns">
+
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar1.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">Amazing experience</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                        I just wanted to share a quick note and let you know that you guys do a really GOOD JOB.
+                         I’m glad I decided to learn with you.
+                         It’s really great how easy your website is to navigate and use. <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                        Marko Stuborn, <cite title="Source Title">Barcelona, Spain</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar2.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">Very positive</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                       I never have any problem at all.  <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                        Svetlana Karenina, <cite title="Source Title">Moscow, Russia</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar3.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">Thank you !</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                        My NEW JOB is so much more interesting.
+                        Thank you for helping me realize, how easy it is. 
+                         <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                        Zhang Wei, <cite title="Source Title">Beijing, China</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+<!-- testimonial short -->
+						<div class="card p-3 text-right">
+                        <h3 class="card-title quote_title">You're my heroes!</h3>
+							<blockquote class="blockquote mb-0">
+								<p class="card-text quote_text"><span class="quote_mark">“</span>
+                   
+                    In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys. You're my heroes.
+                         <span class="quote_mark">“</span>
+								</p>
+								<footer class="blockquote-footer">
+									<small class="text-muted">
+                        Marcel Kolarcik,  <cite title="Source Title">Tokio, Japan</cite>
+                        </small>
+								</footer>
+							</blockquote>
+						</div>
+<!-- end of testimonial short -->
+<!-- testimonial short -->
+						<div class="card p-3 text-right bg_green text-light">
+                        <div class="text-center">
+                            <img  src="../assets/images/avatar/marcel.jpg" class="avatar " alt="avatar">
+                        </div>
+                        <h3 class="card-title quote_title ">Best time and money spent!</h3>
+							<blockquote class="blockquote mb-0">
+								<p class="card-text quote_text text-light"><span class="quote_mark">“</span>
+                    I highly recommend how-do-you-do. 
+                    In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys. You're my heroes.
+                         <span class="quote_mark">“</span>
+								</p>
+								<footer class="blockquote-footer">
+									<small class="text-muted">
+                        Marcel Kolarcik,  <cite title="Source Title">Tokio, Japan</cite>
+                        </small>
+								</footer>
+							</blockquote>
+						</div>
+<!-- end of testimonial short -->                    
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar4.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">Simply clever !</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                        Now it’s almost like having a teacher right here with me. 
+                        I just choose the time, make the appointment and click learn. 
+                        It’s so simple.
+                         <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                        Ximena Almodovar, <cite title="Source Title">Lanzarote, Canary Islands, Spain</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+<!-- testimonial short -->
+						<div class="card p-3 text-right">
+                        <h3 class="card-title quote_title">Best time and money spent!</h3>
+							<blockquote class="blockquote mb-0">
+								<p class="card-text quote_text"><span class="quote_mark">“</span>
+                    I highly recommend how-do-you-do. 
+                    In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys. You're my heroes.
+                         <span class="quote_mark">“</span>
+								</p>
+								<footer class="blockquote-footer">
+									<small class="text-muted">
+                        Marcel Kolarcik,  <cite title="Source Title">Tokio, Japan</cite>
+                        </small>
+								</footer>
+							</blockquote>
+						</div>
+<!-- end of testimonial short -->
+<!-- testimonial short -->
+						<div class="card p-3 text-right">
+                        <h3 class="card-title quote_title">Amazing experience</h3>
+							<blockquote class="blockquote mb-0">
+								<p class="card-text quote_text"><span class="quote_mark">“</span>
+                     
+                      I just wanted to share a quick note and let you know that you guys do a really GOOD JOB.
+                         I’m glad I decided to learn with you.
+                         <span class="quote_mark">“</span>
+								</p>
+								<footer class="blockquote-footer">
+									<small class="text-muted">
+                        Pedro Ximenez,  <cite title="Source Title">Seville, Spain</cite>
+                        </small>
+								</footer>
+							</blockquote>
+						</div>
+<!-- end of testimonial short -->
+
+<!-- testimonial short -->
+						<div class="card p-3 text-right">
+                        <h3 class="card-title quote_title">WOW !</h3>
+							<blockquote class="blockquote mb-0">
+								<p class="card-text quote_text"><span class="quote_mark">“</span>
+                     
+                       I am blown away. I had 3 new job offers since I finished the course.
+                        Thanks for being so awesome. High fives!
+                         <span class="quote_mark">“</span>
+								</p>
+								<footer class="blockquote-footer">
+									<small class="text-muted">
+                        Marko Stuborn,  <cite title="Source Title"> Barcelona, Spain</cite>
+                        </small>
+								</footer>
+							</blockquote>
+						</div>
+<!-- end of testimonial short -->
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar5.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">WOW !</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                       Wow. I just updated my CV and it was SO SIMPLE.
+                       I am blown away. You guys truly kick ass. I had 3 new job offers since I finished the course.
+                        Thanks for being so awesome. High fives!
+                         <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                        Pedro Ximenez, <cite title="Source Title">Seville, Spain</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar6.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">Happy !</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                      I am so happy i discovered how-do-you-do.
+                      They have given me opportunity to discover my hidden LANGUAGE SKILLS and gain experience in real English conversation..
+                         <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                       Yu Yan, <cite title="Source Title">Chongqing, China</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->
+<!-- testimonial long -->
+				<div class="card">
+					<div class="text-center">
+                            <img  src="../assets/images/avatar/avatar7.png" class="avatar " alt="avatar">
+                        </div>
+					<div class="card-body">
+						<h3 class="card-title quote_title">It was pleasure !</h3>
+						<p class="card-text quote_text"><span class="quote_mark">“</span>
+                     Kasia was so patient with me, I don't know how she does it, being mum, CEO and teacher at the same time!
+                        And now I can TRAVEL THE WORLD confidently ....
+                         <span class="quote_mark">“</span></p>
+						<footer class="blockquote-footer">
+							
+                       Yu Yan, <cite title="Source Title">Chongqing, China</cite>
+                        
+						</footer>
+					</div>
+
+				</div>
+<!--end of testimonial long -->           
+						</div>
+					</div>
+	</section>
+    <!-- END OF TESTIMONIALS        -->
+
+    <!-- SIGN UP BUTTON FOR STUDENTS -->
+    <div class="text-center sign_up_btn" >
+        <a href="student_signup.html" class="btn bg_green text-light pt-3 pb-3 pr-5 pl-5" > 
+            <h4 class="white" > ¡Comienza a aprender ahora!</h4> 
+        </a>
+    </div>
+    <!--END OF SIGN UP BUTTON FOR STUDENTS -->
+
+	<section id="footer" class="footer_background">
+   
+      <ul class="social-networks">
+        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+       </ul>
+
+      
+        <div class="container">
+           
+            <div class=" col-auto  ">
+              <ul class="list ">
+                <li class="list-group-item no_border_tight text-uppercase list-group-item-secondary">
+                  <a href="#">Blog </a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#">Agradecimientos </a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#">Contacta con nosotras</a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#">Preguntas comunes </a>
+                  
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+        
+      
+      
+
+      
+    <div id="copyright">
+      <h5  class="text-center">Todos los derechos reservados&#x24B8;</h5>
+    </div>
+        
+  
+
+    </section>
+
+</body>
+
+</html>
