@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Learn English ! Fast and Easy</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+	<link href="../assets/css/app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header class="heading">
+
+	<!-- PUBLIC NAV -->
+ 
+		<nav class="navbar navbar-expand ">
+
+			    <a class="navbar-brand" href="landing.html" title="Home : how-do-you-do">
+                    <div id="logo_img"> <!-- CHANGING IMAGES BASED ON VIEW PORTS IN app.css  lines 330->370  --></div>
+                </a>
+            
+				<ul class="navbar-nav mr-auto"></ul>
+				<div class="form-inline my-2 my-md-0" id="menu">
+
+					<a class="nav-item nav_link d-none d-md-block" href="signup.html"
+						title="Would you like to become one of our teachers?">
+						Teacher?
+					</a>
+                    <a class="nav-item nav_link d-block d-md-none" href="signup.html" title="Would you like to become one of our teachers?">
+						<i class="fas fa-graduation-cap"></i> ?
+                    </a>
+
+					
+					<a class="nav-item nav_link" href="login.html" title="Sign in Student | Teacher">
+						<i class="fas fa-user"></i>
+					</a>
+
+					<!-- REPLACING LANGUAGE NAMES WITH COUNTRY FLAGS ON SMALL VIEW PORT -->
+					<a class="nav-item nav_link d-none d-md-block" href="../es/landing.html" title="espanol">
+						español
+					</a>
+					<a class="nav-item  d-block d-md-none" href="../es/landing.html" title="espanol">
+						<img class="flag" src="../assets/images/es_flag.png">
+                    </a>
+
+					<a class="nav-item nav_link d-none d-md-block" href="../cn/landing.html" title="chinese">
+							中文
+					</a>
+
+					<a class="nav-item  d-block d-md-none" href="../cn/landing.html"
+							title="chinese"><img class="flag" src="../assets/images/cn_flag.png">
+                    </a>
+
+					<a class="nav-item nav_link d-none d-md-block" href="../en/landing.html" title="english">
+								english
+					</a>
+
+					<a class="nav-item  d-block d-md-none" href="../en/landing.html" title="english">
+								<img  class="flag" src="../assets/images/en_flag.png">
+                    </a>
+				</div>
+		</nav>
+	</header>
+	<!-- LOGIN FORM FOR STUDENTS AND TEACHERS -->
+	<section id="what">
+	<div class="container">
+       <div class="row no-gutters">
+	    		<div class="col-md-6">
+                <!-- STUDENT LOGIN FORM -->
+	    			<form method="get" action="student_dashboard.html">
+    				            <div class="col-auto">
+                                 <h2>Student</h2>
+							      <label class="sr-only" for="email">Email</label>
+							      <div class="input-group mb-2">
+							        <div class="input-group-prepend">
+							          <div class="input-group-text bg-transparent border_bottom_only"> <i class="fas fa-at"></i></div>
+							        </div>
+							        <input type="email" name="email" class="form-control form-control-lg border_bottom_only" 
+                                    id="s_email" placeholder="Email" required>
+							      </div>
+							    </div>
+
+							     <div class="col-auto">
+							      <label class="sr-only" for="country">Password</label>
+							      <div class="input-group mb-2">
+							        <div class="input-group-prepend">
+							          <div class="input-group-text bg-transparent border_bottom_only"> 
+							          	<i class="fas fa-globe"></i>
+							          </div>
+							        </div>
+
+							       <input type="password" name="password" class="form-control form-control-lg border_bottom_only" 
+                                   id="s_password" placeholder="Password" required>
+							      </div>
+                                  <div class="mt-5">
+    								<button class="btn bg_green text-light pt-3 pb-3 pr-5 pl-5 float-right" title="Have a great day!">Login!</button>
+    							</div>
+							    </div>
+                     </form>
+	    		</div>
+	    		<div class="col-md-6 ">
+                     <!-- TEACHER LOGIN FORM -->
+	    			<form method="get" action="teacher_dashboard.html">
+                                <div class="col-auto">
+                                 <h2>Teacher</h2>
+							      <label class="sr-only" for="email">Email</label>
+							      <div class="input-group mb-2">
+							        <div class="input-group-prepend">
+							          <div class="input-group-text bg-transparent border_bottom_only"> <i class="fas fa-at"></i></div>
+							        </div>
+							        <input type="email" name="email" class="form-control form-control-lg border_bottom_only" id="email" placeholder="Email" required>
+							      </div>
+							    </div>
+
+							     <div class="col-auto">
+							      <label class="sr-only" for="password">Password</label>
+							        <div class="input-group mb-2">
+							        <div class="input-group-prepend">
+							          <div class="input-group-text bg-transparent border_bottom_only"> 
+							          	<i class="fas fa-globe"></i>
+							          </div>
+							        </div>
+
+							        <input type="password" name="password" class="form-control form-control-lg border_bottom_only" id="password" placeholder="Password" required>
+							        </div>
+                                    <div class="mt-5">
+    								<button class="btn bg_green text-light pt-3 pb-3 pr-5 pl-5 float-right" title="Have a great day!">Login!</button>
+    							    </div>
+							    </div>
+				    </form>
+	    		</div>
+    	</div>
+    </div>
+	</section>
+
+    <section id="footer" class="footer_background">
+   
+      <ul class="social-networks">
+        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+       </ul>
+
+      
+        <div class="container">
+           
+            <div class=" col-auto  ">
+              <ul class="list ">
+                <li class="list-group-item no_border_tight text-uppercase list-group-item-secondary">
+                  <a href="#">Blog </a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#">Status </a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#"> Contact Us</a>
+                  
+                </li>
+                <li class="list-group-item no_border_tight">
+                  <a href="#"> Common Questions </a>
+                  
+                </li>
+                
+              </ul>
+              
+            </div>
+            
+        
+      
+      
+
+      
+    <div id="copyright">
+      <h5  class="text-center">All Rights reserved.&#x24B8;</h5>
+    </div>
+        
+  
+
+   </section>
+
+</body>
+
+</html>
