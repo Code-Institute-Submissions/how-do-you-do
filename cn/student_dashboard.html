@@ -1,324 +1,313 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Learn English</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-	<link href="../assets/css/app.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-	<header class="heading">
-		<!-- PRIVATE NAV -->
-
-		 <nav class="navbar navbar-expand app_green_border">
-             <a class="navbar-brand" href="landing.html" title="Home : how-do-you-do">
-                    <div id="logo_img"> <!-- CHANGING IMAGES BASED ON VIEW PORTS IN app.css  lines 330->370  --></div>
-             </a>
-
-            <ul class="navbar-nav mr-auto"></ul>
-            <div class="form-inline my-2 my-md-0" id="menu">
-                <a class="nav_link" href="../index.html" title="Logout">Logout</a>
-            </div>
-        </nav> 
-	</header>
-	<!-- STUDENT DASHBOARD -->
-	<section id="what">
-		  <div class="row  dashboard ml-1">
-        <div class="col-md-12 text-center">
-           <h2>Hello student! <small>
-              Your login was succesful.
-            </small></h2>
-        </div>
-        <div class="col-md-4 ">
-          <ul class="list-group" id="menu">
-              <li class="list-group-item mb-1 bg_blue text-center module" id="module_1">
-              <h4 class="white" >  Module 1 <small>(10% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%">
-                  <span >10%</span>
-                </div>
-              </div>
-              </li>
-              <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_2">
-               <h4 class="white">  Module 2 <small>(0% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                  <span >0% </span>
-                </div>
-              </div>
-              </li>
-
-               <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_3">
-               <h4 class="white">  Module 3 <small>(0% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                  <span >0% </span>
-                </div>
-              </div>
-              </li>
-
-               <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_4">
-               <h4 class="white">  Module 4 <small>(0% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                  <span >0% </span>
-                </div>
-              </div>
-              </li>
-
-               <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_5">
-                <h4 class="white">  Module 5 <small>(0% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                  <span>0% </span>
-                </div>
-              </div>
-              </li>
-
-               <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_6">
-               <h4 class="white">  Module 6 <small>(0% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-                  <span >0%</span>
-                </div>
-              </div>
-              </li>
-            
-          </ul>
-          
-        </div>
-       <div class="col-md-8 " >
-           
-
-             <ul class="list-group" id="menu">
-
-
-              <li class="list-group-item mb-1 bg_blue text-center module">
-                <h4 class="white" >  Module 1 <small>(10% Complete)</small></h4>
-               <div class="progress">
-                <div class="progress-bar app_blue" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:10%">
-                  <span class="">10%</span> 
-                </div>
-              </div>
-              </li>
-
-
-              
-
-
-                <li class="list-group-item mb-1 text-center session bg_green">
-                   <h4 class="white" >  Session 1 <small>(100% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                       <div class="progress col-md-9">
-                        <div class="progress-bar bg_green_tr" role="progressbar" 
-                                    aria-valuenow="100" 
-                                    aria-valuemin="0" 
-                                    aria-valuemax="100" 
-                                    style="width:100%;">
-                          <span class="">100%</span> 
-                        </div>
-                      </div>
-
-                      <input type="checkbox" id="toggler" class="d-none">
-                      <label for="toggler" class="btn notes" title="Write down your notes and save them!" >
-
-                        <span class="d-none d-lg-inline "> <i class="far fa-sticky-note"></i>  </span> 
-                         
-                        <i class="fas fa-angle-down"></i>
-                      </label>
-
-
-                      
-                      <div class="col-md-12 mt-1 visually_hidden" >
-                         
-                       <div class="col-auto">
-                    <label class="sr-only" for="notes">Notes</label>
-                    <div class="input-group mb-2">
-                      
-                      <form id="save_notes" action="#" method="get">
-                        
-                      </form>
-                      <textarea name="reason" form="save_notes" class="form-control form-control-lg border_bottom_only"
-                       placeholder="Write down your notes  and save them." required></textarea>
-                    </div> 
-                  </div>
-                  <!-- MAKE AJAX CALL AND SAVE IN DB WITH module_id , session_id , user_id-->
-                        <button class="btn btn-sm save_note bg_blue white" title="Save your notes" 
-                        data-module_id="1" data-session-id="1"><h4 class="white p-0" > <small>Save</small></h4> </button>
-                      </div>
-                  </div>
-                 
-              </li>
-
-              <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 2 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 3 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 4 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 5 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 6 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-                <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 7 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 8 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 9 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-               <li class="list-group-item mb-1 text-center session bg_green_tr">
-                   <h4 class="dark_grey" >  Session 10 <small>(0% Complete)</small></h4> 
-                   <div class="row no-gutters">
-                   <div class="progress col-md-9">
-                    <div class="progress-bar bg_green" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                      <span class="">0%</span> 
-                    </div>
-                  </div>
-                  </div>
-              </li>
-
-            </ul>
-           
-        </div>
-         
-       </div>
-        
-      </div>
-	</section>
-
-
-
-	
-
-	 <section id="footer">
-
-		<section id="footer" class="footer_background">
-   
-      <ul class="social-networks">
-        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-       </ul>
-
-      
-        <div class="container">
-           
-            <div class=" col-auto  ">
-              <ul class="list ">
-                <li class="list-group-item no_border_tight text-uppercase list-group-item-secondary">
-                  <a href="#">Blog </a>
-                  
-                </li>
-                <li class="list-group-item no_border_tight">
-                  <a href="#">Status </a>
-                  
-                </li>
-                <li class="list-group-item no_border_tight">
-                  <a href="#"> Contact Us</a>
-                  
-                </li>
-                <li class="list-group-item no_border_tight">
-                  <a href="#"> Common Questions </a>
-                  
-                </li>
-                
-              </ul>
-              
-            </div>
-            
-        
-      
-      
-
-      
-    <div id="copyright">
-      <h5  class="text-center">All Rights reserved.&#x24B8;</h5>
-    </div>
-        
-  
-
-   </section>
-
-</body>
-
-</html>
+<html lang = "en" >
+<head >
+    <meta charset = "UTF-8" >
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
+    <title >Learn English</title >
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin = "anonymous" >
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
+    <link href = "../assets/css/app.css" rel = "stylesheet" type = "text/css" />
+</head >
+<body >
+<header class = "heading" >
+    <!-- PRIVATE NAV -->
+    <nav class = "navbar navbar-expand app_green_border" >
+        <a class = "navbar-brand" href = "landing.html" title = "Home : how-do-you-do" >
+            <div id = "logo_img" > <!-- CHANGING IMAGES BASED ON VIEW PORTS IN app.css  lines 330->370  --></div >
+        </a >
+        <ul class = "navbar-nav mr-auto" ></ul >
+        <div class = "form-inline my-2 my-md-0" >
+            <a class = "nav_link" href = "../index.html" title = "Logout" >Logout</a >
+        </div >
+    </nav >
+</header >
+<!-- STUDENT DASHBOARD -->
+<section id = "what" >
+    <div class = "row  dashboard ml-1" >
+        <div class = "col-md-12 text-center" >
+            <h2 >Hello student!
+                <small >
+                    Your login was successful.
+                </small >
+            </h2 >
+        </div >
+        <div class = "col-md-4 " >
+            <ul class = "list-group" >
+                <li class = "list-group-item mb-1 bg_blue text-center module" id = "module_1" >
+                    <h4 class = "white" > Module 1
+                        <small >(10% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "10"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:10%" >
+                            <span >10%</span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_2" >
+                    <h4 class = "white" > Module 2
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
+                            <span >0% </span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_3" >
+                    <h4 class = "white" > Module 3
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
+                            <span >0% </span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_4" >
+                    <h4 class = "white" > Module 4
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
+                            <span >0% </span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_5" >
+                    <h4 class = "white" > Module 5
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
+                            <span >0% </span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_6" >
+                    <h4 class = "white" > Module 6
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
+                            <span >0%</span >
+                        </div >
+                    </div >
+                </li >
+            </ul >
+        </div >
+        <div class = "col-md-8 " >
+            <ul class = "list-group" >
+                <li class = "list-group-item mb-1 bg_blue text-center module" >
+                    <h4 class = "white" > Module 1
+                        <small >(10% Complete)</small >
+                    </h4 >
+                    <div class = "progress" >
+                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "20"
+                             aria-valuemin = "0" aria-valuemax = "100" style = "width:10%" >
+                            <span class = "" >10%</span >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green" >
+                    <h4 class = "white" > Session 1
+                        <small >(100% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green_tr" role = "progressbar"
+                                 aria-valuenow = "100"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
+                                <span class = "" >100%</span >
+                            </div >
+                        </div >
+                        <input type = "checkbox" id = "toggler" class = "d-none" >
+                        <label for = "toggler" class = "btn notes" title = "Write down your notes and save them!" >
+                            <span class = "d-none d-lg-inline " > <i class = "far fa-sticky-note" ></i > </span >
+                            <i class = "fas fa-angle-down" ></i >
+                        </label >
+                        <div class = "col-md-12 mt-1 visually_hidden" >
+                            <div class = "col-auto" >
+                                <label class = "sr-only" for = "notes" >Notes</label >
+                                <div class = "input-group mb-2" >
+                                    <form id = "save_notes" action = "#" method = "get" >
+                                    </form >
+                                    <textarea name = "notes" form = "save_notes" id = "notes"
+                                              class = "form-control form-control-lg border_bottom_only"
+                                              placeholder = "Write down your notes  and save them."
+                                              required ></textarea >
+                                </div >
+                            </div >
+                            <!-- MAKE AJAX CALL AND SAVE IN DB WITH module_id , session_id , user_id-->
+                            <h4 class = "white p-0" >
+                                <button class = "btn btn-sm save_note bg_blue white" title = "Save your notes"
+                                        data-module_id = "1" data-session-id = "1" >
+                                    <small >Save</small >
+                                </button >
+                            </h4 >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 2
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 3
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 4
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 5
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 6
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 7
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 8
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 9
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
+                    <h4 class = "dark_grey" > Session 10
+                        <small >(0% Complete)</small >
+                    </h4 >
+                    <div class = "row no-gutters" >
+                        <div class = "progress col-md-9" >
+                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                    </div >
+                </li >
+            </ul >
+        </div >
+    </div >
+</section >
+<section id = "footer" class = "footer_background" >
+    <ul class = "social-networks" >
+        <li ><a href = "https://facebook.com" target = "_blank" ><i class = "fab fa-facebook" ></i ></a ></li >
+        <li ><a href = "https://twitter.com" target = "_blank" ><i class = "fab fa-twitter" ></i ></a ></li >
+        <li ><a href = "https://instagram.com" target = "_blank" ><i class = "fab fa-instagram" ></i ></a ></li >
+        <li ><a href = "https://youtube.com" target = "_blank" ><i class = "fab fa-youtube" ></i ></a ></li >
+    </ul >
+    <div class = "container" >
+        <div class = " col-auto  " >
+            <ul class = "list " >
+                <li class = "list-group-item no_border_tight text-uppercase list-group-item-secondary" >
+                    <a href = "#" >Blog </a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" >Status </a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" > Contact Us</a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" > Common Questions </a >
+                </li >
+            </ul >
+        </div >
+        <div id = "copyright" >
+            <h5 class = "text-center" >All Rights reserved.&#x24B8;</h5 >
+        </div >
+    </div >
+</section >
+</body >
+</html >
