@@ -15,9 +15,6 @@
 
 <body>
 	<header class="heading">
-
-		
-
 		<!-- PRIVATE NAV -->
 
 		 <nav class="navbar navbar-expand app_green_border">
@@ -40,10 +37,7 @@
             </small></h2>
         </div>
         <div class="col-md-4 ">
-
           <ul class="list-group" id="menu">
-
-
               <li class="list-group-item mb-1 bg_blue text-center module" id="module_1">
               <h4 class="white" >  Module 1 <small>(10% Complete)</small></h4>
                <div class="progress">
@@ -52,8 +46,6 @@
                 </div>
               </div>
               </li>
-
-
               <li class="list-group-item mb-1 bg_blue_tr text-center module" id="module_2">
                <h4 class="white">  Module 2 <small>(0% Complete)</small></h4>
                <div class="progress">
@@ -134,8 +126,8 @@
                         </div>
                       </div>
 
-                      <input type="checkbox" id="show_notes" class="d-none">
-                      <label for="show_notes" class="btn notes" title="Write down your notes and save them!" >
+                      <input type="checkbox" id="toggler" class="d-none">
+                      <label for="toggler" class="btn notes" title="Write down your notes and save them!" >
 
                         <span class="d-none d-lg-inline "> <i class="far fa-sticky-note"></i>  </span> 
                          
@@ -144,7 +136,7 @@
 
 
                       
-                      <div class="col-md-12 mt-1" id="note_text">
+                      <div class="col-md-12 mt-1 visually_hidden" >
                          
                        <div class="col-auto">
                     <label class="sr-only" for="notes">Notes</label>

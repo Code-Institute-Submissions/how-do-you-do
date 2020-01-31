@@ -60,6 +60,9 @@ li h4{
 .white{
     color: #fdf1ed;
 }
+.border_white{
+ border: 2px solid  #9e3816;
+}
 .green{
     color:   #0fbeba;
 }
@@ -278,6 +281,10 @@ background-color:   rgba(99, 91, 78, 0.4);
     margin-top: 50px;
     margin-bottom: 200px;
 }
+.sign_up_btn_low{
+    margin-top: 50px;
+   
+}
 /* -------------------------------------------------------Checkbox Hack */
 
 
@@ -290,11 +297,11 @@ background-color:   rgba(99, 91, 78, 0.4);
    left: -9999px;
 }
 /* Default State */
-.visualy_hidden {
+.visually_hidden {
    display: none;
 }
 /* Toggled State */
- input[type=checkbox]:checked#toggler ~ .visualy_hidden {
+ input[type=checkbox]:checked#toggler ~ .visually_hidden {
    display: block;
 } 
 
@@ -430,7 +437,7 @@ background-color:   rgba(99, 91, 78, 0.4);
  }
 }
 #testimonials{
-    margin-top: 150px;
+    margin-top: 50px;
 }
 /* ------------------------------MISCELANIOUS */
 .buy_option{
