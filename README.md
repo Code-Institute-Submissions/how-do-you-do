@@ -47,8 +47,7 @@
 or if you are visiting on mobile device by clicking appropriate flag.
 ![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/languages.png)
 
-> Depending on your choice of language you will see one of those three buttons, which will take you to the student sign up page
-in selected language.
+> Depending on your choice of language you will see one of those three buttons, under hero image which will take you to the student sign up page in selected language.
 ![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
 
 
