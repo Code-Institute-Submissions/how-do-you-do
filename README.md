@@ -7,19 +7,21 @@
 ### how-do-you-do was created with hope to help people to:
 
 > find more job opportunities
-
 > become better educated
-
 > easily travel anywhere in the world
-
 > know the global language
-
 > improve confidence
-
 > date more people ... :wink:
 
 ### by giving them opportunity to learn English in fast and easy way.
 
 ## Inspiration
 
-> My wife Kasia, who wants to teach English online.
+> My wife Kasia who wants to teach English online.
+
+## Usage
+
+## Languages used
+
+* HTML
+* CSS
