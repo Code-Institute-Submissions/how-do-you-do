@@ -55,7 +55,7 @@
 
 > 10.2 inch tablet
 
-> 17.6 inch tablet
+> 17.6 inch laptop
 
 > 21 inch desktop
 
