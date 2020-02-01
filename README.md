@@ -59,8 +59,9 @@ or if he is visiting on mobile device by clicking appropriate flag.
 
 ![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits.png)
 
- under hero image which will take you to the student sign up page in selected language.
+3. Under Testimonials section
 
+![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png)
 
 ## Testing
 
