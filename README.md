@@ -1,8 +1,9 @@
-<a href="https://marcelkolarcik.github.io/how-do-you-do/"><img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/heroimage.gif" title="https://marcelkolarcik.github.io/how-do-you-do/" alt="https://marcelkolarcik.github.io/how-do-you-do/"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/heroimage.gif" title="https://marcelkolarcik.github.io/how-do-you-do/" alt="https://marcelkolarcik.github.io/how-do-you-do/"></a>
 
-# how-do-you-do
+# how-do-you-do 
 
-## First milestone project @CodeInstitute
+#### First milestone project @CodeInstitute
 
 ### how-do-you-do was created with hope to help people to:
 
@@ -26,8 +27,8 @@
 
 ## Who  is it for
 
-* people that want to learn English in fast and easy way
-* people that want to teach English in fast and easy way
+* People that want to learn English in fast and easy way
+* People that want to teach English in fast and easy way
 
 ## Technologies
 
@@ -38,6 +39,10 @@
 * Adobe Illustrator ( hero image, avatars and screenshots editing )
 
 ## Usage 
+> On Intro page you will see little Capcha challenge, that you will be able to pass by
+ clicking on the right answer on one of those buttons.
+
+![logo of website](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/capcha.png)
 
 ## Testing
 
