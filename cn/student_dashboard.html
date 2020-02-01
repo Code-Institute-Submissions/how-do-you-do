@@ -4,7 +4,7 @@
     <meta charset = "UTF-8" >
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
     <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
-    <title >Learn English</title >
+    <title >Learn English ! Fast and Easy</title >
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin = "anonymous" >
@@ -28,102 +28,146 @@
 <!-- STUDENT DASHBOARD -->
 <section id = "what" >
     <div class = "row  dashboard " >
+        <!--WELCOME STUDENT-->
         <div class = "col-md-12 text-center" >
-            <h2 >Hello student!
-                <small >
-                    Your login was successful.
-                </small >
-            </h2 >
+            <h2 >Hi Lucy!</h2 >
         </div >
-        <div class = "col-md-4 " >
-            <ul class = "list-group" >
-                <li class = "list-group-item mb-1 bg_blue text-center module" id = "module_1" >
-                    <h4 class = "white" > Module 1
-                        <small >(10% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "10"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:10%" >
-                            <span >10%</span >
+        <!--END OF WELCOME STUDENT-->
+        <!--TEACHER INFO & MODULES LEFT SIDE-->
+        <div class = "col-md-3 " >
+            <div class = "card mb-3 border_blue" style = "border-width: 3px;" >
+                <div class = "row no-gutters" >
+                    <div class = "col vertically_aligned p-2" >
+                        <img src = "../assets/images/avatar/avata11.png" class = "card-img" alt = "teacher image"
+                             style = "width: 150px;" >
+                    </div >
+                    <div class = "col " >
+                        <div class = "card-body " >
+                            <h3 class = "card-title" >Current teacher</h3 >
+                            <ul class = "list-group" >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                    <i class = "fas fa-user" ></i >&nbsp; Mark O'Brien
+                                </li >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2" >
+                                    <i class = "fas fa-at" ></i >&nbsp; mark@obrien.com
+                                </li >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                    <i class = "fab fa-skype" ></i >&nbsp; mark.obrien987
+                                </li >
+                            </ul >
                         </div >
                     </div >
-                </li >
-                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_2" >
-                    <h4 class = "white" > Module 2
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
-                            <span >0% </span >
+                    <div class = "card-footer bg-transparent col-md-10 horizontally_aligned no_border" >
+                        <h4 class = "dark_grey" > My modules
+                            <small >(2.5% Complete)</small >
+                        </h4 >
+                        <div class = "progress bg_blue_tr mb-3" >
+                            <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "2.5"
+                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:2.5%" >
+                                <span >2.5%</span >
+                            </div >
                         </div >
+                        <ul class = "list-group" >
+                            <li class = "list-group-item mb-1 text-center session " >
+                                <div class = "row no-gutters" >
+                                    <h4 class = "blue" > Module 1
+                                        <small > ( 10% )</small >
+                                    </h4 >
+                                    <div class = "progress col-md-5 vertically_aligned " >
+                                        <div class = "progress-bar bg_blue" role = "progressbar"
+                                             aria-valuenow = "10"
+                                             aria-valuemin = "0"
+                                             aria-valuemax = "100"
+                                             style = "width:10%;" >
+                                            <span class = "bg_blue" ></span >
+                                        </div >
+                                    </div >
+                                </div >
+                            </li >
+                            <li class = "list-group-item mb-1 text-center session " >
+                                <div class = "row no-gutters" >
+                                    <h4 class = "blue" > Module 2
+                                        <small > ( 0% )</small >
+                                    </h4 >
+                                    <div class = "progress col-md-5 vertically_aligned " >
+                                        <div class = "progress-bar bg_blue" role = "progressbar"
+                                             aria-valuenow = "0"
+                                             aria-valuemin = "0"
+                                             aria-valuemax = "100"
+                                             style = "width:0;" >
+                                            <span class = "bg_blue" ></span >
+                                        </div >
+                                    </div >
+                                </div >
+                            </li >
+                            <li class = "list-group-item mb-1 text-center session " >
+                                <div class = "row no-gutters" >
+                                    <h4 class = "blue" > Module 3
+                                        <small > ( 0% )</small >
+                                    </h4 >
+                                    <div class = "progress col-md-5 vertically_aligned " >
+                                        <div class = "progress-bar bg_blue" role = "progressbar"
+                                             aria-valuenow = "0"
+                                             aria-valuemin = "0"
+                                             aria-valuemax = "100"
+                                             style = "width:0;" >
+                                            <span class = "bg_blue" ></span >
+                                        </div >
+                                    </div >
+                                </div >
+                            </li >
+                            <li class = "list-group-item mb-1 text-center session " >
+                                <div class = "row no-gutters" >
+                                    <h4 class = "blue" > Module 4
+                                        <small > ( 0% )</small >
+                                    </h4 >
+                                    <div class = "progress col-md-5 vertically_aligned " >
+                                        <div class = "progress-bar bg_blue" role = "progressbar"
+                                             aria-valuenow = "0"
+                                             aria-valuemin = "0"
+                                             aria-valuemax = "100"
+                                             style = "width:0;" >
+                                            <span class = "bg_blue" ></span >
+                                        </div >
+                                    </div >
+                                </div >
+                            </li >
+                            <li class = "list-group-item mb-1 bg_green_tr " >
+                                <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
+                                    <h3 class = "white" > Future features : </h3 >
+                                    <ul class = "list-group" >
+                                        <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                            Student can click on any module to view any session.
+                                        </li >
+                                    </ul >
+                                </div >
+                            </li >
+                        </ul >
                     </div >
-                </li >
-                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_3" >
-                    <h4 class = "white" > Module 3
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
-                            <span >0% </span >
-                        </div >
-                    </div >
-                </li >
-                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_4" >
-                    <h4 class = "white" > Module 4
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
-                            <span >0% </span >
-                        </div >
-                    </div >
-                </li >
-                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_5" >
-                    <h4 class = "white" > Module 5
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
-                            <span >0% </span >
-                        </div >
-                    </div >
-                </li >
-                <li class = "list-group-item mb-1 bg_blue_tr text-center module" id = "module_6" >
-                    <h4 class = "white" > Module 6
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "0"
-                             aria-valuemin = "0" aria-valuemax = "100" style = "width:0" >
-                            <span >0%</span >
-                        </div >
-                    </div >
-                </li >
-            </ul >
+                </div >
+            </div >
         </div >
-        <div class = "col-md-8 " >
+        <!--MODULE & SESSIONS RIGHT SIDE-->
+        <div class = "col-md-6 " >
             <ul class = "list-group" >
                 <li class = "list-group-item mb-1 bg_blue text-center module" >
                     <h4 class = "white" > Module 1
                         <small >(10% Complete)</small >
                     </h4 >
                     <div class = "progress" >
-                        <div class = "progress-bar app_blue" role = "progressbar" aria-valuenow = "20"
+                        <div class = "progress-bar bg_blue" role = "progressbar" aria-valuenow = "20"
                              aria-valuemin = "0" aria-valuemax = "100" style = "width:10%" >
                             <span class = "" >10%</span >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green" >
-                    <h4 class = "white" > Session 1
-                        <small >(100% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" style = "border-width: 3px;" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
+                        <a class = "download btn" href = "../assets/downloads/session_1.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 1 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
                             <div class = "progress-bar bg_green_tr" role = "progressbar"
                                  aria-valuenow = "100"
                                  aria-valuemin = "0"
@@ -133,9 +177,9 @@
                             </div >
                         </div >
                         <input type = "checkbox" id = "toggler" class = "d-none" >
-                        <label for = "toggler" class = "btn notes" title = "Future feature to save note to DB ...." >
-                            <span class = "d-none d-lg-inline " > <i class = "far fa-sticky-note" ></i > </span >
-                            <i class = "fas fa-angle-down" ></i >
+                        <label for = "toggler" class = "btn notes  " title = "Write down your notes and save them!" >
+                            <span class = "d-none d-lg-inline " > <i class = "far fa-sticky-note blue" ></i > </span >
+                            <i class = "fas fa-angle-down blue" ></i >
                         </label >
                         <div class = "col-md-12 mt-1 visually_hidden" >
                             <div class = "col-auto" >
@@ -145,12 +189,12 @@
                                     </form >
                                     <textarea name = "notes" form = "save_notes" id = "notes"
                                               class = "form-control form-control-lg border_bottom_only"
-                                              placeholder = "Write down your notes  and save them."
+                                              placeholder = "Future feature to save note to DB ...."
                                               required ></textarea >
                                 </div >
                             </div >
                             <!-- MAKE AJAX CALL AND SAVE IN DB WITH module_id , session_id , user_id-->
-                            <h4 class = "white p-0" >
+                            <h4 class = "white p-0 " >
                                 <button class = "btn btn-sm save_note bg_blue white" title = "Save your notes"
                                         data-module_id = "1" data-session-id = "1" >
                                     <small >Save</small >
@@ -160,123 +204,242 @@
                     </div >
                 </li >
                 <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 2
-                        <small >(0% Complete)</small >
-                    </h4 >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_2.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 2 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-4" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
+                                <span class = "" >0%</span >
+                            </div >
+                        </div >
+                        <h4 ><label class = "pl-2 pr-2 blue" for = "session_time"
+                                    title = "Book time and date for your next session" ><i
+                                class = "far fa-calendar-alt" ></i > </label ></h4 >
+                        <input class = "blue "
+                               id = "session_time" type = "datetime-local" name = "session_date_time"
+                               value = "2020-06-01T08:30" >
+                        <button id = "book_session" class = "btn btn-sm bg_blue white"
+                                title = "Future feature : add booking to DB" >
+                            book
+                        </button >
+                        <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
+                            <h3 class = "white" > Future features : </h3 >
+                            <ul class = "list-group" >
+                                <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                    When booking study session, student can choose <strong >current teacher </strong >
+                                    or choose <strong >teacher by
+                                                       country</strong >
+                                    or choose <strong >random teacher</strong >
+                                </li >
+                                <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                    <strong > Time differences</strong > between <strong >timezones</strong > will need
+                                                                         to be taken into consideration when booking a
+                                                                         teacher from different timezone
+                                </li >
+                            </ul >
+                        </div >
+                    </div >
+                </li >
+                <li class = "list-group-item mb-1 text-center session border_green" >
+                    <div class = "row no-gutters" >
+                        <a class = "download btn" href = "../assets/downloads/session_3.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 3 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 3
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_4.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 4 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 4
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_5.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 5 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 5
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_6.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 6 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 6
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_7.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 7 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 7
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_8.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 8 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 8
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_9.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 9 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 9
-                        <small >(0% Complete)</small >
-                    </h4 >
+                <li class = "list-group-item mb-1 text-center session border_green" >
                     <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
-                                <span class = "" >0%</span >
-                            </div >
-                        </div >
-                    </div >
-                </li >
-                <li class = "list-group-item mb-1 text-center session bg_green_tr" >
-                    <h4 class = "dark_grey" > Session 10
-                        <small >(0% Complete)</small >
-                    </h4 >
-                    <div class = "row no-gutters" >
-                        <div class = "progress col-md-9" >
-                            <div class = "progress-bar bg_green" role = "progressbar" aria-valuenow = "0"
-                                 aria-valuemin = "0" aria-valuemax = "100" style = "width:0;" >
+                        <a class = "download btn" href = "../assets/downloads/session_10.pdf" >
+                            <h4 class = "blue" title = "Download your learning material." > Session 10 <i
+                                    class = "fas fa-download" ></i ></h4 >
+                        </a >
+                        <div class = "progress col-md-6" >
+                            <div class = "progress-bar bg_blue_tr" role = "progressbar"
+                                 aria-valuenow = "0"
+                                 aria-valuemin = "0"
+                                 aria-valuemax = "100"
+                                 style = "width:100%;" >
                                 <span class = "" >0%</span >
                             </div >
                         </div >
                     </div >
                 </li >
             </ul >
+        </div >
+        <!--STUDENT INFO AND NOTES-->
+        <div class = "col-md-3 " >
+            <div class = "card mb-3" >
+                <div class = "row no-gutters" >
+                    <div class = "col vertically_aligned p-2" >
+                        <img src = "../assets/images/avatar/avatar16.png" class = "card-img" alt = "teacher image"
+                             style = "width: 150px;" >
+                    </div >
+                    <div class = "col" >
+                        <div class = "card-body" >
+                            <h3 class = "card-title" >Me : Student</h3 >
+                            <ul class = "list-group" >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                    <i class = "fas fa-user" ></i >&nbsp; Lucy Lu
+                                </li >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2" >
+                                    <i class = "fas fa-at" ></i >&nbsp; lucy@lu.com
+                                </li >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                    <i class = "fab fa-skype" ></i >&nbsp; lucy.lu1981
+                                </li >
+                            </ul >
+                        </div >
+                    </div >
+                </div >
+            </div >
+            <div class = "card mb-3 " >
+                <div class = "row no-gutters" >
+                    <div class = "col" >
+                        <div class = "card-body" >
+                            <h3 class = "card-title" >My Notes</h3 >
+                            <ul class = "list-group" >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                    <a class = "note_link" href = "#"
+                                       title = "You will be able to read your notes soon!" >20-02-2021 <span
+                                            class = "bg_green white p-2 float-md-right" >( M-1 s-1 )</span ></a >
+                                </li >
+                            </ul >
+                        </div >
+                        <div class = "card-footer bg_green_tr" >
+                            <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
+                                <h3 class = "white" > Future features : </h3 >
+                                <ul class = "list-group" >
+                                    <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                        Student can view previously stored <span class = "blue" > notes</span > in
+                                        browser .
+                                    </li >
+                                    <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                        Student can edit,delete,print stored <span class = "blue" > notes</span > .
+                                    </li >
+                                </ul >
+                            </div >
+                        </div >
+                    </div >
+                </div >
+            </div >
         </div >
     </div >
 </section >

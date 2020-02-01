@@ -73,11 +73,15 @@ li h4 {
 	}
 
 .bg_green_tr {
-	background-color: rgba(15, 190, 186, 0.4);
+	background-color: rgba(15, 190, 186, 0.5);
 	}
 
 .bg_blue {
 	background-color: #0076ba;
+	}
+
+.blue {
+	color: #0076ba;
 	}
 
 .border_blue {
@@ -389,9 +393,42 @@ input[type=checkbox]:checked#toggler ~ .visually_hidden {
 	position: absolute;
 	right: 1%;
 	top: 5%;
-	background-color: rgba(0, 118, 186, 0.4);
-	color: #fafafa;
+	color: #fdf1ed;
 	cursor: pointer;
+	}
+
+.notes:hover {
+	background-color: rgba(0, 118, 186, 0.4);
+	}
+input.notes{
+	color:  #0076ba;
+	}
+h4.notes{
+	color: #0076ba;
+	}
+span.notes{
+	margin: auto 0;
+	color: #fdf1ed;
+	background-color: #fc8b09;
+	}
+.note_link:hover{
+	text-decoration: none;
+	padding: 2px;
+	background-color: #0fbeba;
+	color: #fdf1ed;
+	}
+.download {
+	padding: 5px;
+	}
+.vertically_aligned{
+	margin: auto 0;
+	}
+.horizontally_aligned{
+	margin: 0 auto;
+	}
+.download:hover {
+	text-decoration: none;
+	background-color: rgba(0, 118, 186, 0.4);
 	}
 
 .enter_btn {
