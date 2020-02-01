@@ -41,8 +41,32 @@
 
 ## Testing
 
+### Browsers
+> Mozilla Firefox 72.
+
+> Google Chrome 79.
+
+> Opera 66.
+
+
+### Devices
+
+> 5 inch, 6 inch phones
+
+> 10.2 inch tablet
+
+> 17.6 inch tablet
+
+> 21 inch desktop
+
 ## Deployment 
 
 ## Acknowledgements
+
+> https://stackoverflow.com/questions/26901466/how-to-show-hide-div-on-click-with-stricly-html-css
+
+> https://stackoverflow.com/questions/11099930/100-width-background-image-with-an-auto-height
+
+> <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
 
 ## Future Features

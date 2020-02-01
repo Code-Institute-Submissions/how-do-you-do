@@ -194,7 +194,7 @@ li h4 {
 		background-image: url(../images/languages/vn.png);
 		visibility: hidden;
 		}
-	/* COMMENT OUT TO SEE */
+	
 	/* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	0.81% {
 		background-image: url(../images/languages/en.png);
@@ -262,7 +262,7 @@ li h4 {
 @keyframes example {
 	
 	/* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
-	/* COMMENT OUT TO SEE */
+	
 	0.1% {
 		background-image: url(../images/languages/en.png);
 		visibility: hidden;
@@ -295,7 +295,7 @@ li h4 {
 		background-image: url(../images/languages/vn.png);
 		visibility: hidden;
 		}
-	/* COMMENT OUT TO SEE */
+	
 	/* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	0.81% {
 		background-image: url(../images/languages/en.png);
