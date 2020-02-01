@@ -4,8 +4,7 @@
 
 ## First milestone project @CodeInstitute
 
-### Description to follow
-how-do-you-do was created with hope to help people to:
+### how-do-you-do was created with hope to help people to:
 
 > find more job opportunities
 
