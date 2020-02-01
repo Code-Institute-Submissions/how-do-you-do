@@ -40,28 +40,39 @@
 
 ## Usage 
 
-> On Intro page student will see little Capcha challenge, that you will be able to pass by
+> On Intro page you will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
 ![captcha](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png)
 
 ### Student
+>  ### 1. Language selection
+
+- On the top navigation bar by clicking on the name of the language
+![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png)
+
+- Or if visiting on mobile devices by clicking on the flag
+![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png)
+
+> ### 2. Choosing to start learning with Us
+
+Depending on the language choice, one of these 3 buttons will be visible :
+![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
+
+### a)
+And student can click on start learning button straight after seeing hero image and clicking button right under the hero image.
+
+### b) 
+Or Student can click on start learning button straight after reading Benefits of learning English section.
+![benefits](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png)
+
+### c)
+Or student can click on start learning button straight after reading Testimonials section.
+![benefits](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png)
 
 
-> Once student gets to the landing page , he can select other language if he prefers, by clicking on the language name
-or if he is visiting on mobile device by clicking appropriate flag.
-![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/languages.png)
 
-> Depending on the choice of language he will see one of these three buttons, on three different places on the page.
-![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
 
-1. Under hero image 
-2. Under Benefits of learning English section
 
-![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits.png)
-
-3. Under Testimonials section
-
-![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png)
 
 ## Testing
 
