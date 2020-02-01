@@ -39,17 +39,27 @@
 * Adobe Illustrator ( hero image, avatars and screenshots editing )
 
 ## Usage 
-> On Intro page you will see little Capcha challenge, that you will be able to pass by
+
+> On Intro page student will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
 ![captcha](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png)
 
-> Once you will get to the landing page , you can select other language if you prefer, by clicking on the language name
-or if you are visiting on mobile device by clicking appropriate flag.
+### Student
+
+
+> Once student gets to the landing page , he can select other language if he prefers, by clicking on the language name
+or if he is visiting on mobile device by clicking appropriate flag.
 ![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/languages.png)
 
-> Depending on your choice of language you will see one of those three buttons,
- under hero image which will take you to the student sign up page in selected language.
+> Depending on the choice of language he will see one of these three buttons, on three different places on the page.
 ![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
+
+1. Under hero image 
+2. Under Benefits of learning English section
+
+![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits.png)
+
+ under hero image which will take you to the student sign up page in selected language.
 
 
 ## Testing
