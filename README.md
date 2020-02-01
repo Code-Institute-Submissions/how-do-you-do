@@ -61,6 +61,9 @@
 
 ## Deployment 
 
+I deployed how-do-you-do site by going to my github repository and then clicking on setting button,
+scrolling down until I reached Github Pages section and then selecting master branch as source.
+
 ## Acknowledgements
 
 * https://stackoverflow.com/questions/26901466/how-to-show-hide-div-on-click-with-stricly-html-css
