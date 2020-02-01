@@ -18,7 +18,7 @@
 
 > date more people ... :wink:
 
-### by giving them opportunity to learn English in fast and easy way.
+### By giving them opportunity to learn English in fast and easy way.
 
 ## Inspiration
 
@@ -35,4 +35,14 @@
 * CSS
 * Twiter's Bootstrap
 * Font Awesome
-* Adobe Illustrator ( hero image, avatars and screenshot editing)
+* Adobe Illustrator ( hero image, avatars and screenshots editing )
+
+## Usage 
+
+## Testing
+
+## Deployment 
+
+## Acknowledgements
+
+## Future Features
