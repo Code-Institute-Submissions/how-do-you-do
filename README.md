@@ -66,21 +66,21 @@ Depending on the language choice, one of these 3 buttons will be visible :
 - ![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
 
 ### a)
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_hero">
 And student can click on start learning button straight after seeing hero image and clicking button right under the hero image.</a>
 
 
 
 ### b) 
 Or Student can click on start learning button straight after reading Benefits of learning English section.
-- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#testimonials">
+- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Flags languages" alt="Flags languages"></a>
 
 
 
 ### c)
 Or student can click on start learning button straight after reading Testimonials section.
- -<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#footer">
+ -<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Flags languages" alt="Flags languages"></a>
 
 
