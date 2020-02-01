@@ -42,8 +42,11 @@
 > On Intro page you will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
 
-![logo of website](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/capcha.png)
+![captcha](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png)
 
+> Once you will get to the landing page , you can select other language if you preffer, by clicking on the language name
+or if you are visiting on mobile device by clicking appropriate flag.
+![language selection](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/languages.png)
 ## Testing
 
 ### Browsers
