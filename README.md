@@ -7,10 +7,15 @@
 ### how-do-you-do was created with hope to help people to:
 
 > find more job opportunities
+
 > become better educated
+
 > easily travel anywhere in the world
+
 > know the global language
+
 > improve confidence
+
 > date more people ... :wink:
 
 ### by giving them opportunity to learn English in fast and easy way.
@@ -19,9 +24,15 @@
 
 > My wife Kasia who wants to teach English online.
 
-## Usage
+## Who  is it for
 
-## Languages used
+* people that want to learn English in fast and easy way
+* people that want to teach English in fast and easy way
+
+## Technologies
 
 * HTML
 * CSS
+* Twiter's Bootstrap
+* Font Awesome
+* Adobe Illustrator ( hero image, avatars and screenshot editing)
