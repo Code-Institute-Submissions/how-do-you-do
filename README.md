@@ -73,7 +73,7 @@ And student can click on start learning button straight after seeing hero image 
 
 ### b) 
 Or Student can click on start learning button straight after reading Benefits of learning English section.
-- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#testimonials">
+- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Flags languages" alt="Flags languages"></a>
 
 
@@ -81,7 +81,7 @@ Or Student can click on start learning button straight after reading Benefits of
 ### c)
 Or student can click on start learning button straight after reading Testimonials section.
  -<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#footer">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Flags languages" alt="Flags languages"></a>
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Flags languages" alt="Flags languages"></a>
 
 
 
