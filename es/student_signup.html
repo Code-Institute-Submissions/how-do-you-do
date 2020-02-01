@@ -27,7 +27,8 @@
             </a >
             <a class = "nav-item nav_link d-block d-md-none" href = "signup.html"
                title = "Would you like to become one of our teachers?" >
-                <i class = "fas fa-graduation-cap" ></i > ?
+                <i class = "fas fa-graduation-cap" ></i >
+                ?
             </a >
             <a class = "nav-item nav_link" href = "login.html" title = "Sign in Student | Teacher" >
                 <i class = "fas fa-user" ></i >
@@ -179,6 +180,19 @@
                             <input type = "email" name = "email"
                                    class = "form-control form-control-lg border_bottom_only"
                                    id = "email" placeholder = "Email" required >
+                        </div >
+                    </div >
+                    <div class = "col-auto" >
+                        <label class = "sr-only" for = "skype_name" >Nombre de Skype</label >
+                        <div class = "input-group mb-2" >
+                            <div class = "input-group-prepend" >
+                                <div class = "input-group-text bg-transparent border_bottom_only" >
+                                    <i class = "fab fa-skype" ></i >
+                                </div >
+                            </div >
+                            <input type = "text" name = "skype_name"
+                                   class = "form-control form-control-lg border_bottom_only"
+                                   id = "skype_name" placeholder = "Nombre de Skype" required >
                         </div >
                     </div >
                     <div class = "col-auto" >
@@ -456,6 +470,23 @@
                             </select >
                         </div >
                     </div >
+                    <div class = "col-auto" >
+                        <div class = "input-group mb-2" >
+                            <div class = "input-group-prepend" >
+                                <div class = "input-group-text bg-transparent border_bottom_only" >
+                                    <i class = "fas fa-language" ></i >
+                                </div >
+                            </div >
+                            <select title = "Language level" name = "language_level"
+                                    class = "form-control form-control-lg border_bottom_only form_select"
+                                    id = "language_level" required >
+                                <option value = "" disabled selected >Habilidades lingüísticas</option >
+                                <option value = "0" >No experiencia</option >
+                                <option value = "1" >Principiante</option >
+                                <option value = "2" >Intermedio</option >
+                            </select >
+                        </div >
+                    </div >
                 </div >
                 <!--END OF PERSONAL DETAILS -->
                 <!-- PAYMENT DETAILS -->
@@ -499,43 +530,34 @@
                                    id = "cvv" placeholder = "CVV" required >
                         </div >
                     </div >
-                    <div class = "col-auto" >
-                        <div class = "input-group mb-2" >
-                            <div class = "input-group-prepend" >
-                                <div class = "input-group-text bg-transparent border_bottom_only" >
-                                    <i class = "fas fa-language" ></i >
-                                </div >
-                            </div >
-                            <select title = "Language level" name = "language_level"
-                                    class = "form-control form-control-lg border_bottom_only form_select"
-                                    id = "language_level" required >
-                                <option value = "" disabled selected >Habilidades lingüísticas</option >
-                                <option value = "0" >No experiencia</option >
-                                <option value = "1" >Principiante</option >
-                                <option value = "2" >Intermedio</option >
-                            </select >
-                        </div >
+                    <div class = " text-center" >
+                        <h4 class = "white" >
+                            <button class = "btn bg_green white pt-3 pb-3 pr-5 pl-5 mt-5"
+                                    title = "You will be able to buy our course soon !" >
+                                Proceder con el pago!
+                            </button >
+                        </h4 >
                     </div >
                 </div >
                 <!--END PAYMENT DETAILS -->
-            </div >
-            <div class = " text-center" >
-                <h4 class = "white" >
-                    <button class = "btn bg_green white pt-3 pb-3 pr-5 pl-5 mt-5"
-                            title = "You will be able to buy our course soon !" >
-                        Proceder con el pago!
-                    </button >
-                </h4 >
             </div >
         </div >
     </form >
 </section >
 <section id = "footer" class = "footer_background" >
     <ul class = "social-networks" >
-        <li ><a href = "https://facebook.com" target = "_blank" ><i class = "fab fa-facebook" ></i ></a ></li >
-        <li ><a href = "https://twitter.com" target = "_blank" ><i class = "fab fa-twitter" ></i ></a ></li >
-        <li ><a href = "https://instagram.com" target = "_blank" ><i class = "fab fa-instagram" ></i ></a ></li >
-        <li ><a href = "https://youtube.com" target = "_blank" ><i class = "fab fa-youtube" ></i ></a ></li >
+        <li ><a href = "https://facebook.com" target = "_blank" >
+            <i class = "fab fa-facebook" ></i >
+        </a ></li >
+        <li ><a href = "https://twitter.com" target = "_blank" >
+            <i class = "fab fa-twitter" ></i >
+        </a ></li >
+        <li ><a href = "https://instagram.com" target = "_blank" >
+            <i class = "fab fa-instagram" ></i >
+        </a ></li >
+        <li ><a href = "https://youtube.com" target = "_blank" >
+            <i class = "fab fa-youtube" ></i >
+        </a ></li >
     </ul >
     <div class = "container" >
         <div class = " col-auto  " >
