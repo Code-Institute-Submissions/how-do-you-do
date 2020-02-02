@@ -185,6 +185,10 @@
                                 <span class = "" >100%</span >
                             </div >
                         </div >
+                        <button class = "btn btn-sm bg_green border_blue white ml-3"
+                                title = "You have completed this session" >completed &nbsp;<i
+                                class = "fas fa-check-square" ></i >
+                        </button >
                         <input type = "checkbox" id = "toggler" class = "d-none" >
                         <label for = "toggler" class = "btn notes  " title = "Write down your notes and save them!" >
                             <span class = "d-none d-lg-inline " >
@@ -231,11 +235,18 @@
                                 <span class = "" >0%</span >
                             </div >
                         </div >
-                        <h4 ><label class = "pl-2 pr-2 blue" for = "session_time"
-                                    title = "Book time and date for your next session" >
-                            <i
-                                    class = "far fa-calendar-alt" ></i >
-                        </label ></h4 >
+                        <!--COMPLETED ? BUTTON-->
+                        <button id = "m1_s2" data-user_id = "1" data-user_type="student" class = "confirm btn btn-sm bg_orange white ml-3"
+                                title = "Set session status as compleded" >
+                            completed &nbsp;<i class = "fas fa-question-circle" ></i >
+                        </button >
+                        <!--END OF COMPLETED ? BUTTON-->
+                        <h4 >
+                            <label class = "pl-2 pr-2 blue" for = "session_time"
+                                   title = "Book time and date for your next session" >
+                                <i class = "far fa-calendar-alt" ></i >
+                            </label >
+                        </h4 >
                         <input class = "blue "
                                id = "session_time" type = "datetime-local" name = "session_date_time"
                                value = "2020-06-01T08:30" >
@@ -256,6 +267,9 @@
                                     <strong > Time differences</strong > between <strong >timezones</strong > will need
                                                                          to be taken into consideration when booking a
                                                                          teacher from different timezone
+                                </li >
+                                <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
+                                    Student can mark study session as completed
                                 </li >
                             </ul >
                         </div >
@@ -278,6 +292,12 @@
                                 <span class = "" >0%</span >
                             </div >
                         </div >
+                        <!--COMPLETED ? BUTTON-->
+                        <button id = "m1_s3" data-user_id = "1" data-user_type="student" class = "confirm btn btn-sm bg_orange white ml-3"
+                                title = "Set session status as compleded" >
+                            completed &nbsp;<i class = "fas fa-question-circle" ></i >
+                        </button >
+                        <!--END OF COMPLETED ? BUTTON-->
                     </div >
                 </li >
                 <li class = "list-group-item mb-1 text-center session border_green" >
