@@ -17,7 +17,6 @@
 - Translate website to more languages
 
     -   Using PHP or Python store translations in language file ( Json ) on server side
-    -   Using Javascript ( jQuery )
     -   Keep strings in views in variables
     -   Every time browser requests page, we will serve same
         page with different translation only, instead of hardcoding every language into
@@ -29,6 +28,8 @@
 -   Create partial views for navigation, headers, footers....
 
 -   Create components for form elements, buttons, avatars, testimonials ...
+
+-   Using Javascript ( jQuery )
 
 ## Payments for the teachers
 
