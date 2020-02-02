@@ -392,3 +392,5 @@ scrolling down until I reached Github Pages section and then selecting master br
 
 
 ## Future Features
+
+[Future Features](FUTURE_FEATURES.md)
