@@ -28,7 +28,7 @@
 
 -   Create partial views for navigation, headers, footers....
 
--   Create components for form elements, avatars, testimonials ...
+-   Create components for form elements, buttons, avatars, testimonials ...
 
 ## Payments for the teachers
 
@@ -56,7 +56,7 @@
 ####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
  
 
-- Ability to click on any module to preview sessions in that module
+-   Ability to click on any module to preview sessions in that module
 
 -   Ability to book future session with current teacher and add option of booking session
     with  :
@@ -70,6 +70,7 @@
     currently logged in user's timezone and check it against selected teacher's timezone
     and recalculate availability.
 
+-   Ability to mark study session as completed.
 
 -   Ability to save notes about the study session to database.
 
@@ -84,6 +85,8 @@
 
 -   Ability to click on any student that he is currently teaching
     and check current progress of that student, and maybe previous teachers as well...  
+    
+-   Ability to mark study session as completed.
     
 -   Ability to see booking calendar.
 
