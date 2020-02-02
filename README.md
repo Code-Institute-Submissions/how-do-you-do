@@ -50,7 +50,7 @@
 >  ### 1. Language selection
 
 - On the top navigation bar by clicking on the name of the language
-- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" title="Written languages" alt="Written languages"></a>
 
 
@@ -63,7 +63,7 @@
 > ### 2. Choosing to start learning with Us
 
 Depending on the language choice, one of these 3 buttons will be visible :
-- ![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
+![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
 
 ### a)
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_hero">
@@ -73,14 +73,14 @@ And student can click on start learning button straight after seeing hero image 
 
 ### b) 
 Or Student can click on start learning button straight after reading Benefits of learning English section.
-- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits">
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Flags languages" alt="Flags languages"></a>
 
 
 
 ### c)
 Or student can click on start learning button straight after reading Testimonials section.
- - <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Flags languages" alt="Flags languages"></a>
 
 > ### 3. Student Sign Up form 
