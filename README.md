@@ -1,9 +1,11 @@
 <a href="https://marcelkolarcik.github.io/how-do-you-do/">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/heroimage.gif" title="https://marcelkolarcik.github.io/how-do-you-do/" alt="https://marcelkolarcik.github.io/how-do-you-do/"></a>
 
+---
+
 # how-do-you-do 
 
----
+
 
 #### First milestone project @CodeInstitute
 
@@ -134,7 +136,9 @@ Once student decides to start learning with us, and clicks the button, he will s
  
 
 > ### 4. Log in into student account
-
+---
+--
+----
 
 Once student pays the fee we will log him into his dashboard.
 
