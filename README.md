@@ -99,6 +99,7 @@ Using HTML and CSS only.
 
  
 &ensp; &ensp; &ensp;
+
 > ### 2. Choosing to start learning with Us
 
 
@@ -136,6 +137,7 @@ Once student decides to start learning with us, and clicks the button, he will s
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.png" title="Click to see it live" alt="student_signup"></a>
  
 &ensp; &ensp; &ensp;
+
 > ### 4. Log in into student account
 
 
@@ -145,7 +147,9 @@ Once student pays the fee we will log him into his dashboard.
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html"  target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="Click to see it live" alt="student_dashboard"></a>
- &ensp; &ensp; &ensp;
+ 
+&ensp; &ensp; &ensp;
+
 > ### 5.  Once logged in student can:
  
 ### a) Download study material 
@@ -181,6 +185,7 @@ Student  can write down any notes about study session.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" title="Click to see it live" alt="student_dashboard"></a>
 
 &ensp; &ensp; &ensp;
+
 > ### 5.Logout
 
 
@@ -190,7 +195,9 @@ Student  can logout by clicking logout button in right top corner.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
 title="Click to see it live" alt="student_dashboard"></a>
+
 &ensp; &ensp; &ensp;
+
 > ### 6.Login
 
 
