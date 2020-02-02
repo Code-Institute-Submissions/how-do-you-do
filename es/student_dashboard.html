@@ -54,7 +54,7 @@
                                 <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2" >
                                     <i class = "fas fa-at" ></i >&nbsp; mark@obrien.com
                                 </li >
-                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 " >
+                                <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2" >
                                     <i class = "fab fa-skype" ></i >&nbsp; mark.obrien987
                                 </li >
                             </ul >
@@ -144,7 +144,7 @@
                             <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
                                 <h3 class = "white" > Future features : </h3 >
                                 <ul class = "list-group" >
-                                    <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                    <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
                                         Student can click on any module to view any session.
                                     </li >
                                 </ul >
@@ -204,7 +204,7 @@
                                               required ></textarea >
                                 </div >
                             </div >
-                            <!-- MAKE AJAX CALL AND SAVE IN DB WITH module_id , study_m1_sid , user_id-->
+                            <!-- MAKE AJAX CALL AND SAVE IN DB WITH module_id , session_id , user_id-->
                             <h4 class = "white p-0 " >
                                 <button class = "btn btn-sm save_note bg_blue white" title = "Save your notes"
                                         data-module_id = "1" data-session-id = "1" >
@@ -231,13 +231,13 @@
                                 <span class = "" >0%</span >
                             </div >
                         </div >
-                        <h4 ><label class = "pl-2 pr-2 blue" for = "study_m1_stime"
+                        <h4 ><label class = "pl-2 pr-2 blue" for = "session_time"
                                     title = "Book time and date for your next session" >
                             <i
                                     class = "far fa-calendar-alt" ></i >
                         </label ></h4 >
                         <input class = "blue "
-                               id = "study_m1_stime" type = "datetime-local" name = "study_m1_sdate_time"
+                               id = "session_time" type = "datetime-local" name = "session_date_time"
                                value = "2020-06-01T08:30" >
                         <button id = "book_session" class = "btn btn-sm bg_blue white"
                                 title = "Future feature : add booking to DB" >
@@ -246,13 +246,13 @@
                         <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
                             <h3 class = "white" > Future features : </h3 >
                             <ul class = "list-group" >
-                                <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
                                     When booking study session, student can choose <strong >current teacher </strong >
                                     or choose <strong >teacher by
                                                        country</strong >
                                     or choose <strong >random teacher</strong >
                                 </li >
-                                <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
                                     <strong > Time differences</strong > between <strong >timezones</strong > will need
                                                                          to be taken into consideration when booking a
                                                                          teacher from different timezone
@@ -440,6 +440,9 @@
                         </div >
                     </div >
                 </div >
+                <a id="student_id" class = "support" href = "#" title="Future feature : You can reach our support system by clicking on this button" >
+                    <div class = "card-footer bg_orange white text-center" >Support</div >
+                </a >
             </div >
             <div class = "card mb-3 " >
                 <div class = "card-header bg_blue  mb-3" >
@@ -460,12 +463,15 @@
                             <div class = "bg_orange_tr col-md-12 text-left p-2 mt-1" >
                                 <h3 class = "white" > Future features : </h3 >
                                 <ul class = "list-group" >
-                                    <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                    <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
                                         Student can view previously stored <span class = "blue" > notes</span > in
                                         browser .
                                     </li >
-                                    <li class = "list-group-item no_border_tight quote_text text-left bg-light" >
+                                    <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
                                         Student can edit,delete,print stored <span class = "blue" > notes</span > .
+                                    </li >
+                                    <li class = "list-group-item border_bottom_only quote_text text-left bg-light" >
+                                        Student can reach support system by clicking on Support button .
                                     </li >
                                 </ul >
                             </div >

@@ -435,7 +435,12 @@ span.notes{
 	margin-bottom: 120%;
 	margin-right: 236%;
 	}
-
+.support:hover{
+	text-decoration: none;
+	}
+.support div:hover{
+	background-color: rgba(15, 190, 186, 0.5);
+	}
 /* -------------------------------------------------------- KASIAS IMAGE */
 #why {
 	margin: 0 auto;
