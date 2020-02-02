@@ -242,7 +242,7 @@ title="Click to see it live" alt="student_dashboard"></a>
 > ### 7.Login
 
 
-Student  can login by clicking user icon  in right top corner.
+Student  can login by clicking user icon  in right top corner and filling Student section.
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
@@ -325,7 +325,8 @@ Once teacher signs up, we will acknowledge it.
 > ### 4. Log in into teacher account
 
 
-Once we process teacher's data and we are happy to work with him, he will be able to log into his dashboard by clicking user icon  in right top corner.
+Once we process teacher's data and we are happy to work with him, he will be able to log into his
+ dashboard by clicking user icon  in right top corner and filling Teacher section.
 
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
