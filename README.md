@@ -51,7 +51,7 @@
 
 - On the top navigation bar by clicking on the name of the language
  <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" title="Written languages" alt="Written languages"></a>
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/writtenlanguages.png" title="Written languages" alt="Written languages"></a>
 
 
 - Or if visiting on mobile devices by clicking on the flag
