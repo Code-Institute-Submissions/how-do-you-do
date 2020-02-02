@@ -17,9 +17,9 @@ Features I would add.
 - Translate website to more languages
 
     -   Using PHP or Python store translations in language file ( Json ) on server side
-    -   Using JAvascript ( jQuery )
-    -   Keep strings in view in variables
-    -   Every time browser make request for a page, we will serve same
+    -   Using Javascript ( jQuery )
+    -   Keep strings in views in variables
+    -   Every time browser requests page, we will serve same
         page with different translation only, instead of hardcoding every language into
         HTML page, and rewriting same page over and over for every translation
     -   Saves us lots of time and headaches.... with any future updates   
@@ -45,7 +45,7 @@ Features I would add.
 3.  Once the session is confirmed as completed by both parties, we will consider session as 
     completed.
 
-4.  Once a week or once a month, a cron job would run and collected all data about teachers and
+4.  Once a week or once a month, a cron job would run and collect all data about teachers and
     their completed sessions, and would transfer the funds to their accounts using Stripe.
 
 5. Or something better... 
@@ -61,7 +61,7 @@ Features I would add.
 -   Ability to book future session with current teacher and add option of booking session
     with  :
     
-    -   different teacher from ame country / timezone
+    -   different teacher from same country / timezone
     -   different teacher from different country / timezone
 
     so that student can experience different styles of conversations , accents...
