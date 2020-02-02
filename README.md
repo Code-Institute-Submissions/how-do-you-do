@@ -186,7 +186,7 @@ Student  can write down any notes about study session.
 
 &ensp; &ensp; &ensp;
 
-> ### 5.Logout
+> ### 6.Logout
 
 
 Student  can logout by clicking logout button in right top corner.
@@ -198,7 +198,7 @@ title="Click to see it live" alt="student_dashboard"></a>
 
 &ensp; &ensp; &ensp;
 
-> ### 6.Login
+> ### 7.Login
 
 
 Student  can login by clicking user icon  in right top corner.
