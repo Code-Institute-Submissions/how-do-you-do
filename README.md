@@ -254,7 +254,8 @@ title="login" alt="login"></a>
 title="login" alt="login"></a>
 
 
-
+> ### 8.Study sessions 
+All study sessions will take place over Skype for now.
 
 
 ## Teacher user story
@@ -386,7 +387,8 @@ Teacher can logout by clicking logout button in right top corner.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
 title="teacher_dashboard" alt="teacher_dashboard"></a>
 
-
+> ### 7.Study sessions 
+All study sessions will take place over Skype for now.
 
 
 
