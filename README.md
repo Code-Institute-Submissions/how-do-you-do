@@ -36,6 +36,7 @@ Using HTML and CSS only.
 - [Who is it for](#who-is-it-for)
 - [Technologies](#technologies)
 - [Colors](#colors)
+- [Translations](#translations)
 - [Student user story](#student-user-story)
 - [Teacher user story](#teacher-user-story)
 - [Testing](#testing)
@@ -112,6 +113,20 @@ I extracted colors for the website from the hero image, and created few classes 
 
 ```
 
+## Translations
+
+#### Translated pages are :
+
+ -  landing.html 
+ -  login.html 
+ -  student_signup.html
+ 
+ #### Not translated pages are :
+ 
+ -  signup.html ( teacher sign up)
+ -  teacher_signup_succesful.html
+ -  teacher_dashboard.html
+ -  student_dashboard.html
 
 ## Student user story
 
