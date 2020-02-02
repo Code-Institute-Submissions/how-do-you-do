@@ -10,6 +10,8 @@ Learn English | Fast & Easy
 
 #### First milestone project @CodeInstitute
 
+Using HTML and CSS only.
+
 ### how-do-you-do was created with hope to help people to:
 
 * find more job opportunities
