@@ -295,8 +295,6 @@ title="login" alt="login"></a>
 title="login" alt="login"></a>
 
 
-Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard.
-
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.png" 
