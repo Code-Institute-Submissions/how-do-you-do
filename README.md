@@ -49,12 +49,12 @@
 ### Student
 >  ### 1. Language selection
 
-- On the top navigation bar by clicking on the name of the language
+- Right top corner on the navigation bar by clicking on the name of the language
  <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" title="Written languages" alt="Written languages"></a>
 
 
-- Or if visiting on mobile devices by clicking on the flag
+- Or if visiting on mobile devices right top corner on the navigation bar by clicking on the flag
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png" title="Flags languages" alt="Flags languages"></a>
 
@@ -97,18 +97,19 @@ Once student pays the fee we will log him into his dashboard.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="student_dashboard" alt="student_dashboard"></a>
  
-> ### 5. Download study material 
-
-By clicking on dowmload icon, student can download study material for particular study session.
+> ### 5.  Once logged in student can:
+ 
+### a) Download study material 
+By clicking on download icon, student can download study material for particular study session.
 ![download study material](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png)
 
 
-> ### 6. Book study session 
+### b)  Book study session 
 
 By clicking on date-time picker, student can pick the date and time for particular study session.
 ![ book study session](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/book_session.png)
 
-> ### 7.Write notes about study session 
+### c) Write notes about study session 
 
 By clicking on note icon
 ![write note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png)
@@ -116,7 +117,7 @@ By clicking on note icon
 Student  can write down any notes about study session.
 ![open note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png)
 
-> ### 8.Logout
+> ### 5.Logout
 
 Student  can logout by clicking logout button in right top corner.
 ![logout](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png)
