@@ -35,6 +35,7 @@ Using HTML and CSS only.
 - [Inspiration](#inspiration)
 - [Who is it for](#who-is-it-for)
 - [Technologies](#technologies)
+- [Colors](#colors)
 - [Usage Student](#usage-student)
 - [Usage Teacher](#usage-teacher)
 - [Testing](#testing)
@@ -72,7 +73,60 @@ Using HTML and CSS only.
 * Adobe Illustrator ( hero image, avatars and screenshots editing )
 
 
+## Colors 
 
+I extracted colors for the website from the hero image, and created few classes to easily
+ apply color styles as needed.
+```css
+.white {
+	color: #fdf1ed;
+	}
+
+.bg_green {
+	background-color: #0fbeba;
+	}
+
+.border_green {
+	border: 1px solid #0fbeba;
+	}
+
+.bg_green_tr {
+	background-color: rgba(15, 190, 186, 0.5);
+	}
+
+.bg_blue {
+	background-color: #0076ba;
+	}
+
+.blue {
+	color: #0076ba;
+	}
+
+.border_blue {
+	border: 1px solid #0076ba;
+	}
+
+.bg_blue_tr {
+	background-color: rgba(0, 118, 186, 0.4);
+	}
+
+.bg_orange {
+	background-color: #fc8b09;
+	}
+
+.border_orange {
+	border: 1px solid #fc8b09;
+	}
+
+.bg_orange_tr {
+	background-color: rgba(252, 139, 9, 0.4);
+	}
+
+.dark_grey {
+	color: #635b4e;
+	}
+
+```
 
 
 ## Usage Student
