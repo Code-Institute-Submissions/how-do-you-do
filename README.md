@@ -90,10 +90,6 @@ I extracted colors for the website from the hero image, and created few classes 
 	border: 1px solid #0fbeba;
 	}
 
-.bg_green_tr {
-	background-color: rgba(15, 190, 186, 0.5);
-	}
-
 .bg_blue {
 	background-color: #0076ba;
 	}
@@ -106,20 +102,8 @@ I extracted colors for the website from the hero image, and created few classes 
 	border: 1px solid #0076ba;
 	}
 
-.bg_blue_tr {
-	background-color: rgba(0, 118, 186, 0.4);
-	}
-
 .bg_orange {
 	background-color: #fc8b09;
-	}
-
-.border_orange {
-	border: 1px solid #fc8b09;
-	}
-
-.bg_orange_tr {
-	background-color: rgba(252, 139, 9, 0.4);
 	}
 
 .dark_grey {
