@@ -124,9 +124,13 @@ Student  can logout by clicking logout button in right top corner.
 > ### 6.Login
 
 Student  can login by clicking user icon  in right top corner.
-![login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png)
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
+title="login" alt="login"></a>
 
-![login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png)
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
+title="login" alt="login"></a>
 
 ## Usage Teacher
 
@@ -156,7 +160,7 @@ By clicking on graduation cap icon with questionmark
 ![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/graduation_cap.png)
 
 Teacher will see sign up form.
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_signup.html">
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/signup.html">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.png" title="teacher_signup" alt="teacher_signup"></a>
 
 
@@ -169,13 +173,17 @@ Once teacher signs up we will acknowledge it.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup_acknowledgement.png" title="teacher_signup_acknowledgement" alt="teacher_signup_acknowledgement"></a>
  
 
-> ### 4. Log in into student account
+> ### 4. Log in into teacher account
 
 Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard by clicking user icon  in right top corner.
-![login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png)
 
-![login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png)
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
+title="login" alt="login"></a>
 
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
+title="login" alt="login"></a>
 
 Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html">
