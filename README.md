@@ -12,7 +12,7 @@ Learn English | Fast & Easy
 
 Using HTML and CSS only.
 
-### how-do-you-do was created with hope to help people to:
+### Created with hope to help people to:
 
 * find more job opportunities
 
@@ -28,13 +28,13 @@ Using HTML and CSS only.
 
 ### By giving them opportunity to learn English in fast and easy way.
 
----
+
 
 ## Table of Contents
 
 
 - [Inspiration](#inspiration)
-- [Who  is it for](#who-is-i-for)
+- [Who  is it for](#who-is-it-for)
 - [Technologies](#technologies)
 - [Usage Student](#usage-student)
 - [Usage Teacher](#usage-teacher)
@@ -44,7 +44,7 @@ Using HTML and CSS only.
 - [Future Features](#future-features)
 
 
----
+
 
 
 
@@ -53,7 +53,7 @@ Using HTML and CSS only.
 > My wife Kasia who wants to teach English online.
 
 
----
+
 
 
 ## Who  is it for
@@ -62,7 +62,6 @@ Using HTML and CSS only.
 * People that want to teach English in fast and easy way
 
 
----
 
 
 ## Technologies
@@ -74,7 +73,7 @@ Using HTML and CSS only.
 * Adobe Illustrator ( hero image, avatars and screenshots editing )
 
 
----
+
 
 
 ## Usage Student
@@ -84,7 +83,7 @@ Using HTML and CSS only.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png" 
  target="_blank" title="Click to see it live" alt="Captcha challenge"></a>
-
+----
 
 >  ### 1. Language selection
 
@@ -99,7 +98,7 @@ Using HTML and CSS only.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"
   target="_blank" title="Click to see it live" alt="Flags languages"></a>
 
- 
+ ----
 
 > ### 2. Choosing to start learning with Us
 
@@ -127,7 +126,7 @@ Or Student can click on start learning button straight after reading Benefits of
 Or student can click on start learning button straight after reading Testimonials section.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials"  target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Click to see it live" alt="testimonials"></a>
-
+----
 > ### 3. Student Sign Up form 
 
 
@@ -137,17 +136,17 @@ Once student decides to start learning with us, and clicks the button, he will s
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_signup.html"  target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.png" title="Click to see it live" alt="student_signup"></a>
  
-
-> ### 4. Log in into student account
----
---
 ----
+> ### 4. Log in into student account
+
+
+
 
 Once student pays the fee we will log him into his dashboard.
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html"  target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="Click to see it live" alt="student_dashboard"></a>
- 
+ ----
 > ### 5.  Once logged in student can:
  
 ### a) Download study material 
@@ -182,7 +181,7 @@ Student  can write down any notes about study session.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" title="Click to see it live" alt="student_dashboard"></a>
 
-
+----
 > ### 5.Logout
 
 
@@ -193,7 +192,7 @@ Student  can logout by clicking logout button in right top corner.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
 title="Click to see it live" alt="student_dashboard"></a>
 
-
+----
 > ### 6.Login
 
 
@@ -220,7 +219,7 @@ title="login" alt="login"></a>
 <a href="https://marcelkolarcik.github.io/how-do-you-do/" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png"  alt="Captcha challenge"></a>
 
-
+----
 
 >  ### 1. Language selection
 
@@ -237,7 +236,7 @@ title="login" alt="login"></a>
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"  alt="Flags languages"></a>
 
  
-
+----
 > ### 2. Choosing to start teaching with Us
 
 
@@ -263,7 +262,7 @@ Teacher will see sign up form.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.png"  alt="teacher_signup"></a>
 
 
-
+----
 
 > ### 3. Teacher signup acknowledgement 
 
@@ -275,7 +274,7 @@ Once teacher signs up we will acknowledge it.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup_acknowledgement.png" 
  alt="teacher_signup_acknowledgement"></a>
  
-
+----
 > ### 4. Log in into teacher account
 
 
@@ -299,7 +298,7 @@ Once we process teacher data and we are happy to work with him, he will be able 
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.png" 
 title="teacher_dashboard" alt="teacher_dashboard"></a>
  
-
+----
 
 > ### 5.  Once logged in teacher can:
 
@@ -333,7 +332,7 @@ Teacher can write down any notes about study session.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" 
 title="teacher_dashboard" alt="teacher_dashboard"></a>
 
-
+----
 > ### 5.Logout
 
 
@@ -345,7 +344,7 @@ Teacher can logout by clicking logout button in right top corner.
 title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 
----
+
 
 
 ## Testing
@@ -370,7 +369,7 @@ title="teacher_dashboard" alt="teacher_dashboard"></a>
 * 21 inch desktop
 
 
----
+
 
 
 
@@ -380,7 +379,7 @@ I deployed how-do-you-do site by going to my github repository and then clicking
 scrolling down until I reached Github Pages section and then selecting master branch as source.
 
 
----
+
 
 
 ## Acknowledgements
@@ -388,7 +387,7 @@ scrolling down until I reached Github Pages section and then selecting master br
 [Acknowledgements](ACKNOWLEDGEMENTS.md)
 
 
----
+
 
 
 ## Future Features
