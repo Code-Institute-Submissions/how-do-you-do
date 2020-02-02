@@ -3,6 +3,8 @@
 
 # how-do-you-do 
 
+---
+
 #### First milestone project @CodeInstitute
 
 ### how-do-you-do was created with hope to help people to:
@@ -21,6 +23,7 @@
 
 ### By giving them opportunity to learn English in fast and easy way.
 
+---
 
 ## Table of Contents
 
@@ -36,14 +39,26 @@
 - [Future Features](#future-features)
 
 
+---
+
+
+
 ## Inspiration
 
 > My wife Kasia who wants to teach English online.
+
+
+---
+
 
 ## Who  is it for
 
 * People that want to learn English in fast and easy way
 * People that want to teach English in fast and easy way
+
+
+---
+
 
 ## Technologies
 
@@ -52,6 +67,10 @@
 * Twiter's Bootstrap
 * Font Awesome
 * Adobe Illustrator ( hero image, avatars and screenshots editing )
+
+
+---
+
 
 ## Usage Student
 
@@ -180,6 +199,10 @@ title="login" alt="login"></a>
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
 title="login" alt="login"></a>
+
+
+---
+
 
 
 ## Usage Teacher
@@ -314,7 +337,12 @@ Teacher can logout by clicking logout button in right top corner.
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
 title="teacher_dashboard" alt="teacher_dashboard"></a>
 
+
+---
+
+
 ## Testing
+
 
 ### Browsers
 * Mozilla Firefox 72.
@@ -334,12 +362,26 @@ title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 * 21 inch desktop
 
+
+---
+
+
+
 ## Deployment 
 
 I deployed how-do-you-do site by going to my github repository and then clicking on setting button,
 scrolling down until I reached Github Pages section and then selecting master branch as source.
 
+
+---
+
+
 ## Acknowledgements
 
 [Acknowledgements](ACKNOWLEDGEMENTS.md)
+
+
+---
+
+
 ## Future Features
