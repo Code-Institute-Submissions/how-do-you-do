@@ -54,7 +54,7 @@
 ## Student
 
 
-####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
+> ####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
  
 
 -   Ability to click on any module to preview sessions in that module
@@ -81,7 +81,7 @@
 
 ## Teacher 
 
-####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
+> ####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
         
 
 -   Ability to click on any student that he is currently teaching
