@@ -36,8 +36,8 @@ Using HTML and CSS only.
 - [Who is it for](#who-is-it-for)
 - [Technologies](#technologies)
 - [Colors](#colors)
-- [Usage Student](#usage-student)
-- [Usage Teacher](#usage-teacher)
+- [Usage : Student](#usage-:-student)
+- [Usage : Teacher](#usage-:-teacher)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
@@ -113,7 +113,7 @@ I extracted colors for the website from the hero image, and created few classes 
 ```
 
 
-## Usage Student
+## Usage : Student
 
 > On Intro page you will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
@@ -253,7 +253,7 @@ title="login" alt="login"></a>
 
 
 
-## Usage Teacher
+## Usage : Teacher
 
 
 > On Intro page you will see little Capcha challenge, that you will be able to pass by
