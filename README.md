@@ -43,19 +43,22 @@
 > On Intro page you will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
 <a href="https://marcelkolarcik.github.io/how-do-you-do/">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png" title="Captcha challenge" alt="Captcha challenge"></a>
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png" 
+ target="_blank" title="Click to see it live" alt="Captcha challenge"></a>
 
 
 >  ### 1. Language selection
 
 - Right top corner on the navigation bar by clicking on the name of the language
  <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" title="Written languages" alt="Written languages"></a>
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" 
+ target="_blank" title="Click to see it live" alt="Written languages"></a>
 
 
 - Or if visiting on mobile devices right top corner on the navigation bar by clicking on the flag
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png" title="Flags languages" alt="Flags languages"></a>
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"
+  target="_blank" title="Click to see it live" alt="Flags languages"></a>
 
  
 
@@ -65,70 +68,89 @@ Depending on the language choice, one of these 3 buttons will be visible :
 ![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
 
 ### a)
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_hero">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_hero" title="Click to see it live"  target="_blank">
 And student can click on start learning button straight after seeing hero image and clicking button right under the hero image.</a>
 
 
 
 ### b) 
 Or Student can click on start learning button straight after reading Benefits of learning English section.
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="benefits" alt="benefits"></a>
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits"  target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Click to see it live" alt="benefits"></a>
 
 
 
 ### c)
 Or student can click on start learning button straight after reading Testimonials section.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="testimonials" alt="testimonials"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials"  target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Click to see it live" alt="testimonials"></a>
 
 > ### 3. Student Sign Up form 
 
 Once student decides to start learning with us, and clicks the button, he will see sign up form. 
 
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_signup.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.png" title="student_signup" alt="student_signup"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_signup.html"  target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.png" title="Click to see it live" alt="student_signup"></a>
  
 
 > ### 4. Log in into student account
 
 Once student pays the fee we will log him into his dashboard.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="student_dashboard" alt="student_dashboard"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html"  target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="Click to see it live" alt="student_dashboard"></a>
  
 > ### 5.  Once logged in student can:
  
 ### a) Download study material 
 By clicking on download icon, student can download study material for particular study session.
-![download study material](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png" title="Click to see it live" alt="student_dashboard"></a>
 
 
 ### b)  Book study session 
 
 By clicking on date-time picker, student can pick the date and time for particular study session.
-![ book study session](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/book_session.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/book_session.png" title="Click to see it live" alt="student_dashboard"></a>
+
 
 ### c) Write notes about study session 
 
 By clicking on note icon
-![write note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png" title="Click to see it live" alt="student_dashboard"></a>
+
 
 Student  can write down any notes about study session.
-![open note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png)
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" title="Click to see it live" alt="student_dashboard"></a>
+
 
 > ### 5.Logout
 
 Student  can logout by clicking logout button in right top corner.
-![logout](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
+title="Click to see it live" alt="student_dashboard"></a>
+
 
 > ### 6.Login
 
 Student  can login by clicking user icon  in right top corner.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
 title="login" alt="login"></a>
 
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
 title="login" alt="login"></a>
 
@@ -136,32 +158,36 @@ title="login" alt="login"></a>
 
 > On Intro page you will see little Capcha challenge, that you will be able to pass by
  clicking on the right answer on one of those buttons.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png" title="Captcha challenge" alt="Captcha challenge"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png"  alt="Captcha challenge"></a>
 
 
 
 >  ### 1. Language selection
 
 - Right top corner on the navigation bar by clicking on the name of the language
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" title="Written languages" alt="Written languages"></a>
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" alt="Written languages"></a>
 
 
 - Or if visiting on mobile devices right top corner on the navigation bar by clicking on the flag
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png" title="Flags languages" alt="Flags languages"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"  alt="Flags languages"></a>
 
  
 
 > ### 2. Choosing to start teaching with Us
 
 By clicking on graduation cap icon with questionmark
-![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/graduation_cap.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/graduation_cap.png"  alt="teacher_signup"></a>
+
 
 Teacher will see sign up form.
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/signup.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.png" title="teacher_signup" alt="teacher_signup"></a>
+ <a href="https://marcelkolarcik.github.io/how-do-you-do/en/signup.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.png"  alt="teacher_signup"></a>
 
 
 
@@ -169,24 +195,25 @@ Teacher will see sign up form.
 
 Once teacher signs up we will acknowledge it. 
 
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_signup_succesful.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup_acknowledgement.png" title="teacher_signup_acknowledgement" alt="teacher_signup_acknowledgement"></a>
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_signup_succesful.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup_acknowledgement.png" 
+ alt="teacher_signup_acknowledgement"></a>
  
 
 > ### 4. Log in into teacher account
 
 Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard by clicking user icon  in right top corner.
 
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
 title="login" alt="login"></a>
 
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
 title="login" alt="login"></a>
 
 Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html">
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
 <img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.png" 
 title="teacher_dashboard" alt="teacher_dashboard"></a>
  
@@ -194,20 +221,33 @@ title="teacher_dashboard" alt="teacher_dashboard"></a>
  
 ### a) Download study material 
 By clicking on download icon, student can download study material for particular study session.
-![download study material](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png" 
+title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 ### b) Write notes about study session 
 
 By clicking on note icon
-![write note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png)
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png" 
+title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 Teacher can write down any notes about study session.
-![open note](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png)
+
+
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" 
+title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 > ### 5.Logout
 
 Teacher can logout by clicking logout button in right top corner.
-![logout](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png)
+<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
+<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
+title="teacher_dashboard" alt="teacher_dashboard"></a>
 
 ## Testing
 
