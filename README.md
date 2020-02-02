@@ -33,7 +33,7 @@ Using HTML and CSS only.
 
 
 - [Inspiration](#inspiration)
-- [Who  is it for](#who-is-it-for)
+- [Who is it for](#who-is-it-for)
 - [Technologies](#technologies)
 - [Usage Student](#usage-student)
 - [Usage Teacher](#usage-teacher)
@@ -55,7 +55,7 @@ Using HTML and CSS only.
 
 
 
-## Who  is it for
+## Who is it for
 
 * People that want to learn English in fast and easy way
 * People that want to teach English in fast and easy way
