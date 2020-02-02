@@ -1,11 +1,8 @@
 
 # how-do-you-do
 
-## Future Features
 
-Features I would add. 
-
-### Table of Contents
+## Future features I would add.
 
 
 - [General](#general)
