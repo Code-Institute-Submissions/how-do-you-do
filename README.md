@@ -191,7 +191,7 @@ Once student pays the fee we will log him into his dashboard.
  
 &ensp; &ensp; &ensp;
 
-> ### 5.  Once logged in student can:
+> ### 5.  Once logged in, student can:
  
 ### a) Download study material 
 
@@ -313,7 +313,7 @@ Teacher will see sign up form.
 > ### 3. Teacher signup acknowledgement 
 
 
-Once teacher signs up we will acknowledge it. 
+Once teacher signs up, we will acknowledge it. 
 
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_signup_succesful.html" title="Click to see it live">
@@ -324,7 +324,7 @@ Once teacher signs up we will acknowledge it.
 > ### 4. Log in into teacher account
 
 
-Once we process teacher data and we are happy to work with him, he will be able to log into his dashboard by clicking user icon  in right top corner.
+Once we process teacher's data and we are happy to work with him, he will be able to log into his dashboard by clicking user icon  in right top corner.
 
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
@@ -343,13 +343,13 @@ title="login" alt="login"></a>
 title="teacher_dashboard" alt="teacher_dashboard"></a>
  &ensp; &ensp; &ensp;
 
-> ### 5.  Once logged in teacher can:
+> ### 5.  Once logged in, teacher can:
 
  
 ### a) Download study material 
 
 
-By clicking on download icon, student can download study material for particular study session.
+By clicking on download icon, teacher can download study material for particular study session.
 
 
 <a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
