@@ -104,16 +104,17 @@ with the page titles, to start with SEO.
 > #### Potential Student 
 
 As a potential student I would come to visit website to check pricing of the courses.
-I would have option of viewing the website in other languages, by clicking on
-links of the languages in the right top corner.
-If I was visiting on mobile device, I would click on the flags of the county.
-I would see big green button saying Start Learning Now! right under hero image,
-I could scroll down little bit to read about the benefits of learning English
+I would have option of viewing the website in other languages, by clicking on the language name 
+in the right top corner.
+If I was visiting on mobile device, I would click on the country flags.
+
+Right under hero image i see Start Learning Now! button, which could be clicked.
+I would scroll down to read about the benefits of learning English
 and then I would see button Start Learning Now! benefits section again. 
 And as I would scroll down even more I would see testimonials from 
 previous students under which I would have third opportunity to click on the Start Learning Now! button.
-Once I would click on the button I would see form with prices, and if I wanted to sign up at this point 
-I could fill the form with my details and pay the course fee to become student.
+Once I would click on the button I would see form with prices, and if I wanted to sign up at that point 
+I could fill in the form with my details and pay the course fee to become student.
 
  > ####  Student 
  
@@ -135,7 +136,8 @@ links of the languages in the right top corner.
 If I was visiting on mobile device, I would click on the flags of the county.
 
 I would see word Teacher? or translated equivalent on the top of the page, or graduation cap icon 
-with question mark, if I was visiting on mobile device. As I would hover over this word, a title of the element
+with question mark, if I was visiting on mobile device.
+ As I would hover over this word, a title of the element
 would appear asking me "Would you like to become one of our teachers?" .
 As I would like that very much, I would click on it. Then I would see sign up form. I could fill my details.
 Once I would click on Sign up! button, I would see acknowledgement of my request. And I would be
@@ -154,35 +156,17 @@ Once I am accepted as Teacher of how-do-you-do.com, I would receive congratulati
 
 ## Testing
 
-I recommend using one of these browsers to test website:
+ I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
 
-	* Mozilla Firefox 72.
-    
-    * Google Chrome 79.
-    
-    * Opera 66.
-    
-I tried Internet Explorer, but it doesn't display background-image property of the div. ( I will investigate)
-I tried Apple Safari , but Safari Can't Establish a Secure Connection to the Server github.com error appears,
- when I tried to load the page.
-### Browsers
+ Internet Explorer is not displaying animation of the hero image. ( i am currently investigating this behavior )
+ Apple Safari responds with Error:  Can't Establish a Secure Connection to the Server github.com .
+ 
+I tested my website on 5in and 6in phones, 10in tablet 18in laptop and 22in desktop with good response from
+all of the devices.
 
+Please see step by step testing here :
 
-
-### Devices
-
-* 5 inch, 6 inch phones
-
-* 10.2 inch tablet
-
-* 17.6 inch laptop
-
-* 21 inch desktop
-
-
-
-
-
+[Testing](TESTING.md)
 
 ## Deployment 
 
