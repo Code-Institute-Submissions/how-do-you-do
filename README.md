@@ -4,29 +4,11 @@
 
 
 # how-do-you-do 
-Learn English | Fast & Easy
-
-
-#### First milestone project @CodeInstitute
-
-Using HTML and CSS only.
-
-### Created with hope to help people to:
-
-* find more job opportunities
-
-* become better educated
-
-* easily travel anywhere in the world
-
-* know the global language
-
-* improve confidence
-
-* date more people ... :wink:
-
-### By giving them opportunity to learn English in fast and easy way.
-
+ A place that will help you to find more job opportunities, become better educated, easily travel anywhere in the world,
+ know the global language,improve confidence and date more people ... :wink: ...
+ 
+ by  teaching you  English online.
+ 
 
 
 ## Table of Contents
