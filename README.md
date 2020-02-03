@@ -5,8 +5,7 @@
 
 # how-do-you-do 
  A place that will help you to find more job opportunities, become better educated, easily travel anywhere in the world,
- know the global language,improve confidence and date more people ... :wink: ...
- 
+ know the global language, improve confidence and date more people ... :wink: ...
  by  teaching you  English online.
  
 
