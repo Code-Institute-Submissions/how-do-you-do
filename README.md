@@ -43,7 +43,7 @@ As well as fulfilling dreams of others to learn or teach English online.
 
 > #### Wireframes 
 
-I used good old pencil and paper to wireframe design as I find it that I can make it more personal...
+I used pencil and paper to wireframe design ...
 They can be found at 
 [Wireframes](WIREFRAMES.md)
 
@@ -159,6 +159,7 @@ Once I am accepted as Teacher of how-do-you-do.com, I would receive congratulati
  I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
 
  Internet Explorer is not displaying animation of the hero image. ( i am currently investigating this behavior )
+ 
  Apple Safari responds with Error:  Can't Establish a Secure Connection to the Server github.com .
  
 I tested my website on 5in and 6in phones, 10in tablet 18in laptop and 22in desktop with good response from
@@ -172,6 +173,8 @@ Please see step by step testing here :
 
 I deployed how-do-you-do site by going to my github repository and then clicking on setting button,
 scrolling down until I reached Github Pages section and then selecting master branch as source.
+
+It allowed me to test website on many devices and with latest updates.
 
 
 
