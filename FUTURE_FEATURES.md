@@ -79,7 +79,8 @@
 
 -   Ability to contact support when needed
 
--.  Ability to rate / review teacher.
+- Ability to rate / review teacher.
+
 ## Teacher 
 
 > ####  Using jQuery to make AJAX calls to server with necessary data and load response into div that will hold the info requested.
