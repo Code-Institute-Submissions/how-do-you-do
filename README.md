@@ -108,9 +108,9 @@ I would have option of viewing the website in other languages, by clicking on th
 in the right top corner.
 If I was visiting on mobile device, I would click on the country flags.
 
-Right under hero image i see Start Learning Now! button, which could be clicked.
+Right under hero image I see Start Learning Now! button, which could be clicked.
 I would scroll down to read about the benefits of learning English
-and then I would see button Start Learning Now! benefits section again. 
+and then I would see button Start Learning Now! again. 
 And as I would scroll down even more I would see testimonials from 
 previous students under which I would have third opportunity to click on the Start Learning Now! button.
 Once I would click on the button I would see form with prices, and if I wanted to sign up at that point 
@@ -118,7 +118,7 @@ I could fill in the form with my details and pay the course fee to become studen
 
  > ####  Student 
  
-After my payment I would be logged into my dashboard,
+After my payment, I would be logged into my dashboard,
 where I could book my first session with teacher of my choice. I could download study materials for the sessions. 
 I could write notes about the session. And if I had more sessions taken and more notes written, I could
 review them as well.
