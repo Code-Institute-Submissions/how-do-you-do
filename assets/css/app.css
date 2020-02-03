@@ -145,78 +145,80 @@ li h4 {
 	height: 0;
 	padding: 0;
 	padding-bottom: 31.5%; /* aspect ratio of the image 500/1600*/
-	background-image: url(../images/languages/en.png) ;
+	background-image: url(../images/languages/en.png);
 	background-position: center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: relative;
-	-webkit-animation-name: example;
+	-webkit-animation-name: languages;
 	-webkit-animation-duration: 60s;
-	animation-name: example;
+	animation-name: languages;
 	animation-duration: 60s;
+	
 	animation-iteration-count: infinite;
 	}
-.fa.fas{
-	text-rendering: optimizeLegibility;
-	}
+
+
+
+
 /* ---------------------------------------HERO IMAGE ANIMATION */
-@-webkit-keyframes example {
+@-webkit-keyframes languages {
 	
 	/* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	/* COMMENT OUT TO SEE */
-	0.1% {
-		-webkit-background-image: url(../images/languages/en.png);
+	from {
+		background-image: url(../images/languages/en.png);
 		visibility: hidden;
 		}
 	0.2% {
-		-webkit-background-image: url(../images/languages/sk.png);
+		background-image: url(../images/languages/sk.png);
 		visibility: hidden;
 		}
 	0.3% {
-		-webkit-background-image: url(../images/languages/cn.png);
+		background-image: url(../images/languages/cn.png);
 		visibility: hidden;
 		}
 	0.4% {
-		-webkit-background-image: url(../images/languages/es.png);
+		background-image: url(../images/languages/es.png);
 		visibility: hidden;
 		}
 	0.5% {
-		-webkit-background-image: url(../images/languages/pl.png);
+		background-image: url(../images/languages/pl.png);
 		visibility: hidden;
 		}
 	0.6% {
-		-webkit-background-image: url(../images/languages/ru.png);
+		background-image: url(../images/languages/ru.png);
 		visibility: hidden;
 		}
 	0.7% {
-		-webkit-background-image: url(../images/languages/th.png);
+		background-image: url(../images/languages/th.png);
 		visibility: hidden;
 		}
 	0.8% {
-		-webkit-background-image: url(../images/languages/vn.png);
+		background-image: url(../images/languages/vn.png);
 		visibility: hidden;
 		}
 	
 	/* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	0.81% {
-		-webkit-background-image: url(../images/languages/en.png);
+		background-image: url(../images/languages/en.png);
 		}
 	10% {
-		-webkit-background-image: url(../images/languages/en.png);
+		background-image: url(../images/languages/en.png);
 		}
 	
 	12.5% {
-		-webkit-background-image: url(../images/languages/en.png);
+		background-image: url(../images/languages/en.png);
 		}
 	15% {
-		-webkit-background-image: url(../images/languages/sk.png);
+		background-image: url(../images/languages/sk.png);
 		}
 	
 	25% {
-		-webkit-background-image: url(../images/languages/sk.png);
+		background-image: url(../images/languages/sk.png);
 		}
 	27.5% {
-		-webkit-background-image: url(../images/languages/cn.png);
+		background-image: url(../images/languages/cn.png);
 		}
 	
 	37.5% {
@@ -254,18 +256,18 @@ li h4 {
 		background-image: url(../images/languages/vn.png);
 		}
 	
-	100% {
+	to {
 		background-image: url(../images/languages/vn.png);
 		}
 		
 	}
 
 /* Standard syntax */
-@keyframes example {
+@keyframes languages {
 	
 	/* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	
-	0.1% {
+	from {
 		background-image: url(../images/languages/en.png);
 		visibility: hidden;
 		}
@@ -355,7 +357,7 @@ li h4 {
 		background-image: url(../images/languages/vn.png);
 		}
 	
-	100% {
+	to {
 		background-image: url(../images/languages/vn.png);
 		}
 		
@@ -402,32 +404,40 @@ input[type=checkbox]:checked#toggler ~ .visually_hidden {
 .notes:hover {
 	background-color: rgba(0, 118, 186, 0.4);
 	}
-input.notes{
-	color:  #0076ba;
-	}
-h4.notes{
+
+input.notes {
 	color: #0076ba;
 	}
-span.notes{
+
+h4.notes {
+	color: #0076ba;
+	}
+
+span.notes {
 	margin: auto 0;
 	color: #fdf1ed;
 	background-color: #fc8b09;
 	}
-.note_link:hover{
+
+.note_link:hover {
 	text-decoration: none;
 	padding: 2px;
 	background-color: #0fbeba;
 	color: #fdf1ed;
 	}
+
 .download {
 	padding: 5px;
 	}
-.vertically_aligned{
+
+.vertically_aligned {
 	margin: auto 0;
 	}
-.horizontally_aligned{
+
+.horizontally_aligned {
 	margin: 0 auto;
 	}
+
 .download:hover {
 	text-decoration: none;
 	background-color: rgba(0, 118, 186, 0.4);
@@ -437,12 +447,15 @@ span.notes{
 	margin-bottom: 120%;
 	margin-right: 236%;
 	}
-.support:hover{
+
+.support:hover {
 	text-decoration: none;
 	}
-.support div:hover{
+
+.support div:hover {
 	background-color: rgba(15, 190, 186, 0.5);
 	}
+
 /* -------------------------------------------------------- KASIAS IMAGE */
 #why {
 	margin: 0 auto;
@@ -471,7 +484,7 @@ span.notes{
 
 #kasia {
 	position: relative;
-	content: url('../images/kasia.png');
+	background-image: url('../images/kasia.png');
 	height: 100%;
 	border-radius: 50%;
 	margin: 0 auto;
@@ -483,22 +496,16 @@ span.notes{
 	padding: 30px;
 	}
 
-#kasia {
-	position: relative;
-	content: url('../images/kasia.png');
-	height: 100%;
-	border-radius: 50%;
-	margin: 0 auto;
-	}
-
 #kasia_name {
 	margin: 40% auto;
 	text-align: center;
 	}
 
 #logo_img {
+	width: 227px;
 	height: 81px;
-	content: url(../images/logo-md.png);
+	background-image: url("../images/logo-md.png");
+	background-repeat: no-repeat;
 	}
 
 @media screen and ( max-width: 1200px ) {
@@ -525,7 +532,8 @@ span.notes{
 @media screen and ( max-width: 767px ) {
 	#logo_img {
 		height: 40px;
-		content: url(../images/logo-sm.png);
+		width: 113px;
+		background-image: url(../images/logo-sm.png);
 		}
 	
 	#kasia_bgr {
@@ -540,7 +548,8 @@ span.notes{
 @media screen and ( max-width: 540px ) {
 	#logo_img {
 		height: 27px;
-		content: url(../images/logo-xs.png);
+		width: 75px;
+		background-image: url(../images/logo-xs.png);
 		}
 	
 	#kasia_bgr {

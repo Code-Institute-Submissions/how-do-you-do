@@ -44,9 +44,9 @@ As well as fulfilling dreams of others to learn or teach English online.
 > #### Wireframes 
 
 I used good old pencil and paper to wireframe design as I find it that I can make it more personal...
-They can be found 
-<a href="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/WIREFRAMES.md">
-here
+They can be found at 
+[Wireframes](WIREFRAMES.md)
+
 </a>
 
 >   #### Colors
