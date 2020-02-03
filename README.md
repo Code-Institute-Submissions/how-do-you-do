@@ -15,10 +15,7 @@
 - [Inspiration](#inspiration)
 - [Technologies](#technologies)
 - [User Experience](#user-experience)
-
-- [Translations](#translations)
-- [Student user story](#student-user-story)
-- [Teacher user story](#teacher-user-story)
+- [User story](#user-story)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Acknowledgements](#acknowledgements)
@@ -44,7 +41,7 @@ As well as fulfilling dreams of others to learn or teach English online.
 
 ## User Experience
 
-> ### Wireframes 
+> #### Wireframes 
 
 I used good old pencil and paper to wireframe design as I find it that I can make it more personal...
 They can be found 
@@ -52,9 +49,7 @@ They can be found
 here
 </a>
 
-
-
->   ### Colors
+>   #### Colors
 I extracted colors for the website from the hero image, and created few classes to easily
 apply color styles as needed. I chose these colors as they are not intrusive and are easy to look at.
 And they are associated with trust, reliability, security ( blue ). Fun ( orange ). New beginnings and growth ( green ).
@@ -88,317 +83,90 @@ These are the emotions I would like my users to feel when they arrive at landing
 .bg_orange {
 	background-color: #fc8b09;
 	}
-
-.dark_grey {
-	color: #635b4e;
-	}
-
 ```
 
-## Translations
+>  #### Translations
 
-#### Translated pages are :
+##### Translated pages
 
- -  landing.html 
- -  login.html 
- -  student_signup.html
+I have translated  landing.html, login.html and student_signup.html into 2 different languages, together
+with the page titles, to start with SEO.
  
- #### Not translated pages are :
  
- -  signup.html ( teacher sign up)
- -  teacher_signup_succesful.html
- -  teacher_dashboard.html
- -  student_dashboard.html
-
-## Student user story
-
-> On Intro page you will see little Capcha challenge, that you will be able to pass by
- clicking on the right answer on one of those buttons.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png" 
- target="_blank" title="Click to see it live" alt="Captcha challenge"></a>
-
- &ensp; &ensp; &ensp;
->  ### 1. Language selection
-
-- Right top corner on the navigation bar by clicking on the name of the language
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" 
- target="_blank" title="Click to see it live" alt="Written languages"></a>
-
-
-- Or if visiting on mobile devices right top corner on the navigation bar by clicking on the flag
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"
-  target="_blank" title="Click to see it live" alt="Flags languages"></a>
-
+##### Not translated
  
-&ensp; &ensp; &ensp;
-
-> ### 2. Choosing to start learning with Us
-
-
-Depending on the language choice, one of these 3 buttons will be visible :
-![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)
-
-### a)
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_hero" title="Click to see it live"  target="_blank">
-And student can click on start learning button straight after seeing hero image and clicking button right under the hero image.</a>
-
-
-
-### b) 
-
-Or Student can click on start learning button straight after reading Benefits of learning English section.
+ I have not translated signup.html ( teacher sign up), teacher_signup_succesful.html, teacher_dashboard.html,student_dashboard.html
+ as I felt that teachers would speak English already. As well as student dashboard, as students
+ are learning English and it would be first opportunity to to discover meanings of the words they don't know yet.
  
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_benefits"  target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/benefits_of.png" title="Click to see it live" alt="benefits"></a>
+## User story
 
+> #### Potential Student 
 
+As a potential student I would come to visit website to check pricing of the courses.
+I would have option of viewing the website in other languages, by clicking on
+links of the languages in the right top corner.
+If I was visiting on mobile device, I would click on the flags of the county.
+I would see big green button saying Start Learning Now! right under hero image,
+I could scroll down little bit to read about the benefits of learning English
+and then I would see button Start Learning Now! benefits section again. 
+And as I would scroll down even more I would see testimonials from 
+previous students under which I would have third opportunity to click on the Start Learning Now! button.
+Once I would click on the button I would see form with prices, and if I wanted to sign up at this point 
+I could fill the form with my details and pay the course fee to become student.
 
-### c)
-
-Or student can click on start learning button straight after reading Testimonials section.
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html#start_under_testimonials"  target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/testimonials.png" title="Click to see it live" alt="testimonials"></a>
-&ensp; &ensp; &ensp;
-
-> ### 3. Student Sign Up form 
-
-
-Once student decides to start learning with us, and clicks the button, he will see sign up form. 
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_signup.html"  target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.png" title="Click to see it live" alt="student_signup"></a>
+ > ####  Student 
  
-&ensp; &ensp; &ensp;
+After my payment I would be logged into my dashboard,
+where I could book my first session with teacher of my choice. I could download study materials for the sessions. 
+I could write notes about the session. And if I had more sessions taken and more notes written, I could
+review them as well.
+If I had any need for support, I could click on support button right under my profile picture and ask for the support
+required. I would have to confirm every session I took as completed, to be able to book another session. 
+ Once I was finished with my work there I could Logout by clicking on LOGOUT button in the top right corner
+of the screen.
+ 
+> #### Potential Teacher
 
-> ### 4. Log in into student account
+As a potential teacher I would come to visit website to check what is 
+required to become online teacher.
+I would have option of viewing the website in other languages, by clicking on
+links of the languages in the right top corner.
+If I was visiting on mobile device, I would click on the flags of the county.
 
+I would see word Teacher? or translated equivalent on the top of the page, or graduation cap icon 
+with question mark, if I was visiting on mobile device. As I would hover over this word, a title of the element
+would appear asking me "Would you like to become one of our teachers?" .
+As I would like that very much, I would click on it. Then I would see sign up form. I could fill my details.
+Once I would click on Sign up! button, I would see acknowledgement of my request. And I would be
+asked to check my email for further instructions.
 
-
-
-Once student pays the fee we will log him into his dashboard.
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html"  target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.png" title="Click to see it live" alt="student_dashboard"></a>
+> #### Teacher
+Once I am accepted as Teacher of how-do-you-do.com, I would receive congratulation email
+ with temporary password to log in to my dashboard. There I could check my booking calendar.
+ Check on progress of my students. Download study material for any session. Write notes about the sessions.
+ Read, edit, delete notes about the sessions.
+ I could block off some days in my calendar. I could request support, by clicking on the support button under my profile
+ picture. Once I was finished with my work there I could Logout by clicking on LOGOUT button in the top right corner
+  of the screen.
  
-&ensp; &ensp; &ensp;
-
-> ### 5.  Once logged in, student can:
- 
-### a) Download study material 
-
-By clicking on download icon, student can download study material for particular study session.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png" title="Click to see it live" alt="student_dashboard"></a>
-
-
-### b)  Book study session 
-
-By clicking on date-time picker, student can pick the date and time for particular study session.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/book_session.png" title="Click to see it live" alt="student_dashboard"></a>
-
-
-### c) Write notes about study session 
-
-By clicking on note icon
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png" title="Click to see it live" alt="student_dashboard"></a>
-
-
-Student  can write down any notes about study session.
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" title="Click to see it live" alt="student_dashboard"></a>
-
-&ensp; &ensp; &ensp;
-
-> ### 6.Logout
-
-
-Student  can logout by clicking logout button in right top corner.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/student_dashboard.html" target="_blank">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
-title="Click to see it live" alt="student_dashboard"></a>
-
-&ensp; &ensp; &ensp;
-
-> ### 7.Login
-
-
-Student  can login by clicking user icon  in right top corner and filling Student section.
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
-title="login" alt="login"></a>
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
-title="login" alt="login"></a>
-
-
-> ### 8.Study sessions 
-All study sessions will take place over Skype for now.
-
-
-## Teacher user story
-
-
-> On Intro page you will see little Capcha challenge, that you will be able to pass by
- clicking on the right answer on one of those buttons.
-<a href="https://marcelkolarcik.github.io/how-do-you-do/" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/captcha.png"  alt="Captcha challenge"></a>
-
-&ensp; &ensp; &ensp;
-
->  ### 1. Language selection
-
-
-- Right top corner on the navigation bar by clicking on the name of the language
-
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/written_languages.png" alt="Written languages"></a>
-
-
-- Or if visiting on mobile devices right top corner on the navigation bar by clicking on the flag
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/flags_languages.png"  alt="Flags languages"></a>
-
- &ensp; &ensp; &ensp;
-
-> ### 2. Choosing to start teaching with Us
-
-
-Depending on the language selected by clicking on one of the words
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teachers.png"  alt="teacher_signup"></a>
-
-
-Or if visiting on mobile device by clicking on graduation cap icon with questionmark 
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/graduation_cap.png"  alt="teacher_signup"></a>
-
-
-
-Teacher will see sign up form.
-
-
- <a href="https://marcelkolarcik.github.io/how-do-you-do/en/signup.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.png"  alt="teacher_signup"></a>
-
-
-
-&ensp; &ensp; &ensp;
-> ### 3. Teacher signup acknowledgement 
-
-
-Once teacher signs up, we will acknowledge it. 
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_signup_succesful.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup_acknowledgement.png" 
- alt="teacher_signup_acknowledgement"></a>
- 
-&ensp; &ensp; &ensp;
-> ### 4. Log in into teacher account
-
-
-Once we process teacher's data and we are happy to work with him, he will be able to log into his
- dashboard by clicking user icon  in right top corner and filling Teacher section.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/landing.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login_icon.png" 
-title="login" alt="login"></a>
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/login.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/login.png" 
-title="login" alt="login"></a>
-
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.png" 
-title="teacher_dashboard" alt="teacher_dashboard"></a>
- &ensp; &ensp; &ensp;
-
-> ### 5.  Once logged in, teacher can:
-
- 
-### a) Download study material 
-
-
-By clicking on download icon, teacher can download study material for particular study session.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/download_study_material.png" 
-title="teacher_dashboard" alt="teacher_dashboard"></a>
-
-
-### b) Write notes about study session 
-
-By clicking on note icon
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/write_note.png" 
-title="teacher_dashboard" alt="teacher_dashboard"></a>
-
-
-Teacher can write down any notes about study session.
-
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/open_note.png" 
-title="teacher_dashboard" alt="teacher_dashboard"></a>
-&ensp; &ensp; &ensp;
-
-> ### 6.Logout
-
-
-Teacher can logout by clicking logout button in right top corner.
-
-
-<a href="https://marcelkolarcik.github.io/how-do-you-do/en/teacher_dashboard.html" title="Click to see it live">
-<img src="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/logout.png" 
-title="teacher_dashboard" alt="teacher_dashboard"></a>
-
-> ### 7.Study sessions 
-All study sessions will take place over Skype for now.
-
 
 
 ## Testing
 
+I recommend using one of these browsers to test website:
 
+	* Mozilla Firefox 72.
+    
+    * Google Chrome 79.
+    
+    * Opera 66.
+    
+I tried Internet Explorer, but it doesn't display background-image property of the div. ( I will investigate)
+I tried Apple Safari , but Safari Can't Establish a Secure Connection to the Server github.com error appears,
+ when I tried to load the page.
 ### Browsers
-* Mozilla Firefox 72.
 
-* Google Chrome 79.
-
-* Opera 66.
 
 
 ### Devices

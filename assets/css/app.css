@@ -145,76 +145,78 @@ li h4 {
 	height: 0;
 	padding: 0;
 	padding-bottom: 31.5%; /* aspect ratio of the image 500/1600*/
-	/* background-image: url(../images/languages/sk.png) ; */
+	background-image: url(../images/languages/en.png) ;
 	background-position: center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: relative;
-	/* -webkit-animation-name: example;
-	 -webkit-animation-duration: 60s; */
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 60s;
 	animation-name: example;
 	animation-duration: 60s;
 	animation-iteration-count: infinite;
 	}
-
+.fa.fas{
+	text-rendering: optimizeLegibility;
+	}
 /* ---------------------------------------HERO IMAGE ANIMATION */
 @-webkit-keyframes example {
 	
 	/* PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	/* COMMENT OUT TO SEE */
 	0.1% {
-		background-image: url(../images/languages/en.png);
+		-webkit-background-image: url(../images/languages/en.png);
 		visibility: hidden;
 		}
 	0.2% {
-		background-image: url(../images/languages/sk.png);
+		-webkit-background-image: url(../images/languages/sk.png);
 		visibility: hidden;
 		}
 	0.3% {
-		background-image: url(../images/languages/cn.png);
+		-webkit-background-image: url(../images/languages/cn.png);
 		visibility: hidden;
 		}
 	0.4% {
-		background-image: url(../images/languages/es.png);
+		-webkit-background-image: url(../images/languages/es.png);
 		visibility: hidden;
 		}
 	0.5% {
-		background-image: url(../images/languages/pl.png);
+		-webkit-background-image: url(../images/languages/pl.png);
 		visibility: hidden;
 		}
 	0.6% {
-		background-image: url(../images/languages/ru.png);
+		-webkit-background-image: url(../images/languages/ru.png);
 		visibility: hidden;
 		}
 	0.7% {
-		background-image: url(../images/languages/th.png);
+		-webkit-background-image: url(../images/languages/th.png);
 		visibility: hidden;
 		}
 	0.8% {
-		background-image: url(../images/languages/vn.png);
+		-webkit-background-image: url(../images/languages/vn.png);
 		visibility: hidden;
 		}
 	
 	/* END OF PRELOADING IMAGES TO AVOID JUMPS BETWEEN CHANGES IN FIRST CYCLE AND TO HAVE SMOOTH TRANSITIONS FROM START*/
 	0.81% {
-		background-image: url(../images/languages/en.png);
+		-webkit-background-image: url(../images/languages/en.png);
 		}
 	10% {
-		background-image: url(../images/languages/en.png);
+		-webkit-background-image: url(../images/languages/en.png);
 		}
 	
 	12.5% {
-		background-image: url(../images/languages/en.png);
+		-webkit-background-image: url(../images/languages/en.png);
 		}
 	15% {
-		background-image: url(../images/languages/sk.png);
+		-webkit-background-image: url(../images/languages/sk.png);
 		}
 	
 	25% {
-		background-image: url(../images/languages/sk.png);
+		-webkit-background-image: url(../images/languages/sk.png);
 		}
 	27.5% {
-		background-image: url(../images/languages/cn.png);
+		-webkit-background-image: url(../images/languages/cn.png);
 		}
 	
 	37.5% {
