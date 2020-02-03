@@ -4,7 +4,7 @@
 
 
 # how-do-you-do 
- A place that will help you to find more job opportunities, become better educated, easily travel anywhere in the world,
+ A website that will help you to find more job opportunities, become better educated, easily travel anywhere in the world,
  know the global language, improve confidence and date more people ... :wink: ...
  by  teaching you  English online.
  
@@ -12,7 +12,7 @@
 
 ## Table of Contents
 
-- [Purpose](#purpose)
+- [Inspiration](#inspiration)
 - [Technologies](#technologies)
 - [User Experience](#user-experience)
 
@@ -25,7 +25,7 @@
 - [Future Features](#future-features)
 
 
-## Purpose 
+## Inspiration 
 
 I was inspired to create this project after conversation with my wife, when she said,
 that she would like to become teacher of English online. So I thought, that it would be nice,
@@ -35,26 +35,31 @@ As well as fulfilling dreams of others to learn or teach English online.
 
 ## Technologies
 
-This is first of my milestone projects, and technologies to be used are :
-
 * HTML
 * CSS
-* Twiter's Bootstrap
+* Twitter's Bootstrap
 * Font Awesome
-
-* Extra
-	* Adobe Illustrator ( hero image, avatars and screenshots editing )
+* Adobe Illustrator ( hero image, avatars and screenshots editing )
+	
 
 ## User Experience
 
+> ### Wireframes 
+
+I used good old pencil and paper to wireframe design as I find it that I can make it more personal...
+They can be found 
+<a href="https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/WIREFRAMES.md">
+here
+</a>
+
+
+
 >   ### Colors
-	I extracted colors for the website from the hero image, and created few classes to easily
-    apply color styles as needed.
-
-## Colors 
-
 I extracted colors for the website from the hero image, and created few classes to easily
- apply color styles as needed.
+apply color styles as needed. I chose these colors as they are not intrusive and are easy to look at.
+And they are associated with trust, reliability, security ( blue ). Fun ( orange ). New beginnings and growth ( green ).
+These are the emotions I would like my users to feel when they arrive at landing page.
+
 ```css
 .white {
 	color: #fdf1ed;
