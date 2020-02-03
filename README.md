@@ -31,11 +31,10 @@ Using HTML and CSS only.
 
 ## Table of Contents
 
-
-- [Inspiration](#inspiration)
-- [Who is it for](#who-is-it-for)
+- [Purpose](#purpose)
 - [Technologies](#technologies)
-- [Colors](#colors)
+- [User Experience](#user-experience)
+
 - [Translations](#translations)
 - [Student user story](#student-user-story)
 - [Teacher user story](#teacher-user-story)
@@ -45,34 +44,31 @@ Using HTML and CSS only.
 - [Future Features](#future-features)
 
 
+## Purpose 
 
+I was inspired to create this project after conversation with my wife, when she said,
+that she would like to become teacher of English online. So I thought, that it would be nice,
+if she had online presence, where she could fulfill her dream.
 
-
-
-## Inspiration
-
-> My wife Kasia who wants to teach English online.
-
-
-
-
-
-## Who is it for
-
-* People that want to learn English in fast and easy way
-* People that want to teach English in fast and easy way
-
-
-
+As well as fulfilling dreams of others to learn or teach English online.
 
 ## Technologies
+
+This is first of my milestone projects, and technologies to be used are :
 
 * HTML
 * CSS
 * Twiter's Bootstrap
 * Font Awesome
-* Adobe Illustrator ( hero image, avatars and screenshots editing )
 
+* Extra
+	* Adobe Illustrator ( hero image, avatars and screenshots editing )
+
+## User Experience
+
+>   ### Colors
+	I extracted colors for the website from the hero image, and created few classes to easily
+    apply color styles as needed.
 
 ## Colors 
 
