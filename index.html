@@ -4,7 +4,7 @@
     <meta charset = "UTF-8" >
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
     <meta http-equiv = "X-UA-Compatible" content = "ie=edge" >
-    <title >Learn English</title >
+    <title >Learn English | Fast and Easy</title >
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin = "anonymous" >
@@ -13,97 +13,444 @@
     <link href = "assets/css/app.css" rel = "stylesheet" type = "text/css" />
 </head >
 <body >
-<div class = "container" >
-    <header class = "heading" >
-        <!-- PUBLIC NAV -->
-        <nav class = "navbar navbar-expand " >
-            <a class = "navbar-brand" href = "#"
-               title = "Home" ><img src = "assets/images/logo-md.png" alt = "company logo" ></a >
-        </nav >
-    </header >
-    <section id = "welcome" >
-        <div class = "row" >
-            <div class = "pb-2 col-md-4" >
-                <div class = "card" >
-                    <img src = "assets/images/avatar/marcel.png" class = "card-img-top" alt = "marcel's image" >
-                    <div class = "card-body" >
-                        <h4 class = "card-title" >Marcel Kolarcik</h4 >
-                        <p class = "card-text quote_text" >Aspiring software developer</p >
-                    </div >
+<header class = "heading" id = "heading" >
+    <!-- PUBLIC NAV -->
+    <nav class = "navbar navbar-expand " >
+        <a class = "navbar-brand" href = "en/landing.html" title = "Home : how-do-you-do" >
+            <div id = "logo_img" > <!-- CHANGING IMAGES BASED ON VIEW PORTS IN app.css  lines 330->370  --></div >
+        </a >
+        <ul class = "navbar-nav mr-auto" ></ul >
+        <div class = "form-inline my-2 my-md-0" id = "menu" >
+            <a class = "nav-item nav_link d-none d-md-block" href = "en/signup.html"
+               title = "Would you like to become one of our teachers?" >
+                Teacher?
+            </a >
+            <a class = "nav-item nav_link d-block d-md-none" href = "en/signup.html"
+               title = "Would you like to become one of our teachers?" >
+                <i class = "fas fa-graduation-cap" ></i >
+                ?
+            </a >
+            <a class = "nav-item nav_link" href = "en/login.html" title = "Sign in Student | Teacher" >
+                <i class = "fas fa-user" ></i >
+            </a >
+            <!-- REPLACING LANGUAGE NAMES WITH COUNTRY FLAGS ON SMALL VIEW PORT -->
+            <a class = "nav-item nav_link d-none d-md-block" href = "es/landing.html" title = "espanol" >
+                español
+            </a >
+            <a class = "nav-item  d-block d-md-none" href = "es/landing.html" title = "espanol" >
+                <img class = "flag" src = "assets/images/es_flag.png" >
+            </a >
+            <a class = "nav-item nav_link d-none d-md-block" href = "cn/landing.html" title = "chinese" >
+                中文
+            </a >
+            <a class = "nav-item  d-block d-md-none" href = "cn/landing.html"
+               title = "chinese" ><img class = "flag" src = "assets/images/cn_flag.png" >
+            </a >
+            <a class = "nav-item nav_link d-none d-md-block" href = "en/landing.html" title = "english" >
+                english
+            </a >
+            <a class = "nav-item  d-block d-md-none" href = "en/landing.html" title = "english" >
+                <img class = "flag" src = "assets/images/en_flag.png" >
+            </a >
+        </div >
+    </nav >
+</header >
+<!-- HERO IMAGE ANIMATION -->
+<section id = "what" >
+    <div id = "hero_background" >
+        <div id = "hero_text" >
+        </div >
+    </div >
+</section >
+<!--END OF HERO IMAGE ANIMATION -->
+<!-- SIGN UP BUTTON FOR STUDENTS -->
+<div class = "text-center sign_up_btn" id = "start_under_hero" >
+    <a href = "en/student_signup.html" class = "btn bg_green text-light pt-3 pb-3 pr-5 pl-5" >
+        <h4 class = "white" > Start Learning Now!</h4 >
+    </a >
+</div >
+<!--END OF SIGN UP BUTTON FOR STUDENTS -->
+<!-- KASIAS SPEECH AND BENEFITS -->
+<section id = "why" >
+    <div class = "container" >
+        <div class = "row no-gutters " >
+            <div class = "col-md-6 mb-1" id = "blue_gradient" >
+                <!-- LOADING IMAGE WITH CSS INTO #kasia -->
+                <div id = "kasia_bgr" >
+                    <div id = "kasia" ></div >
                 </div >
+                <h2 id = "kasia_name" class = "card-title white" >
+                    Katarzyna Sosnowska <br >
+                    <small >Inspiration and CEO.</small >
+                </h2 >
+                <p class = "text-light kasia_text quote_text text-center" >
+                    Hi, And thank you for visiting!
+                    <br >
+                    <br >
+                    Having to learn English as my second language myself, I have been where you are now.
+                    <br >
+                    <br >
+                    Over past 15 years I've helped hundreds of people with learning English, studying what works and
+                    what doesn't. And I now I would like to help you!
+                    <br >
+                    <br >
+                    As not native speaker, like me, you will get access to 3 different ways how to speed up process of
+                    learning English so that you can get on with
+                    <br >
+                    <span style = "font-size:1.15em;" class = "mt-2" >your dreams faster!</span >
+                    <br >
+                    <br >
+                    Welcome to
+                    <span style = "font-size:1.15em;" class = "mt-1" >how-do-you-do!</span >
+                </p >
             </div >
-            <div class = "col-md-8" >
-                <!-- REASONS FOR CREATING how-do-you-do -->
-                <ul class = "list-group" >
-                    <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2" >
-                        <h3 >Thank you for visiting my first Milestone project @CodeInstitute</h3 >
+            <div class = "col-md-6 text-left pl-3" id = "light_blue_gradient" >
+                <h2 class = "pl-3 pt-3 mb-5 white" >
+                    <i class = "fas fa-key" ></i >
+                    Benefits
+                </h2 >
+                <ul class = "list-group benefits" >
+                    <li class = "list-group-item no_border bg-transparent " >
+                        <i class = "fas fa-graduation-cap" ></i >
+                        <span >You will discover that English is easy to learn.</span >
                     </li >
-                    <li class = "list-group-item no_border mb-1 pt-1 pb-2" >
-                        <h3 >
-                            <small >It was created with hope to help people to :</small >
-                        </h3 >
-                        <ul class = "list-group" >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                find more job opportunities
-                            </li >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                become better educated
-                            </li >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                easily travel anywhere in the world
-                            </li >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                know the global language
-                            </li >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                improve confidence
-                            </li >
-                            <li class = "list-group-item border_bottom_only mb-1 pt-1 pb-2 quote_text" >
-                                date more people ...;-)
-                            </li >
-                        </ul >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-network-wired" ></i >
+                        <span >You can find more job opportunities.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-university" ></i >
+                        <span >You can become better educated.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-suitcase" ></i >
+                        <span >You can easily travel anywhere in the world.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-globe" ></i >
+                        <span >You will know the global language.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-graduation-cap" ></i >
+                        <span >You will learn about culture.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-atom" ></i >
+                        <span >You can improve your understanding of science.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-user-friends" ></i >
+                        <span >You can date more people.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-dumbbell" ></i >
+                        <span >You can improve your confidence.</span >
+                    </li >
+                    <li class = "list-group-item no_border bg-transparent" >
+                        <i class = "fas fa-brain" ></i >
+                        <span >You will exercise your brain.</span >
                     </li >
                 </ul >
-                <!-- ENF OF REASONS FOR CREATING how-do-you-do -->
-                <!-- CHALLENGE -->
-                <div class = "challenge bg_orange_tr text-center" >
-                    <h4 ><strong >CHALLENGE TO ENTER :</strong ></h4 >
-                    <p class = "quote_text" > Which music band had a famous song <strong >“How do you do“</strong > ?
-                    </p >
-                    <div class = "d-flex align-items-center " >
-                        <h4 >
-                            <label for = "queen" class = "btn" title = "Solve the challenge" >
-                                <span id = "queen" class = "dark_grey btn btn-sm  white btn_sharp border_blue" >
-                                    <small >Queen</small >
-                                </span >
-                            </label >
-                        </h4 >
-                        <input type = "checkbox" id = "toggler" class = "d-none" >
-                        <h4 >
-                            <label for = "toggler" class = "correct" title = "Solve the challenge" >
-                                <span class = " btn btn-sm  dark_grey btn_sharp border_green " >
-                                    <small >Roxette</small >
-                                </span >
-                            </label >
-                        </h4 >
-                        <h4 >
-                            <label for = "beatles" class = "btn" title = "Solve the challenge" >
-                                <span id = "beatles" class = "dark_grey btn btn-sm  white btn_sharp border_orange" >
-                                    <small >Beatles</small >
-                                </span >
-                            </label >
-                        </h4 >
-                        <a class = "visually_hidden " href = "en/landing.html" >
-                            <span id = "enter" class = " btn btn-lg bg_green white btn_sharp float-right enter_btn" >
-                                Enter
-                            </span >
-                        </a >
-                    </div >
-                    <!--END OF  CHALLENGE -->
-                </div >
             </div >
         </div >
-    </section >
+    </div >
+</section >
+<!-- SIGN UP BUTTON FOR STUDENTS -->
+<div class = "text-center sign_up_btn_low" id = "start_under_benefits" >
+    <a href = "en/student_signup.html" class = "btn bg_green text-light pt-3 pb-3 pr-5 pl-5" >
+        <h4 class = "white" > Start Learning Now!</h4 >
+    </a >
 </div >
+<!--END OF SIGN UP BUTTON FOR STUDENTS -->
+<!-- TESTIMONIALS        -->
+<section id = "testimonials" >
+    <div class = "container" >
+        <h2 >
+            <i class = "fas fa-comments" ></i >
+            testimonials
+        </h2 >
+        <div class = "card-columns" >
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar1.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >Amazing experience</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I just wanted to share a quick note and let you know that you guys do a really GOOD JOB.
+                        I’m glad I decided to learn with you.
+                        It’s really great how easy your website is to navigate and use.
+                        <span
+                                class = "quote_mark" >“
+                        </span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Marko Stuborn, <cite title = "Source Title" >Barcelona, Spain</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar2.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >Very positive</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I never have any problem at all.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Svetlana Karenina, <cite title = "Source Title" >Moscow, Russia</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar3.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >Thank you !</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        My NEW JOB is so much more interesting.
+                        Thank you for helping me realize, how easy it is.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Zhang Wei, <cite title = "Source Title" >Beijing, China</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial short -->
+            <div class = "card p-3 text-right" >
+                <h3 class = "card-title quote_title" >You're my heroes!</h3 >
+                <blockquote class = "blockquote mb-0" >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys.
+                        You're my heroes.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        <small class = "text-muted" >
+                            Marcel Kolarcik, <cite title = "Source Title" >Tokio, Japan</cite >
+                        </small >
+                    </footer >
+                </blockquote >
+            </div >
+            <!-- end of testimonial short -->
+            <!-- testimonial short -->
+            <div class = "card p-3 text-right bg_green text-light" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/marcel.jpg" class = "avatar " alt = "avatar" >
+                </div >
+                <h3 class = "card-title quote_title " >Best time and money spent!</h3 >
+                <blockquote class = "blockquote mb-0" >
+                    <p class = "card-text quote_text text-light" >
+                        <span class = "quote_mark" >“</span >
+                        I highly recommend how-do-you-do.
+                        In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys.
+                        You're my heroes.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        <small class = "text-muted" >
+                            Marcel Kolarcik, <cite title = "Source Title" >Tokio, Japan</cite >
+                        </small >
+                    </footer >
+                </blockquote >
+            </div >
+            <!-- end of testimonial short -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar4.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >Simply clever !</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        Now it’s almost like having a teacher right here with me.
+                        I just choose the time, make the appointment and click learn.
+                        It’s so simple.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Ximena Almodovar, <cite title = "Source Title" >Lanzarote, Canary Islands, Spain</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial short -->
+            <div class = "card p-3 text-right" >
+                <h3 class = "card-title quote_title" >Best time and money spent!</h3 >
+                <blockquote class = "blockquote mb-0" >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I highly recommend how-do-you-do.
+                        In less then 3 months I was able to have phone converstaion with my new boss... Thank you guys.
+                        You're my heroes.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        <small class = "text-muted" >
+                            Marcel Kolarcik, <cite title = "Source Title" >Tokio, Japan</cite >
+                        </small >
+                    </footer >
+                </blockquote >
+            </div >
+            <!-- end of testimonial short -->
+            <!-- testimonial short -->
+            <div class = "card p-3 text-right" >
+                <h3 class = "card-title quote_title" >Amazing experience</h3 >
+                <blockquote class = "blockquote mb-0" >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I just wanted to share a quick note and let you know that you guys do a really GOOD JOB.
+                        I’m glad I decided to learn with you.
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        <small class = "text-muted" >
+                            Pedro Ximenez, <cite title = "Source Title" >Seville, Spain</cite >
+                        </small >
+                    </footer >
+                </blockquote >
+            </div >
+            <!-- end of testimonial short -->
+            <!-- testimonial short -->
+            <div class = "card p-3 text-right" >
+                <h3 class = "card-title quote_title" >WOW !</h3 >
+                <blockquote class = "blockquote mb-0" >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I am blown away. I had 3 new job offers since I finished the course.
+                        Thanks for being so awesome. High fives!
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        <small class = "text-muted" >
+                            Marko Stuborn, <cite title = "Source Title" > Barcelona, Spain</cite >
+                        </small >
+                    </footer >
+                </blockquote >
+            </div >
+            <!-- end of testimonial short -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar5.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >WOW !</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        Wow. I just updated my CV and it was SO SIMPLE.
+                        I am blown away. You guys truly kick ass. I had 3 new job offers since I finished the course.
+                        Thanks for being so awesome. High fives!
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Pedro Ximenez, <cite title = "Source Title" >Seville, Spain</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar6.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >Happy !</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        I am so happy i discovered how-do-you-do.
+                        They have given me opportunity to discover my hidden LANGUAGE SKILLS and gain experience in real
+                        English conversation..
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Yu Yan, <cite title = "Source Title" >Chongqing, China</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+            <!-- testimonial long -->
+            <div class = "card" >
+                <div class = "text-center" >
+                    <img src = "assets/images/avatar/avatar7.png" class = "avatar " alt = "avatar" >
+                </div >
+                <div class = "card-body" >
+                    <h3 class = "card-title quote_title" >It was pleasure !</h3 >
+                    <p class = "card-text quote_text" >
+                        <span class = "quote_mark" >“</span >
+                        Kasia was so patient with me, I don't know how she does it, being mum, CEO and teacher at the
+                        same time!
+                        And now I can TRAVEL THE WORLD confidently ....
+                        <span class = "quote_mark" >“</span >
+                    </p >
+                    <footer class = "blockquote-footer" >
+                        Yu Yan, <cite title = "Source Title" >Chongqing, China</cite >
+                    </footer >
+                </div >
+            </div >
+            <!--end of testimonial long -->
+        </div >
+    </div >
+</section >
+<!--END OF TESTIMONIALS        -->
+<!-- SIGN UP BUTTON FOR STUDENTS -->
+<div class = "text-center sign_up_btn_low" id = "start_under_testimonials" >
+    <a href = "en/student_signup.html" class = "btn bg_green text-light pt-3 pb-3 pr-5 pl-5" >
+        <h4 class = "white" > Start Learning Now!</h4 >
+    </a >
+</div >
+<!--END OF SIGN UP BUTTON FOR STUDENTS -->
+<section id = "footer" class = "footer_background" >
+    <ul class = "social-networks" >
+        <li ><a href = "https://facebook.com" target = "_blank" >
+            <i class = "fab fa-facebook" ></i >
+        </a ></li >
+        <li ><a href = "https://twitter.com" target = "_blank" >
+            <i class = "fab fa-twitter" ></i >
+        </a ></li >
+        <li ><a href = "https://instagram.com" target = "_blank" >
+            <i class = "fab fa-instagram" ></i >
+        </a ></li >
+        <li ><a href = "https://youtube.com" target = "_blank" >
+            <i class = "fab fa-youtube" ></i >
+        </a ></li >
+    </ul >
+    <div class = "container" >
+        <div class = " col-auto  " >
+            <ul class = "list " >
+                <li class = "list-group-item no_border_tight text-uppercase list-group-item-secondary" >
+                    <a href = "#" >Blog </a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" >Status </a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" > Contact Us</a >
+                </li >
+                <li class = "list-group-item no_border_tight" >
+                    <a href = "#" > Common Questions </a >
+                </li >
+            </ul >
+        </div >
+        <div id = "copyright" >
+            <h5 class = "text-center" >All Rights reserved.&#x24B8;</h5 >
+        </div >
+    </div >
+</section >
 </body >
 </html >
