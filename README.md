@@ -57,7 +57,7 @@ They can be found at
 
 ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/color_scheme.png)
 
-&ensp;
+
 
 I extracted colors for the website from the hero image, and created few classes to easily
 apply color styles as needed. I chose these colors as they are not intrusive and are easy to look at.
