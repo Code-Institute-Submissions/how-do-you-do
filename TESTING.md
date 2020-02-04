@@ -1,8 +1,8 @@
 
-| User  |Steps | Screenshot|
+| User   | Screenshot|
 | ------------- | ------------- |
-| Potential Student  |steps| ![potential student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)  |
-| Potential Teacher  | steps| ![potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)  |
+| Potential Student  | ![potential student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)  |
+| Potential Teacher  | ![potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)  |
 
 
 
