@@ -126,6 +126,7 @@ And I would click on the Start Learning Now!, which is situated under testimonia
  
 As I would click on the button I would see form with prices and structure.
 I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
+
 &ensp;
 
  > ###  Student 
@@ -141,6 +142,7 @@ I would choose study plan that is right for me, fill in my details and pay the c
  -  access to support, when I need it.
  -  rate / review my teacher(s).
  -  logout of my dashboard.
+ 
  &ensp;
  
 
