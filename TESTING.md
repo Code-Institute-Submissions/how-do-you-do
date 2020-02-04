@@ -1,8 +1,8 @@
 
-| First Header  | Second Header |
+| User  |Steps | Screenshot|
 | ------------- | ------------- |
-| Content Cell  | ![start learning](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/start.png)  |
-| Content Cell  | Content Cell  |
+| Potential Student  |steps| ![potential student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)  |
+| Potential Teacher  | steps| ![potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)  |
 
 
 
