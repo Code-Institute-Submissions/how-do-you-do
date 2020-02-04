@@ -213,7 +213,7 @@ As teacher I want to be able to:
 I tested my website on 5in and 6in phones, 10in tablet 18in laptop and 22in desktop with good response from
 all of the devices.
 
-Please see step by step testing here :
+Please see step by step testing on desktop and mobile devices here :
 
 [Testing](TESTING.md)
 
