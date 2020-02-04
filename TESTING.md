@@ -4,7 +4,7 @@
 
 | User | You should be able to : | Desktop / Laptop | Mobile |
 | :---         |     :---       |          ---: |          ---: |
-| :---         |     :---       |          ---: |          ---: |
+|         |           |           |          |
 | Potential Student   | 1.) see Start Learning Now! button in 3 sections. Under hero image section, under benefits section, under testimonials section. 2.) Click that button. 3.) fill in the form details 4.) submit the form by clicking on Proceed with payment button. 5.)  see form in all translated languages by clicking on language name or country flag on mobile devices   | ![Potential Student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)    |   ![Potential Student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student_mobile.gif)   |
 |          |            |    click to enlarge      |      click to enlarge     |
 |         |           |           |          |
