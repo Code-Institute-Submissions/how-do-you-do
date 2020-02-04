@@ -4,23 +4,23 @@
 
 | User | Steps | Screenshot |
 | :---         |     :---       |          ---: |
-| Potential Student   | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lor    | ![Potential Student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)    |
-| :---         |     :---       |          ---: |
-| :---         |     :---      |          ---: |
-| Student login     | Steps       | ![Student login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_login.gif)       |
+| Potential Student   | Lorem ipsum electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lor    | ![Potential Student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)    |
+|          |            |          |
+|         |           |          |
+| Student login     | Lorem ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not t also the leap into       | ![Student login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_login.gif)       |
 | :---         |     :---      |          ---: |
 | :---         |     :---       |          ---: |
 
-| Student Dashboard   | Steps    |![Student Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.gif)     |
+| Student Dashboard   | Lorem ipsum electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lor    |![Student Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.gif)     |
 | :---         |    :---       |          ---: |
 | :---         |    :---       |          ---: |
-| Potential Teacher     | Steps       | ![Potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)       |
+| Potential Teacher     | Lorem ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not t also the leap into        | ![Potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)       |
 | :---         |     :---      |          ---: |
 | :---         |    :---      |          ---: |
-| Teacher Login   | Steps    | ![Teacher Login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_login.gif)     |
+| Teacher Login   |  Lorem ipsum electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lor    | ![Teacher Login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_login.gif)     |
 | :---         |     :---       |          ---: |
 | :---         |    :---      |          ---: |
-|  Teacher Dashboard     | Steps       | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.gif)      |
+|  Teacher Dashboard     | Lorem ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not t also the leap into       | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.gif)      |
 | :---         |    :---       |          ---: |
 | :---         |     :---       |          ---: |
 
