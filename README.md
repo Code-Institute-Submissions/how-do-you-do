@@ -101,7 +101,9 @@ with the page titles, to start with SEO.
  
 ## User story
 
+&ensp;
 > #### Potential Student 
+&ensp;
 
 As potential student who wants to study English online, 
 I want to see pricing and structure of the courses, so that I can choose one that is right for me.
@@ -125,8 +127,9 @@ And I would click on the Start Learning Now!, which is situated under testimonia
 As I would click on the button I would see form with prices and structure.
 I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
 
-
+&ensp;
  > ####  Student 
+ &ensp;
  
  As a student I want to be able to :
   
@@ -139,8 +142,9 @@ I would choose study plan that is right for me, fill in my details and pay the c
  -  rate / review my teacher(s).
  -  logout of my dashboard.
  
+&ensp;
 > #### Potential Teacher
-
+&ensp;
 
 As potential teacher who wants to teach English online, 
 I want to know terms and conditions of the company I would teach in.
@@ -169,8 +173,8 @@ I would be asked to check my email for further instructions.
 
 &ensp;
 > #### Teacher
+&ensp;
 
-&emsp;
 As teacher I want to be able to:
  
 -   log in into my dashboard to check my bookings.
@@ -182,9 +186,9 @@ As teacher I want to be able to:
 -   block some of the days, when I am not available for teaching.
 -   logout of my dashboard.
  
- <space>
+ 
 ## Testing
-&thinsp;
+
  I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
 
  Internet Explorer is not displaying animation of the hero image. ( i am currently investigating this behavior )
