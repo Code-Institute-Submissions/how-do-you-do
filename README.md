@@ -105,7 +105,7 @@ with the page titles, to start with SEO.
 
 As potential student who wants to study English online, 
 I want to see pricing and structure of the courses, so that I can choose one that is right for me.
-I want to find easily.
+I want to find easily on any device.
 
 As I land on landing page of how-do-you-do.com I have option of viewing the website in other languages, by clicking on the language name 
 in the right top corner.If I was visiting on mobile device, I would see country flags instead.
@@ -123,7 +123,7 @@ previous students, which convinced me that it's good place to learn English onli
 And I would click on the Start Learning Now!, which is situated under testimonials section as well.
  
 As I would click on the button I would see form with prices and structure.
-I would choose study plan that is right for me,fill in my details and pay the course fee to become student.
+I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
 
 
  > ####  Student 
@@ -131,6 +131,7 @@ I would choose study plan that is right for me,fill in my details and pay the co
  As a student I want to be able to :
   
  -  log in into my dashboard to book study session with teacher.
+ -  see my teacher's Skype user name, so I can connect with him.
  -  download study material to my device, so that I can practice what I've learnt.
  -  write and save notes about session.
  -  see all my previous notes and be able to read, edit, delete them.
@@ -143,13 +144,13 @@ I would choose study plan that is right for me,fill in my details and pay the co
 
 As potential teacher who wants to teach English online, 
 I want to know terms and conditions of the company I would teach in.
-I want to find this information easily.
+I want to find this information easily on any device.
 
 As I land on landing page of how-do-you-do.com I have option of viewing the website in other languages, by clicking on the language name 
 in the right top corner.If I was visiting on mobile device, I would see country flags instead.
 
 Right on the top of the page I see hero image with animated text saying : "There are many reasons for learning English. Only you know yours." 
-which is changing it's translation to different languages, which I cool find and interesting.
+which is changing it's translation to different languages, which I find cool and interesting.
 
 On the navigation bar, in the right hand corner, I would see word Teacher? or translated version of it, If I was visiting
 on mobile device, I would see graduation cap icon with question mark next to it. That makes me click it.
@@ -166,21 +167,24 @@ I see acknowledgement of my request.
 
 I would be asked to check my email for further instructions.
 
+&ensp;
 > #### Teacher
 
+&emsp;
 As teacher I want to be able to:
  
 -   log in into my dashboard to check my bookings.
 -   check on progress of my students.
+ -  see my student's Skype user name, so I can recognize them.
 -   write and save notes about session.
 -   see all my previous notes and be able to read, edit, delete them.
 -   access to support, when I need it.
 -   block some of the days, when I am not available for teaching.
 -   logout of my dashboard.
  
- 
+ <space>
 ## Testing
-
+&thinsp;
  I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
 
  Internet Explorer is not displaying animation of the hero image. ( i am currently investigating this behavior )
