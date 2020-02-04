@@ -101,7 +101,7 @@ with the page titles, to start with SEO.
  
 ## User story
 
-&ensp;
+
 > ### Potential Student 
 &ensp;
 
@@ -127,7 +127,7 @@ And I would click on the Start Learning Now!, which is situated under testimonia
 As I would click on the button I would see form with prices and structure.
 I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
 
-&ensp;
+
  > ###  Student 
 &ensp;
  
@@ -143,7 +143,7 @@ I would choose study plan that is right for me, fill in my details and pay the c
  -  logout of my dashboard.
  
  
-&ensp;
+
 > ### Potential Teacher
  &ensp;
 
@@ -172,7 +172,7 @@ I see acknowledgement of my request.
 
 I would be asked to check my email for further instructions.
 
-&ensp;
+
  >   ### Teacher
 &ensp;
 
