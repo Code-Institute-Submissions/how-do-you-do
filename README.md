@@ -103,7 +103,7 @@ with the page titles, to start with SEO.
 
 
 > ### Potential Student 
-&ensp;
+
 
 As potential student who wants to study English online, 
 I want to see pricing and structure of the courses, so that I can choose one that is right for me.
@@ -126,10 +126,10 @@ And I would click on the Start Learning Now!, which is situated under testimonia
  
 As I would click on the button I would see form with prices and structure.
 I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
-
+&ensp;
 
  > ###  Student 
-&ensp;
+
  
  As a student I want to be able to :
   
@@ -141,11 +141,11 @@ I would choose study plan that is right for me, fill in my details and pay the c
  -  access to support, when I need it.
  -  rate / review my teacher(s).
  -  logout of my dashboard.
- 
+ &ensp;
  
 
 > ### Potential Teacher
- &ensp;
+ 
 
 As potential teacher who wants to teach English online, 
 I want to know terms and conditions of the company I would teach in.
@@ -172,9 +172,9 @@ I see acknowledgement of my request.
 
 I would be asked to check my email for further instructions.
 
-
- >   ### Teacher
 &ensp;
+ >   ### Teacher
+
 
 As teacher I want to be able to:
  
