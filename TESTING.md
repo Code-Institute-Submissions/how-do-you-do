@@ -1,5 +1,5 @@
 
-## Testing 
+## Testing  on desktop and mobile devices
 
 
 | User | You should be able to : | Desktop / Laptop | Mobile |
