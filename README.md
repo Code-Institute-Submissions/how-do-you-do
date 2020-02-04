@@ -102,7 +102,7 @@ with the page titles, to start with SEO.
 ## User story
 
 &ensp;
-> #### Potential Student 
+> ### Potential Student 
 &ensp;
 
 As potential student who wants to study English online, 
@@ -128,8 +128,8 @@ As I would click on the button I would see form with prices and structure.
 I would choose study plan that is right for me, fill in my details and pay the course fee to become student.
 
 &ensp;
- > ####  Student 
- &ensp;
+ > ###  Student 
+&ensp;
  
  As a student I want to be able to :
   
@@ -141,10 +141,11 @@ I would choose study plan that is right for me, fill in my details and pay the c
  -  access to support, when I need it.
  -  rate / review my teacher(s).
  -  logout of my dashboard.
+ 
  
 &ensp;
-> #### Potential Teacher
-&ensp;
+> ### Potential Teacher
+ &ensp;
 
 As potential teacher who wants to teach English online, 
 I want to know terms and conditions of the company I would teach in.
@@ -172,7 +173,7 @@ I see acknowledgement of my request.
 I would be asked to check my email for further instructions.
 
 &ensp;
-> #### Teacher
+ >   ### Teacher
 &ensp;
 
 As teacher I want to be able to:
@@ -185,8 +186,8 @@ As teacher I want to be able to:
 -   access to support, when I need it.
 -   block some of the days, when I am not available for teaching.
 -   logout of my dashboard.
- 
- 
+
+ &ensp;
 ## Testing
 
  I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
