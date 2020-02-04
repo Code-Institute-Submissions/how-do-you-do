@@ -120,7 +120,7 @@ As I land on landing page of how-do-you-do.com I have option of viewing the webs
 in the right top corner.If I was visiting on mobile device, I would see country flags instead.
 
 Right on the top of the page I see hero image with animated text saying : "There are many reasons for learning English. Only you know yours." 
-which is changing it's translation to different languages, which I cool find and interesting.
+which is changing it's translation to different languages, which I find cool and interesting.
 
 Right under hero image I see Start Learning Now! button, which could be clicked.
 
@@ -217,7 +217,9 @@ Please see step by step testing here :
 I deployed how-do-you-do site by going to my github repository and then clicking on setting button,
 scrolling down until I reached Github Pages section and then selecting master branch as source.
 
-It allowed me to test website on many devices and with latest updates.
+As the website is deployed in Github, it allows me to test it on more devices.
+And as it is versioned, it allows me to see latest updates straight away.
+
 
 
 
