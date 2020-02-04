@@ -23,7 +23,7 @@
 |  Teacher Dashboard     | 1.) see teacher dashboard.  2.)  see progress of students. 3.) write note about session. 4.) download study material. 5.) see your next booked session 6.) logout.        | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.gif)      |    ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard_mobile.gif)    |
 |          |          |      click to enlarge    |
 |          |           |          |       |
-|  All users        |  1.) you should see error message when trying to submit form required fields          |          |       |
+|  All users        |  1.) you should see error message when trying to submit form with required fields empty          |          |       |
 
 
 
