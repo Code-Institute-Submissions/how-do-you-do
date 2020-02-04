@@ -102,7 +102,7 @@ with the page titles, to start with SEO.
 ## User story
 
 
-> ### Potential Student 
+ ### Potential Student 
 
 
 As potential student who wants to study English online, 
@@ -129,7 +129,7 @@ I would choose study plan that is right for me, fill in my details and pay the c
 
 &ensp;
 
- > ###  Student 
+ ###  Student 
 
  
  As a student I want to be able to :
@@ -146,7 +146,7 @@ I would choose study plan that is right for me, fill in my details and pay the c
  &ensp;
  
 
-> ### Potential Teacher
+ ### Potential Teacher
  
 
 As potential teacher who wants to teach English online, 
@@ -175,7 +175,7 @@ I see acknowledgement of my request.
 I would be asked to check my email for further instructions.
 
 &ensp;
- >   ### Teacher
+  ### Teacher
 
 
 As teacher I want to be able to:
