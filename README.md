@@ -94,7 +94,7 @@ These are the emotions I would like my users to feel when they arrive at landing
 ##### Translated pages
 
 As students that are looking for online school of English probably don't speak
-English yet, I have translated  landing.html, login.html and student_signup.html into 2 different languages ( more to come ), together
+English yet, I have translated  landing.html, login.html and student_signup.html and some of the testimonials into 2 different languages ( more to come ), together
 with the page titles, so that search engines can index those pages in different languages, so that if Spanish or Chinese   ( more to come )
 future student is looking for online English school in his native language, our website would come up in search results in his particular language
  as well . 
