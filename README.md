@@ -103,57 +103,82 @@ with the page titles, to start with SEO.
 
 > #### Potential Student 
 
-As a potential student I would come to visit website to check pricing of the courses.
-I would have option of viewing the website in other languages, by clicking on the language name 
-in the right top corner.
-If I was visiting on mobile device, I would click on the country flags.
+As potential student who wants to study English online, 
+I want to see pricing and structure of the courses, so that I can choose one that is right for me.
+I want to find easily.
+
+As I land on landing page of how-do-you-do.com I have option of viewing the website in other languages, by clicking on the language name 
+in the right top corner.If I was visiting on mobile device, I would see country flags instead.
+
+Right on the top of the page I see hero image with animated text saying : "There are many reasons for learning English. Only you know yours." 
+which is changing it's translation to different languages, which I cool find and interesting.
 
 Right under hero image I see Start Learning Now! button, which could be clicked.
+
 I would scroll down to read about the benefits of learning English
-and then I would see button Start Learning Now! again. 
+and then under benefits section I would see button Start Learning Now! again. 
+
 And as I would scroll down even more I would see testimonials from 
-previous students under which I would have third opportunity to click on the Start Learning Now! button.
-Once I would click on the button I would see form with prices, and if I wanted to sign up at that point 
-I could fill in the form with my details and pay the course fee to become student.
+previous students, which convinced me that it's good place to learn English online.
+And I would click on the Start Learning Now!, which is situated under testimonials section as well.
+ 
+As I would click on the button I would see form with prices and structure.
+I would choose study plan that is right for me,fill in my details and pay the course fee to become student.
+
 
  > ####  Student 
  
-After my payment, I would be logged into my dashboard,
-where I could book my first session with teacher of my choice. I could download study materials for the sessions. 
-I could write notes about the session. And if I had more sessions taken and more notes written, I could
-review them as well.
-If I had any need for support, I could click on support button right under my profile picture and ask for the support
-required. I would have to confirm every session I took as completed, to be able to book another session. 
- Once I was finished with my work there I could Logout by clicking on LOGOUT button in the top right corner
-of the screen.
+ As a student I want to be able to :
+  
+ -  log in into my dashboard to book study session with teacher.
+ -  download study material to my device, so that I can practice what I've learnt.
+ -  write and save notes about session.
+ -  see all my previous notes and be able to read, edit, delete them.
+ -  access to support, when I need it.
+ -  rate / review my teacher(s).
+ -  logout of my dashboard.
  
 > #### Potential Teacher
 
-As a potential teacher I would come to visit website to check what is 
-required to become online teacher.
-I would have option of viewing the website in other languages, by clicking on
-links of the languages in the right top corner.
-If I was visiting on mobile device, I would click on the flags of the county.
 
-I would see word Teacher? or translated equivalent on the top of the page, or graduation cap icon 
-with question mark, if I was visiting on mobile device.
- As I would hover over this word, a title of the element
-would appear asking me "Would you like to become one of our teachers?" .
-As I would like that very much, I would click on it. Then I would see sign up form. I could fill my details.
-Once I would click on Sign up! button, I would see acknowledgement of my request. And I would be
-asked to check my email for further instructions.
+As potential teacher who wants to teach English online, 
+I want to know terms and conditions of the company I would teach in.
+I want to find this information easily.
+
+As I land on landing page of how-do-you-do.com I have option of viewing the website in other languages, by clicking on the language name 
+in the right top corner.If I was visiting on mobile device, I would see country flags instead.
+
+Right on the top of the page I see hero image with animated text saying : "There are many reasons for learning English. Only you know yours." 
+which is changing it's translation to different languages, which I cool find and interesting.
+
+On the navigation bar, in the right hand corner, I would see word Teacher? or translated version of it, If I was visiting
+on mobile device, I would see graduation cap icon with question mark next to it. That makes me click it.
+
+As I would hover over this word, a title of the element would appear asking me 
+"Would you like to become one of our teachers?"
+
+As I would like that very much, I would click on it.
+Then I would see sign up form. 
+I would fill in my details.
+
+As I click on Sign up! button,
+I see acknowledgement of my request.
+
+I would be asked to check my email for further instructions.
 
 > #### Teacher
-Once I am accepted as Teacher of how-do-you-do.com, I would receive congratulation email
- with temporary password to log in to my dashboard. There I could check my booking calendar.
- Check on progress of my students. Download study material for any session. Write notes about the sessions.
- Read, edit, delete notes about the sessions.
- I could block off some days in my calendar. I could request support, by clicking on the support button under my profile
- picture. Once I was finished with my work there I could Logout by clicking on LOGOUT button in the top right corner
-  of the screen.
+
+As teacher I want to be able to:
  
-
-
+-   log in into my dashboard to check my bookings.
+-   check on progress of my students.
+-   write and save notes about session.
+-   see all my previous notes and be able to read, edit, delete them.
+-   access to support, when I need it.
+-   block some of the days, when I am not available for teaching.
+-   logout of my dashboard.
+ 
+ 
 ## Testing
 
  I recommend using one of these modern browsers : Google Chrome, Mozilla Firefox or Opera.
