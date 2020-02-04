@@ -20,7 +20,7 @@
 | Teacher Login   |   1.) see user icon in the top right corner. 2.) see login form in all translated languages. 3.) fill in login details. 4.) login by clicking on login button.   | ![Teacher Login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_login.gif)     |
 |          |           |     click to enlarge      |
 |         |         |        |
-|  Teacher Dashboard     | 1.) see teacher dashboard.  2.)  see progress of students. 3.) write note about session. 4.) download study material. 5.) logout.        | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.gif)      |
+|  Teacher Dashboard     | 1.) see teacher dashboard.  2.)  see progress of students. 3.) write note about session. 4.) download study material. 5.) see your next booked session 6.) logout.        | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_dashboard.gif)      |
 |          |          |      click to enlarge    |
 |          |           |          |
 
