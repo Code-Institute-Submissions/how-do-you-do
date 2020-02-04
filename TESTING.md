@@ -1,11 +1,28 @@
 
-| User   | Screenshot|
-| ------------- | ------------- |
-| Potential Student  | ![potential student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_student.gif)  |
-| Potential Teacher  | ![potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/potential_teacher.gif)  |
 
 
 
+| User | Steps | Screenshot |
+| :---         |     :---       |          ---: |
+| Potential Student   | Steps    | ![Potential Student](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_signup.gif)    |
+| :---         |     :---       |          ---: |
+| :---         |     :---      |          ---: |
+| Student login     | Steps       | ![Student login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_login.gif)       |
+| :---         |     :---      |          ---: |
+| :---         |     :---       |          ---: |
+
+| Student Dashboard   | Steps    |![Student Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/student_dashboard.gif)     |
+| :---         |    :---       |          ---: |
+| :---         |    :---       |          ---: |
+| Potential Teacher     | Steps       | ![Potential Teacher](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_signup.gif)       |
+| :---         |     :---      |          ---: |
+| :---         |    :---      |          ---: |
+| Teacher Login   | Steps    | ![Teacher Login](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_login.gif)     |
+| :---         |     :---       |          ---: |
+| :---         |    :---      |          ---: |
+|  Teacher Dashboard     | Steps       | ![Teacher Dashboard](https://raw.githubusercontent.com/marcelkolarcik/how-do-you-do/master/assets/screenshots/teacher_login.gif)      |
+| :---         |    :---       |          ---: |
+| :---         |     :---       |          ---: |
 
 
 
